@@ -1,0 +1,3485 @@
+{
+  "schema_version": "0.1",
+  "source": {
+    "filename": "Adeverinta Medicala AUTO.png",
+    "path": "test-img/Adeverinta Medicala AUTO.png",
+    "type": "image",
+    "working_image": "output/tmp/ocr/Adeverinta Medicala AUTO_ocr.png",
+    "original_image": "test-img/Adeverinta Medicala AUTO.png"
+  },
+  "document": {
+    "title": "ADEVERINTA MEDICALA nr. 11747 / 6359",
+    "document_type": "medical_certificate",
+    "subtype": "driver_medical_certificate",
+    "processed_at": "2026-05-10T10:24:55.955575+00:00"
+  },
+  "layout": {
+    "page": {
+      "width": 1700,
+      "height": 2338,
+      "unit": "px"
+    },
+    "visual_elements": {
+      "lines": [
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            411,
+            401,
+            874,
+            402
+          ],
+          "length": 464
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            498,
+            781,
+            955,
+            782
+          ],
+          "length": 458
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            97,
+            907,
+            670,
+            908
+          ],
+          "length": 574
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            613,
+            983,
+            1068,
+            984
+          ],
+          "length": 456
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            727,
+            1055,
+            1071,
+            1056
+          ],
+          "length": 345
+        },
+        {
+          "orientation": "vertical",
+          "bbox": [
+            0,
+            1643,
+            1,
+            2327
+          ],
+          "length": 685
+        }
+      ]
+    }
+  },
+  "content": {
+    "fields": [
+      {
+        "name": "Numele",
+        "value": "MOROZ ALEXANDR",
+        "source_block_id": "line_0026",
+        "value_block_id": "line_0027",
+        "confidence": 91.19,
+        "bbox": [
+          95,
+          376,
+          729,
+          399
+        ],
+        "extraction_method": "neighbor_geometry"
+      },
+      {
+        "name": "Numar de identificare",
+        "value": "2003500227856",
+        "source_block_id": "line_0029",
+        "value_block_id": "line_0030",
+        "confidence": 96.0,
+        "bbox": [
+          95,
+          448,
+          715,
+          467
+        ],
+        "extraction_method": "neighbor_geometry"
+      },
+      {
+        "name": "Data nasterii",
+        "value": "17.01.2004",
+        "source_block_id": "line_0035",
+        "value_block_id": "line_0034",
+        "confidence": 92.63,
+        "bbox": [
+          96,
+          521,
+          486,
+          544
+        ],
+        "extraction_method": "neighbor_geometry"
+      },
+      {
+        "name": "Categoriile",
+        "value": "FARA DREPT DE UTILIZARE A PERMISULUI DE CONDUCERE",
+        "source_block_id": "line_0045",
+        "value_block_id": "line_0046",
+        "confidence": 91.47,
+        "bbox": [
+          108,
+          822,
+          1010,
+          858
+        ],
+        "extraction_method": "neighbor_geometry"
+      },
+      {
+        "name": "Urmatoarea reexaminare",
+        "value": "10-07-2026",
+        "source_block_id": "line_0053",
+        "value_block_id": "line_0054",
+        "confidence": 95.86,
+        "bbox": [
+          383,
+          1032,
+          965,
+          1049
+        ],
+        "extraction_method": "neighbor_geometry"
+      },
+      {
+        "name": "Data eliberarii",
+        "value": "10-07-2024",
+        "source_block_id": "line_0058",
+        "value_block_id": "line_0057",
+        "confidence": 94.37,
+        "bbox": [
+          381,
+          1105,
+          965,
+          1127
+        ],
+        "extraction_method": "neighbor_geometry"
+      },
+      {
+        "name": "patient_name",
+        "value": "MOROZ ALEXANDR",
+        "source_block_id": "patient_name",
+        "value_block_id": null,
+        "confidence": 91.19,
+        "bbox": [
+          95,
+          376,
+          729,
+          399
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "patient_name"
+      },
+      {
+        "name": "idnp",
+        "value": "2003500227856",
+        "source_block_id": "idnp",
+        "value_block_id": null,
+        "confidence": 96.0,
+        "bbox": [
+          95,
+          448,
+          715,
+          467
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "idnp"
+      },
+      {
+        "name": "birth_date",
+        "value": "17.01.2004",
+        "source_block_id": "birth_date",
+        "value_block_id": null,
+        "confidence": 92.63,
+        "bbox": [
+          96,
+          521,
+          486,
+          544
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "birth_date"
+      },
+      {
+        "name": "medical_exam_date",
+        "value": "10-07-2024",
+        "source_block_id": "medical_exam_date",
+        "value_block_id": null,
+        "confidence": 94.11,
+        "bbox": [
+          95,
+          589,
+          836,
+          612
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "medical_exam_date"
+      },
+      {
+        "name": "categories",
+        "value": "АМ, А1, A2, A, В1, В",
+        "source_block_id": "line_0044",
+        "value_block_id": null,
+        "confidence": 91.77,
+        "bbox": [
+          349,
+          800,
+          611,
+          822
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "categories"
+      },
+      {
+        "name": "restriction_code",
+        "value": "01.06. Ochelari sau lentile contact",
+        "source_block_id": "restriction_code",
+        "value_block_id": null,
+        "confidence": 94.37,
+        "bbox": [
+          108,
+          923,
+          831,
+          943
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "restriction_code"
+      },
+      {
+        "name": "next_reexamination",
+        "value": "10-07-2026",
+        "source_block_id": "next_reexamination",
+        "value_block_id": null,
+        "confidence": 95.86,
+        "bbox": [
+          383,
+          1032,
+          965,
+          1049
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "next_reexamination"
+      },
+      {
+        "name": "issue_date",
+        "value": "10-07-2024",
+        "source_block_id": "issue_date",
+        "value_block_id": null,
+        "confidence": 94.37,
+        "bbox": [
+          381,
+          1105,
+          965,
+          1127
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "issue_date"
+      }
+    ],
+    "schema_fields": {
+      "patient_name": {
+        "value": "MOROZ ALEXANDR",
+        "source_block_id": "patient_name",
+        "confidence": 91.19,
+        "bbox": [
+          95,
+          376,
+          729,
+          399
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "idnp": {
+        "value": "2003500227856",
+        "source_block_id": "idnp",
+        "confidence": 96.0,
+        "bbox": [
+          95,
+          448,
+          715,
+          467
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "birth_date": {
+        "value": "17.01.2004",
+        "source_block_id": "birth_date",
+        "confidence": 92.63,
+        "bbox": [
+          96,
+          521,
+          486,
+          544
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "medical_exam_date": {
+        "value": "10-07-2024",
+        "source_block_id": "medical_exam_date",
+        "confidence": 94.11,
+        "bbox": [
+          95,
+          589,
+          836,
+          612
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "categories": {
+        "value": "АМ, А1, A2, A, В1, В",
+        "source_block_id": "line_0044",
+        "confidence": 91.77,
+        "bbox": [
+          349,
+          800,
+          611,
+          822
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "restriction_code": {
+        "value": "01.06. Ochelari sau lentile contact",
+        "source_block_id": "restriction_code",
+        "confidence": 94.37,
+        "bbox": [
+          108,
+          923,
+          831,
+          943
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "next_reexamination": {
+        "value": "10-07-2026",
+        "source_block_id": "next_reexamination",
+        "confidence": 95.86,
+        "bbox": [
+          383,
+          1032,
+          965,
+          1049
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "issue_date": {
+        "value": "10-07-2024",
+        "source_block_id": "issue_date",
+        "confidence": 94.37,
+        "bbox": [
+          381,
+          1105,
+          965,
+          1127
+        ],
+        "extraction_method": "schema_specific"
+      }
+    },
+    "sections": [
+      {
+        "id": "section_0001",
+        "title": "DOCUMENTAŢIE MEDICALĂ",
+        "level": 1,
+        "source_block_id": "line_0001",
+        "block_ids": [
+          "line_0002",
+          "line_0003",
+          "line_0004",
+          "line_0005",
+          "line_0006",
+          "line_0007",
+          "line_0008",
+          "line_0009",
+          "line_0010",
+          "line_0011",
+          "line_0012",
+          "line_0013",
+          "line_0014",
+          "line_0015",
+          "line_0016",
+          "line_0017",
+          "line_0018",
+          "line_0019",
+          "line_0020"
+        ],
+        "bbox": [
+          94,
+          93,
+          1048,
+          194
+        ],
+        "confidence": 84.23,
+        "extraction_method": "semantic_heading"
+      },
+      {
+        "id": "section_0002",
+        "title": "ADEVERINTA MEDICALA nr. 11747 / 6359",
+        "level": 1,
+        "source_block_id": "line_0021",
+        "block_ids": [
+          "line_0022"
+        ],
+        "bbox": [
+          118,
+          232,
+          1046,
+          284
+        ],
+        "confidence": 92.97,
+        "extraction_method": "semantic_heading"
+      },
+      {
+        "id": "section_0003",
+        "title": "МЕДИЦИНСКАЯ СПРАВКА",
+        "level": 1,
+        "source_block_id": "line_0023",
+        "block_ids": [
+          "line_0024",
+          "line_0025",
+          "line_0026",
+          "line_0027",
+          "line_0028",
+          "line_0029",
+          "line_0030",
+          "line_0032",
+          "line_0033",
+          "line_0034",
+          "line_0035",
+          "line_0036",
+          "line_0037",
+          "line_0038",
+          "line_0039"
+        ],
+        "bbox": [
+          95,
+          306,
+          1048,
+          644
+        ],
+        "confidence": 88.45,
+        "extraction_method": "semantic_heading"
+      },
+      {
+        "id": "section_0004",
+        "title": "CONCLUZIA COMISIEI MEDICALE",
+        "level": 1,
+        "source_block_id": "line_0040",
+        "block_ids": [],
+        "bbox": [
+          365,
+          666,
+          798,
+          684
+        ],
+        "confidence": 92.3,
+        "extraction_method": "semantic_heading"
+      },
+      {
+        "id": "section_0005",
+        "title": "ЗАКЛЮЧЕНИЕ МЕДИЦИНСКОЙ КОМИССИИ",
+        "level": 1,
+        "source_block_id": "line_0041",
+        "block_ids": [
+          "line_0042",
+          "line_0043",
+          "line_0044",
+          "line_0045",
+          "line_0046",
+          "line_0047",
+          "line_0048",
+          "line_0049",
+          "line_0050",
+          "line_0051",
+          "line_0052",
+          "line_0053",
+          "line_0054",
+          "line_0055",
+          "line_0057",
+          "line_0058",
+          "line_0060",
+          "line_0063",
+          "line_0064",
+          "line_0065",
+          "line_0066",
+          "line_0067",
+          "line_0068",
+          "line_0070",
+          "line_0072",
+          "line_0073",
+          "line_0075"
+        ],
+        "bbox": [
+          108,
+          690,
+          1010,
+          1319
+        ],
+        "confidence": 93.7,
+        "extraction_method": "semantic_heading"
+      }
+    ],
+    "tables": [],
+    "notes": [],
+    "text_blocks": [
+      {
+        "id": "line_0001",
+        "type": "heading",
+        "text": "DOCUMENTAŢIE MEDICALĂ",
+        "bbox": [
+          728,
+          93,
+          946,
+          109
+        ],
+        "confidence": 84.23,
+        "words": [
+          {
+            "text": "DOCUMENTAŢIE",
+            "confidence": 71.66,
+            "bbox": [
+              728,
+              95,
+              857,
+              109
+            ]
+          },
+          {
+            "text": "MEDICALĂ",
+            "confidence": 96.8,
+            "bbox": [
+              863,
+              93,
+              946,
+              106
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0002",
+        "type": "paragraph",
+        "text": "Ministerul Si",
+        "bbox": [
+          94,
+          94,
+          182,
+          106
+        ],
+        "confidence": 81.02,
+        "words": [
+          {
+            "text": "Ministerul",
+            "confidence": 91.12,
+            "bbox": [
+              94,
+              94,
+              168,
+              106
+            ]
+          },
+          {
+            "text": "Si",
+            "confidence": 70.92,
+            "bbox": [
+              174,
+              95,
+              182,
+              106
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0003",
+        "type": "paragraph",
+        "text": "cii Moldova",
+        "bbox": [
+          319,
+          94,
+          403,
+          106
+        ],
+        "confidence": 90.77,
+        "words": [
+          {
+            "text": "cii",
+            "confidence": 85.68,
+            "bbox": [
+              319,
+              98,
+              330,
+              106
+            ]
+          },
+          {
+            "text": "Moldova",
+            "confidence": 95.86,
+            "bbox": [
+              341,
+              94,
+              403,
+              106
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0004",
+        "type": "paragraph",
+        "text": "авоохранения Республики Моллова",
+        "bbox": [
+          240,
+          110,
+          507,
+          126
+        ],
+        "confidence": 67.92,
+        "words": [
+          {
+            "text": "авоохранения",
+            "confidence": 20.41,
+            "bbox": [
+              240,
+              114,
+              340,
+              126
+            ]
+          },
+          {
+            "text": "Республики",
+            "confidence": 93.15,
+            "bbox": [
+              347,
+              110,
+              436,
+              126
+            ]
+          },
+          {
+            "text": "Моллова",
+            "confidence": 90.2,
+            "bbox": [
+              443,
+              111,
+              507,
+              124
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0005",
+        "type": "paragraph",
+        "text": "Министерство",
+        "bbox": [
+          94,
+          111,
+          203,
+          126
+        ],
+        "confidence": 96.18,
+        "words": [
+          {
+            "text": "Министерство",
+            "confidence": 96.18,
+            "bbox": [
+              94,
+              111,
+              203,
+              126
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0006",
+        "type": "paragraph",
+        "text": "Formular",
+        "bbox": [
+          729,
+          123,
+          797,
+          136
+        ],
+        "confidence": 92.0,
+        "words": [
+          {
+            "text": "Formular",
+            "confidence": 92.0,
+            "bbox": [
+              729,
+              123,
+              797,
+              136
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0007",
+        "type": "marker",
+        "text": "|<",
+        "bbox": [
+          630,
+          129,
+          642,
+          150
+        ],
+        "confidence": 66.95,
+        "words": [
+          {
+            "text": "|<",
+            "confidence": 66.95,
+            "bbox": [
+              630,
+              129,
+              642,
+              150
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0008",
+        "type": "paragraph",
+        "text": "Nr 083/е",
+        "bbox": [
+          900,
+          135,
+          968,
+          147
+        ],
+        "confidence": 85.91,
+        "words": [
+          {
+            "text": "Nr",
+            "confidence": 90.97,
+            "bbox": [
+              900,
+              135,
+              919,
+              146
+            ]
+          },
+          {
+            "text": "083/е",
+            "confidence": 80.86,
+            "bbox": [
+              923,
+              135,
+              968,
+              147
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0009",
+        "type": "paragraph",
+        "text": "IMSP Dispensarul M",
+        "bbox": [
+          94,
+          140,
+          240,
+          154
+        ],
+        "confidence": 92.58,
+        "words": [
+          {
+            "text": "IMSP",
+            "confidence": 92.82,
+            "bbox": [
+              94,
+              140,
+              133,
+              152
+            ]
+          },
+          {
+            "text": "Dispensarul",
+            "confidence": 93.18,
+            "bbox": [
+              138,
+              140,
+              224,
+              154
+            ]
+          },
+          {
+            "text": "M",
+            "confidence": 91.76,
+            "bbox": [
+              231,
+              140,
+              240,
+              152
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0010",
+        "type": "paragraph",
+        "text": "астра! Ds",
+        "bbox": [
+          264,
+          140,
+          319,
+          154
+        ],
+        "confidence": 71.72,
+        "words": [
+          {
+            "text": "астра!",
+            "confidence": 57.57,
+            "bbox": [
+              264,
+              140,
+              302,
+              154
+            ]
+          },
+          {
+            "text": "Ds",
+            "confidence": 85.86,
+            "bbox": [
+              308,
+              140,
+              319,
+              152
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0011",
+        "type": "paragraph",
+        "text": "tovenerlog:",
+        "bbox": [
+          358,
+          140,
+          434,
+          153
+        ],
+        "confidence": 53.42,
+        "words": [
+          {
+            "text": "tovenerlog:",
+            "confidence": 53.42,
+            "bbox": [
+              358,
+              140,
+              434,
+              153
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0012",
+        "type": "paragraph",
+        "text": "Форма",
+        "bbox": [
+          728,
+          140,
+          777,
+          155
+        ],
+        "confidence": 73.2,
+        "words": [
+          {
+            "text": "Форма",
+            "confidence": 73.2,
+            "bbox": [
+              728,
+              140,
+              777,
+              155
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0013",
+        "type": "marker",
+        "text": "Ys",
+        "bbox": [
+          640,
+          141,
+          675,
+          174
+        ],
+        "confidence": 56.94,
+        "words": [
+          {
+            "text": "Ys",
+            "confidence": 56.94,
+            "bbox": [
+              640,
+              141,
+              675,
+              174
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0014",
+        "type": "paragraph",
+        "text": "sinău",
+        "bbox": [
+          478,
+          144,
+          516,
+          152
+        ],
+        "confidence": 43.77,
+        "words": [
+          {
+            "text": "sinău",
+            "confidence": 43.77,
+            "bbox": [
+              478,
+              144,
+              516,
+              152
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0015",
+        "type": "paragraph",
+        "text": "Aprobat de MS al RM",
+        "bbox": [
+          728,
+          162,
+          886,
+          177
+        ],
+        "confidence": 92.34,
+        "words": [
+          {
+            "text": "Aprobat",
+            "confidence": 95.78,
+            "bbox": [
+              728,
+              162,
+              787,
+              177
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.58,
+            "bbox": [
+              792,
+              163,
+              809,
+              174
+            ]
+          },
+          {
+            "text": "MS",
+            "confidence": 94.8,
+            "bbox": [
+              815,
+              163,
+              838,
+              175
+            ]
+          },
+          {
+            "text": "al",
+            "confidence": 78.43,
+            "bbox": [
+              844,
+              163,
+              856,
+              175
+            ]
+          },
+          {
+            "text": "RM",
+            "confidence": 96.11,
+            "bbox": [
+              861,
+              164,
+              886,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0016",
+        "type": "paragraph",
+        "text": "instituția medico-sanitară",
+        "bbox": [
+          151,
+          163,
+          337,
+          175
+        ],
+        "confidence": 84.35,
+        "words": [
+          {
+            "text": "instituția",
+            "confidence": 78.81,
+            "bbox": [
+              151,
+              164,
+              215,
+              175
+            ]
+          },
+          {
+            "text": "medico-sanitară",
+            "confidence": 89.89,
+            "bbox": [
+              220,
+              163,
+              337,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0017",
+        "type": "paragraph",
+        "text": "e a eliberat adeverinta",
+        "bbox": [
+          366,
+          163,
+          532,
+          175
+        ],
+        "confidence": 91.42,
+        "words": [
+          {
+            "text": "e",
+            "confidence": 89.68,
+            "bbox": [
+              366,
+              166,
+              374,
+              173
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 95.76,
+            "bbox": [
+              379,
+              166,
+              387,
+              175
+            ]
+          },
+          {
+            "text": "eliberat",
+            "confidence": 89.47,
+            "bbox": [
+              393,
+              163,
+              443,
+              175
+            ]
+          },
+          {
+            "text": "adeverinta",
+            "confidence": 90.77,
+            "bbox": [
+              463,
+              163,
+              532,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0018",
+        "type": "paragraph",
+        "text": "nr. 136 din 19.05.09",
+        "bbox": [
+          900,
+          173,
+          1048,
+          185
+        ],
+        "confidence": 93.57,
+        "words": [
+          {
+            "text": "nr.",
+            "confidence": 87.72,
+            "bbox": [
+              900,
+              176,
+              918,
+              185
+            ]
+          },
+          {
+            "text": "136",
+            "confidence": 94.37,
+            "bbox": [
+              927,
+              173,
+              951,
+              185
+            ]
+          },
+          {
+            "text": "din",
+            "confidence": 95.82,
+            "bbox": [
+              957,
+              174,
+              979,
+              185
+            ]
+          },
+          {
+            "text": "19.05.09",
+            "confidence": 96.37,
+            "bbox": [
+              987,
+              173,
+              1048,
+              185
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0019",
+        "type": "paragraph",
+        "text": "узреждение здравоохранения выдавшее медицинскую справку",
+        "bbox": [
+          94,
+          175,
+          581,
+          194
+        ],
+        "confidence": 85.46,
+        "words": [
+          {
+            "text": "узреждение",
+            "confidence": 87.68,
+            "bbox": [
+              94,
+              182,
+              187,
+              194
+            ]
+          },
+          {
+            "text": "здравоохранения",
+            "confidence": 93.31,
+            "bbox": [
+              194,
+              182,
+              324,
+              194
+            ]
+          },
+          {
+            "text": "выдавшее",
+            "confidence": 93.0,
+            "bbox": [
+              330,
+              182,
+              405,
+              192
+            ]
+          },
+          {
+            "text": "медицинскую",
+            "confidence": 60.28,
+            "bbox": [
+              411,
+              182,
+              515,
+              193
+            ]
+          },
+          {
+            "text": "справку",
+            "confidence": 93.01,
+            "bbox": [
+              520,
+              175,
+              581,
+              194
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0020",
+        "type": "paragraph",
+        "text": "Утвержлена M3 PM",
+        "bbox": [
+          729,
+          179,
+          878,
+          194
+        ],
+        "confidence": 90.8,
+        "words": [
+          {
+            "text": "Утвержлена",
+            "confidence": 85.6,
+            "bbox": [
+              729,
+              179,
+              821,
+              194
+            ]
+          },
+          {
+            "text": "M3",
+            "confidence": 93.4,
+            "bbox": [
+              827,
+              179,
+              850,
+              191
+            ]
+          },
+          {
+            "text": "PM",
+            "confidence": 93.4,
+            "bbox": [
+              856,
+              179,
+              878,
+              191
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0021",
+        "type": "heading",
+        "text": "ADEVERINTA MEDICALA nr. 11747 / 6359",
+        "bbox": [
+          314,
+          232,
+          847,
+          258
+        ],
+        "confidence": 92.97,
+        "words": [
+          {
+            "text": "ADEVERINTA",
+            "confidence": 90.51,
+            "bbox": [
+              314,
+              232,
+              485,
+              258
+            ]
+          },
+          {
+            "text": "MEDICALA",
+            "confidence": 90.51,
+            "bbox": [
+              494,
+              232,
+              632,
+              253
+            ]
+          },
+          {
+            "text": "nr.",
+            "confidence": 95.18,
+            "bbox": [
+              640,
+              240,
+              674,
+              253
+            ]
+          },
+          {
+            "text": "11747",
+            "confidence": 92.42,
+            "bbox": [
+              687,
+              235,
+              761,
+              253
+            ]
+          },
+          {
+            "text": "/",
+            "confidence": 92.42,
+            "bbox": [
+              770,
+              235,
+              779,
+              255
+            ]
+          },
+          {
+            "text": "6359",
+            "confidence": 96.76,
+            "bbox": [
+              786,
+              235,
+              847,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0022",
+        "type": "paragraph",
+        "text": "a conducătorului de vehicul și a candidatului pentru obținerea permisului de conducere",
+        "bbox": [
+          118,
+          262,
+          1046,
+          284
+        ],
+        "confidence": 93.31,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 91.74,
+            "bbox": [
+              118,
+              268,
+              129,
+              280
+            ]
+          },
+          {
+            "text": "conducătorului",
+            "confidence": 96.23,
+            "bbox": [
+              137,
+              263,
+              295,
+              280
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 93.24,
+            "bbox": [
+              303,
+              263,
+              327,
+              279
+            ]
+          },
+          {
+            "text": "vehicul",
+            "confidence": 95.69,
+            "bbox": [
+              334,
+              262,
+              410,
+              280
+            ]
+          },
+          {
+            "text": "și",
+            "confidence": 96.22,
+            "bbox": [
+              417,
+              264,
+              434,
+              284
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 96.8,
+            "bbox": [
+              442,
+              267,
+              452,
+              279
+            ]
+          },
+          {
+            "text": "candidatului",
+            "confidence": 96.13,
+            "bbox": [
+              461,
+              262,
+              591,
+              280
+            ]
+          },
+          {
+            "text": "pentru",
+            "confidence": 93.29,
+            "bbox": [
+              599,
+              264,
+              668,
+              283
+            ]
+          },
+          {
+            "text": "obținerea",
+            "confidence": 75.54,
+            "bbox": [
+              677,
+              262,
+              777,
+              282
+            ]
+          },
+          {
+            "text": "permisului",
+            "confidence": 96.34,
+            "bbox": [
+              785,
+              262,
+              896,
+              284
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 92.57,
+            "bbox": [
+              904,
+              262,
+              928,
+              279
+            ]
+          },
+          {
+            "text": "conducere",
+            "confidence": 96.0,
+            "bbox": [
+              937,
+              262,
+              1046,
+              279
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0023",
+        "type": "heading",
+        "text": "МЕДИЦИНСКАЯ СПРАВКА",
+        "bbox": [
+          402,
+          306,
+          761,
+          326
+        ],
+        "confidence": 88.45,
+        "words": [
+          {
+            "text": "МЕДИЦИНСКАЯ",
+            "confidence": 80.42,
+            "bbox": [
+              402,
+              306,
+              622,
+              326
+            ]
+          },
+          {
+            "text": "СПРАВКА",
+            "confidence": 96.48,
+            "bbox": [
+              631,
+              306,
+              761,
+              323
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0024",
+        "type": "paragraph",
+        "text": "водителя и кандидата в водители транспортных средств",
+        "bbox": [
+          270,
+          337,
+          894,
+          354
+        ],
+        "confidence": 95.72,
+        "words": [
+          {
+            "text": "водителя",
+            "confidence": 96.3,
+            "bbox": [
+              270,
+              338,
+              370,
+              352
+            ]
+          },
+          {
+            "text": "и",
+            "confidence": 96.57,
+            "bbox": [
+              377,
+              338,
+              390,
+              349
+            ]
+          },
+          {
+            "text": "кандидата",
+            "confidence": 96.55,
+            "bbox": [
+              397,
+              338,
+              512,
+              352
+            ]
+          },
+          {
+            "text": "в",
+            "confidence": 96.74,
+            "bbox": [
+              520,
+              338,
+              531,
+              349
+            ]
+          },
+          {
+            "text": "водители",
+            "confidence": 93.35,
+            "bbox": [
+              538,
+              338,
+              639,
+              352
+            ]
+          },
+          {
+            "text": "транспортных",
+            "confidence": 95.01,
+            "bbox": [
+              647,
+              337,
+              803,
+              354
+            ]
+          },
+          {
+            "text": "средств",
+            "confidence": 95.49,
+            "bbox": [
+              811,
+              337,
+              894,
+              353
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0025",
+        "type": "marker",
+        "text": "iz",
+        "bbox": [
+          923,
+          365,
+          986,
+          397
+        ],
+        "confidence": 38.3,
+        "words": [
+          {
+            "text": "iz",
+            "confidence": 38.3,
+            "bbox": [
+              923,
+              365,
+              986,
+              397
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0026",
+        "type": "paragraph",
+        "text": "Numele, prenumele",
+        "bbox": [
+          95,
+          376,
+          322,
+          399
+        ],
+        "confidence": 91.23,
+        "words": [
+          {
+            "text": "Numele,",
+            "confidence": 90.83,
+            "bbox": [
+              95,
+              376,
+              189,
+              397
+            ]
+          },
+          {
+            "text": "prenumele",
+            "confidence": 91.63,
+            "bbox": [
+              198,
+              376,
+              322,
+              399
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0027",
+        "type": "heading",
+        "text": "MOROZ ALEXANDR",
+        "bbox": [
+          474,
+          376,
+          729,
+          394
+        ],
+        "confidence": 91.16,
+        "words": [
+          {
+            "text": "MOROZ",
+            "confidence": 90.57,
+            "bbox": [
+              474,
+              376,
+              574,
+              394
+            ]
+          },
+          {
+            "text": "ALEXANDR",
+            "confidence": 91.75,
+            "bbox": [
+              581,
+              376,
+              729,
+              394
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0028",
+        "type": "paragraph",
+        "text": "Фамилия, имя, отчество",
+        "bbox": [
+          95,
+          404,
+          386,
+          424
+        ],
+        "confidence": 95.87,
+        "words": [
+          {
+            "text": "Фамилия,",
+            "confidence": 96.37,
+            "bbox": [
+              95,
+              404,
+              209,
+              424
+            ]
+          },
+          {
+            "text": "имя,",
+            "confidence": 95.34,
+            "bbox": [
+              219,
+              408,
+              271,
+              424
+            ]
+          },
+          {
+            "text": "отчество",
+            "confidence": 95.9,
+            "bbox": [
+              280,
+              408,
+              386,
+              421
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0029",
+        "type": "paragraph",
+        "text": "Număr de identificare",
+        "bbox": [
+          95,
+          448,
+          349,
+          466
+        ],
+        "confidence": 96.04,
+        "words": [
+          {
+            "text": "Număr",
+            "confidence": 96.83,
+            "bbox": [
+              95,
+              448,
+              175,
+              466
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.98,
+            "bbox": [
+              183,
+              448,
+              209,
+              466
+            ]
+          },
+          {
+            "text": "identificare",
+            "confidence": 94.31,
+            "bbox": [
+              218,
+              448,
+              349,
+              466
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0030",
+        "type": "paragraph",
+        "text": "2003500227856",
+        "bbox": [
+          510,
+          449,
+          715,
+          467
+        ],
+        "confidence": 95.96,
+        "words": [
+          {
+            "text": "2003500227856",
+            "confidence": 95.96,
+            "bbox": [
+              510,
+              449,
+              715,
+              467
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0031",
+        "type": "marker",
+        "text": "FE",
+        "bbox": [
+          924,
+          457,
+          956,
+          476
+        ],
+        "confidence": 0.0,
+        "words": [
+          {
+            "text": "FE",
+            "confidence": 0.0,
+            "bbox": [
+              924,
+              457,
+              956,
+              476
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0032",
+        "type": "paragraph",
+        "text": "ar E",
+        "bbox": [
+          991,
+          471,
+          1048,
+          497
+        ],
+        "confidence": 47.69,
+        "words": [
+          {
+            "text": "ar",
+            "confidence": 43.53,
+            "bbox": [
+              991,
+              471,
+              1011,
+              497
+            ]
+          },
+          {
+            "text": "E",
+            "confidence": 51.84,
+            "bbox": [
+              1035,
+              475,
+              1048,
+              488
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0033",
+        "type": "paragraph",
+        "text": "Идентификационный номер",
+        "bbox": [
+          95,
+          475,
+          433,
+          498
+        ],
+        "confidence": 94.06,
+        "words": [
+          {
+            "text": "Идентификационный",
+            "confidence": 92.13,
+            "bbox": [
+              95,
+              475,
+              351,
+              498
+            ]
+          },
+          {
+            "text": "номер",
+            "confidence": 96.0,
+            "bbox": [
+              360,
+              481,
+              433,
+              498
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0034",
+        "type": "date_line",
+        "text": "17.01.2004",
+        "bbox": [
+          346,
+          521,
+          486,
+          540
+        ],
+        "confidence": 89.99,
+        "words": [
+          {
+            "text": "17.01.2004",
+            "confidence": 89.99,
+            "bbox": [
+              346,
+              521,
+              486,
+              540
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0035",
+        "type": "paragraph",
+        "text": "Data nașterii",
+        "bbox": [
+          96,
+          522,
+          242,
+          544
+        ],
+        "confidence": 95.27,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 96.51,
+            "bbox": [
+              96,
+              522,
+              147,
+              539
+            ]
+          },
+          {
+            "text": "nașterii",
+            "confidence": 94.04,
+            "bbox": [
+              156,
+              522,
+              242,
+              544
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0036",
+        "type": "paragraph",
+        "text": "Дата рождения",
+        "bbox": [
+          95,
+          549,
+          280,
+          571
+        ],
+        "confidence": 96.62,
+        "words": [
+          {
+            "text": "Дата",
+            "confidence": 96.65,
+            "bbox": [
+              95,
+              549,
+              150,
+              569
+            ]
+          },
+          {
+            "text": "рождения",
+            "confidence": 96.58,
+            "bbox": [
+              160,
+              553,
+              280,
+              571
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0037",
+        "type": "date_line",
+        "text": "10-07-2024",
+        "bbox": [
+          692,
+          589,
+          836,
+          612
+        ],
+        "confidence": 92.34,
+        "words": [
+          {
+            "text": "10-07-2024",
+            "confidence": 92.34,
+            "bbox": [
+              692,
+              589,
+              836,
+              612
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0038",
+        "type": "paragraph",
+        "text": "A trecut examinarea medicală",
+        "bbox": [
+          95,
+          593,
+          440,
+          612
+        ],
+        "confidence": 95.87,
+        "words": [
+          {
+            "text": "A",
+            "confidence": 96.8,
+            "bbox": [
+              95,
+              594,
+              111,
+              611
+            ]
+          },
+          {
+            "text": "trecut",
+            "confidence": 94.93,
+            "bbox": [
+              118,
+              595,
+              188,
+              612
+            ]
+          },
+          {
+            "text": "examinarea",
+            "confidence": 95.55,
+            "bbox": [
+              196,
+              594,
+              328,
+              612
+            ]
+          },
+          {
+            "text": "medicală",
+            "confidence": 96.21,
+            "bbox": [
+              338,
+              593,
+              440,
+              612
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0039",
+        "type": "paragraph",
+        "text": "Прошел медицинскую экспертизу",
+        "bbox": [
+          95,
+          621,
+          508,
+          644
+        ],
+        "confidence": 96.36,
+        "words": [
+          {
+            "text": "Прошел",
+            "confidence": 96.22,
+            "bbox": [
+              95,
+              621,
+              190,
+              643
+            ]
+          },
+          {
+            "text": "медицинскую",
+            "confidence": 96.23,
+            "bbox": [
+              200,
+              626,
+              364,
+              643
+            ]
+          },
+          {
+            "text": "экспертизу",
+            "confidence": 96.64,
+            "bbox": [
+              373,
+              626,
+              508,
+              644
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0040",
+        "type": "heading",
+        "text": "CONCLUZIA COMISIEI MEDICALE",
+        "bbox": [
+          365,
+          666,
+          798,
+          684
+        ],
+        "confidence": 92.3,
+        "words": [
+          {
+            "text": "CONCLUZIA",
+            "confidence": 90.95,
+            "bbox": [
+              365,
+              666,
+              519,
+              684
+            ]
+          },
+          {
+            "text": "COMISIEI",
+            "confidence": 89.74,
+            "bbox": [
+              527,
+              666,
+              651,
+              684
+            ]
+          },
+          {
+            "text": "MEDICALE",
+            "confidence": 96.21,
+            "bbox": [
+              661,
+              667,
+              798,
+              684
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0041",
+        "type": "heading",
+        "text": "ЗАКЛЮЧЕНИЕ МЕДИЦИНСКОЙ КОМИССИИ",
+        "bbox": [
+          282,
+          690,
+          880,
+          716
+        ],
+        "confidence": 93.7,
+        "words": [
+          {
+            "text": "ЗАКЛЮЧЕНИЕ",
+            "confidence": 95.53,
+            "bbox": [
+              282,
+              695,
+              479,
+              713
+            ]
+          },
+          {
+            "text": "МЕДИЦИНСКОЙ",
+            "confidence": 95.55,
+            "bbox": [
+              488,
+              690,
+              710,
+              716
+            ]
+          },
+          {
+            "text": "КОМИССИИ",
+            "confidence": 90.03,
+            "bbox": [
+              720,
+              696,
+              880,
+              713
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0042",
+        "type": "paragraph",
+        "text": "Privind aptitudinea de a conduce vehiculul cu (sub) categoriile",
+        "bbox": [
+          252,
+          730,
+          914,
+          752
+        ],
+        "confidence": 94.45,
+        "words": [
+          {
+            "text": "Privind",
+            "confidence": 96.6,
+            "bbox": [
+              252,
+              730,
+              327,
+              747
+            ]
+          },
+          {
+            "text": "aptitudinea",
+            "confidence": 88.55,
+            "bbox": [
+              334,
+              731,
+              454,
+              751
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.57,
+            "bbox": [
+              462,
+              731,
+              486,
+              747
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 96.96,
+            "bbox": [
+              494,
+              736,
+              505,
+              747
+            ]
+          },
+          {
+            "text": "conduce",
+            "confidence": 96.54,
+            "bbox": [
+              513,
+              731,
+              600,
+              748
+            ]
+          },
+          {
+            "text": "vehiculul",
+            "confidence": 92.1,
+            "bbox": [
+              607,
+              731,
+              703,
+              747
+            ]
+          },
+          {
+            "text": "cu",
+            "confidence": 96.98,
+            "bbox": [
+              711,
+              736,
+              735,
+              747
+            ]
+          },
+          {
+            "text": "(sub)",
+            "confidence": 93.28,
+            "bbox": [
+              743,
+              731,
+              794,
+              749
+            ]
+          },
+          {
+            "text": "categoriile",
+            "confidence": 92.44,
+            "bbox": [
+              803,
+              731,
+              914,
+              752
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0043",
+        "type": "paragraph",
+        "text": "О годности к управлению транспортным средством (под) категорий",
+        "bbox": [
+          206,
+          752,
+          960,
+          773
+        ],
+        "confidence": 96.31,
+        "words": [
+          {
+            "text": "О",
+            "confidence": 95.51,
+            "bbox": [
+              206,
+              752,
+              221,
+              769
+            ]
+          },
+          {
+            "text": "годности",
+            "confidence": 96.58,
+            "bbox": [
+              229,
+              757,
+              327,
+              771
+            ]
+          },
+          {
+            "text": "к",
+            "confidence": 96.59,
+            "bbox": [
+              336,
+              757,
+              348,
+              768
+            ]
+          },
+          {
+            "text": "управлению",
+            "confidence": 96.41,
+            "bbox": [
+              354,
+              757,
+              489,
+              773
+            ]
+          },
+          {
+            "text": "транспортным",
+            "confidence": 95.98,
+            "bbox": [
+              497,
+              757,
+              657,
+              773
+            ]
+          },
+          {
+            "text": "средством",
+            "confidence": 95.94,
+            "bbox": [
+              665,
+              757,
+              778,
+              773
+            ]
+          },
+          {
+            "text": "(под)",
+            "confidence": 96.58,
+            "bbox": [
+              786,
+              752,
+              839,
+              772
+            ]
+          },
+          {
+            "text": "категорий",
+            "confidence": 96.9,
+            "bbox": [
+              848,
+              753,
+              960,
+              773
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0044",
+        "type": "heading",
+        "text": "АМ, А1, A2, A, В1, В",
+        "bbox": [
+          349,
+          800,
+          611,
+          822
+        ],
+        "confidence": 91.77,
+        "words": [
+          {
+            "text": "АМ,",
+            "confidence": 92.86,
+            "bbox": [
+              349,
+              800,
+              400,
+              822
+            ]
+          },
+          {
+            "text": "А1,",
+            "confidence": 87.59,
+            "bbox": [
+              408,
+              800,
+              449,
+              822
+            ]
+          },
+          {
+            "text": "A2,",
+            "confidence": 92.28,
+            "bbox": [
+              458,
+              800,
+              499,
+              822
+            ]
+          },
+          {
+            "text": "A,",
+            "confidence": 93.02,
+            "bbox": [
+              507,
+              800,
+              532,
+              822
+            ]
+          },
+          {
+            "text": "В1,",
+            "confidence": 88.75,
+            "bbox": [
+              542,
+              800,
+              583,
+              822
+            ]
+          },
+          {
+            "text": "В",
+            "confidence": 96.13,
+            "bbox": [
+              593,
+              800,
+              611,
+              818
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0045",
+        "type": "paragraph",
+        "text": "Categoriile",
+        "bbox": [
+          108,
+          822,
+          236,
+          843
+        ],
+        "confidence": 90.57,
+        "words": [
+          {
+            "text": "Categoriile",
+            "confidence": 90.57,
+            "bbox": [
+              108,
+              822,
+              236,
+              843
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0046",
+        "type": "heading",
+        "text": "FARA DREPT DE UTILIZARE A PERMISULUI DE CONDUCERE",
+        "bbox": [
+          351,
+          838,
+          1010,
+          858
+        ],
+        "confidence": 92.38,
+        "words": [
+          {
+            "text": "FARA",
+            "confidence": 93.29,
+            "bbox": [
+              351,
+              838,
+              410,
+              857
+            ]
+          },
+          {
+            "text": "DREPT",
+            "confidence": 92.17,
+            "bbox": [
+              416,
+              842,
+              490,
+              857
+            ]
+          },
+          {
+            "text": "DE",
+            "confidence": 93.24,
+            "bbox": [
+              497,
+              842,
+              528,
+              857
+            ]
+          },
+          {
+            "text": "UTILIZARE",
+            "confidence": 92.08,
+            "bbox": [
+              535,
+              842,
+              654,
+              857
+            ]
+          },
+          {
+            "text": "A",
+            "confidence": 91.61,
+            "bbox": [
+              660,
+              842,
+              676,
+              857
+            ]
+          },
+          {
+            "text": "PERMISULUI",
+            "confidence": 91.4,
+            "bbox": [
+              683,
+              842,
+              825,
+              858
+            ]
+          },
+          {
+            "text": "DE",
+            "confidence": 93.27,
+            "bbox": [
+              832,
+              842,
+              862,
+              857
+            ]
+          },
+          {
+            "text": "CONDUCERE",
+            "confidence": 91.98,
+            "bbox": [
+              869,
+              842,
+              1010,
+              858
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0047",
+        "type": "paragraph",
+        "text": "Kareropuu",
+        "bbox": [
+          108,
+          855,
+          237,
+          875
+        ],
+        "confidence": 90.34,
+        "words": [
+          {
+            "text": "Kareropuu",
+            "confidence": 90.34,
+            "bbox": [
+              108,
+              855,
+              237,
+              875
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0048",
+        "type": "heading",
+        "text": "ÎN SCOPURI PROFESIONALE",
+        "bbox": [
+          351,
+          877,
+          663,
+          913
+        ],
+        "confidence": 94.93,
+        "words": [
+          {
+            "text": "ÎN",
+            "confidence": 92.47,
+            "bbox": [
+              351,
+              877,
+              377,
+              896
+            ]
+          },
+          {
+            "text": "SCOPURI",
+            "confidence": 95.88,
+            "bbox": [
+              384,
+              881,
+              484,
+              909
+            ]
+          },
+          {
+            "text": "PROFESIONALE",
+            "confidence": 96.43,
+            "bbox": [
+              491,
+              877,
+              663,
+              913
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0049",
+        "type": "paragraph",
+        "text": "Cod rest",
+        "bbox": [
+          108,
+          923,
+          204,
+          940
+        ],
+        "confidence": 95.24,
+        "words": [
+          {
+            "text": "Cod",
+            "confidence": 96.4,
+            "bbox": [
+              108,
+              923,
+              152,
+              940
+            ]
+          },
+          {
+            "text": "rest",
+            "confidence": 94.09,
+            "bbox": [
+              160,
+              925,
+              204,
+              940
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0050",
+        "type": "paragraph",
+        "text": "01.06. Ochelari sau lentile",
+        "bbox": [
+          351,
+          924,
+          689,
+          943
+        ],
+        "confidence": 91.64,
+        "words": [
+          {
+            "text": "01.06.",
+            "confidence": 93.17,
+            "bbox": [
+              351,
+              924,
+              429,
+              943
+            ]
+          },
+          {
+            "text": "Ochelari",
+            "confidence": 90.08,
+            "bbox": [
+              438,
+              924,
+              547,
+              943
+            ]
+          },
+          {
+            "text": "sau",
+            "confidence": 93.31,
+            "bbox": [
+              555,
+              929,
+              598,
+              943
+            ]
+          },
+          {
+            "text": "lentile",
+            "confidence": 89.99,
+            "bbox": [
+              608,
+              924,
+              689,
+              943
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0051",
+        "type": "paragraph",
+        "text": "contact",
+        "bbox": [
+          736,
+          926,
+          831,
+          943
+        ],
+        "confidence": 96.23,
+        "words": [
+          {
+            "text": "contact",
+            "confidence": 96.23,
+            "bbox": [
+              736,
+              926,
+              831,
+              943
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0052",
+        "type": "paragraph",
+        "text": "Код ограничения",
+        "bbox": [
+          108,
+          952,
+          321,
+          988
+        ],
+        "confidence": 93.73,
+        "words": [
+          {
+            "text": "Код",
+            "confidence": 91.07,
+            "bbox": [
+              108,
+              956,
+              154,
+              975
+            ]
+          },
+          {
+            "text": "ограничения",
+            "confidence": 96.38,
+            "bbox": [
+              162,
+              952,
+              321,
+              988
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0053",
+        "type": "paragraph",
+        "text": "Următoarea reexaminare",
+        "bbox": [
+          383,
+          1032,
+          648,
+          1049
+        ],
+        "confidence": 95.54,
+        "words": [
+          {
+            "text": "Următoarea",
+            "confidence": 95.61,
+            "bbox": [
+              383,
+              1032,
+              508,
+              1048
+            ]
+          },
+          {
+            "text": "reexaminare",
+            "confidence": 95.48,
+            "bbox": [
+              516,
+              1033,
+              648,
+              1049
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0054",
+        "type": "date_line",
+        "text": "10-07-2026",
+        "bbox": [
+          834,
+          1032,
+          965,
+          1049
+        ],
+        "confidence": 96.18,
+        "words": [
+          {
+            "text": "10-07-2026",
+            "confidence": 96.18,
+            "bbox": [
+              834,
+              1032,
+              965,
+              1049
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0055",
+        "type": "paragraph",
+        "text": "Следующее переосвидетельствование",
+        "bbox": [
+          382,
+          1056,
+          802,
+          1077
+        ],
+        "confidence": 92.18,
+        "words": [
+          {
+            "text": "Следующее",
+            "confidence": 93.2,
+            "bbox": [
+              382,
+              1056,
+              509,
+              1075
+            ]
+          },
+          {
+            "text": "переосвидетельствование",
+            "confidence": 91.16,
+            "bbox": [
+              517,
+              1061,
+              802,
+              1077
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0056",
+        "type": "marker",
+        "text": "a",
+        "bbox": [
+          944,
+          1104,
+          963,
+          1109
+        ],
+        "confidence": 32.11,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 32.11,
+            "bbox": [
+              944,
+              1104,
+              963,
+              1109
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0057",
+        "type": "date_line",
+        "text": "10-07-2024",
+        "bbox": [
+          834,
+          1105,
+          965,
+          1127
+        ],
+        "confidence": 92.68,
+        "words": [
+          {
+            "text": "10-07-2024",
+            "confidence": 92.68,
+            "bbox": [
+              834,
+              1105,
+              965,
+              1127
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0058",
+        "type": "paragraph",
+        "text": "Data eliberării",
+        "bbox": [
+          381,
+          1109,
+          534,
+          1126
+        ],
+        "confidence": 96.06,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 96.87,
+            "bbox": [
+              381,
+              1109,
+              430,
+              1126
+            ]
+          },
+          {
+            "text": "eliberării",
+            "confidence": 95.25,
+            "bbox": [
+              438,
+              1109,
+              534,
+              1126
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0059",
+        "type": "marker",
+        "text": "2",
+        "bbox": [
+          190,
+          1112,
+          202,
+          1124
+        ],
+        "confidence": 86.4,
+        "words": [
+          {
+            "text": "2",
+            "confidence": 86.4,
+            "bbox": [
+              190,
+              1112,
+              202,
+              1124
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0060",
+        "type": "paragraph",
+        "text": "Hara выдачи A",
+        "bbox": [
+          382,
+          1122,
+          559,
+          1157
+        ],
+        "confidence": 49.79,
+        "words": [
+          {
+            "text": "Hara",
+            "confidence": 87.32,
+            "bbox": [
+              382,
+              1133,
+              434,
+              1152
+            ]
+          },
+          {
+            "text": "выдачи",
+            "confidence": 42.65,
+            "bbox": [
+              441,
+              1137,
+              520,
+              1152
+            ]
+          },
+          {
+            "text": "A",
+            "confidence": 19.4,
+            "bbox": [
+              533,
+              1122,
+              559,
+              1157
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0061",
+        "type": "marker",
+        "text": "A",
+        "bbox": [
+          215,
+          1136,
+          238,
+          1153
+        ],
+        "confidence": 40.29,
+        "words": [
+          {
+            "text": "A",
+            "confidence": 40.29,
+            "bbox": [
+              215,
+              1136,
+              238,
+              1153
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0062",
+        "type": "marker",
+        "text": "7",
+        "bbox": [
+          711,
+          1168,
+          760,
+          1208
+        ],
+        "confidence": 51.21,
+        "words": [
+          {
+            "text": "7",
+            "confidence": 51.21,
+            "bbox": [
+              711,
+              1168,
+              760,
+              1208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0063",
+        "type": "paragraph",
+        "text": "iicoiae Babiiev",
+        "bbox": [
+          768,
+          1169,
+          936,
+          1193
+        ],
+        "confidence": 88.51,
+        "words": [
+          {
+            "text": "iicoiae",
+            "confidence": 87.94,
+            "bbox": [
+              768,
+              1169,
+              841,
+              1193
+            ]
+          },
+          {
+            "text": "Babiiev",
+            "confidence": 89.08,
+            "bbox": [
+              848,
+              1169,
+              936,
+              1193
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0064",
+        "type": "paragraph",
+        "text": "reşedinte!",
+        "bbox": [
+          395,
+          1176,
+          494,
+          1196
+        ],
+        "confidence": 45.53,
+        "words": [
+          {
+            "text": "reşedinte!",
+            "confidence": 45.53,
+            "bbox": [
+              395,
+              1176,
+              494,
+              1196
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0065",
+        "type": "marker",
+        "text": "lei",
+        "bbox": [
+          582,
+          1180,
+          607,
+          1192
+        ],
+        "confidence": 80.77,
+        "words": [
+          {
+            "text": "lei",
+            "confidence": 80.77,
+            "bbox": [
+              582,
+              1180,
+              607,
+              1192
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0066",
+        "type": "paragraph",
+        "text": "Tipencenaregh yous",
+        "bbox": [
+          382,
+          1189,
+          591,
+          1244
+        ],
+        "confidence": 49.4,
+        "words": [
+          {
+            "text": "Tipencenaregh",
+            "confidence": 15.36,
+            "bbox": [
+              382,
+              1189,
+              534,
+              1244
+            ]
+          },
+          {
+            "text": "yous",
+            "confidence": 83.44,
+            "bbox": [
+              547,
+              1193,
+              591,
+              1217
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0067",
+        "type": "marker",
+        "text": "Ge",
+        "bbox": [
+          714,
+          1230,
+          742,
+          1237
+        ],
+        "confidence": 59.52,
+        "words": [
+          {
+            "text": "Ge",
+            "confidence": 59.52,
+            "bbox": [
+              714,
+              1230,
+              742,
+              1237
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0068",
+        "type": "marker",
+        "text": "mf",
+        "bbox": [
+          748,
+          1257,
+          767,
+          1270
+        ],
+        "confidence": 37.62,
+        "words": [
+          {
+            "text": "mf",
+            "confidence": 37.62,
+            "bbox": [
+              748,
+              1257,
+              767,
+              1270
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0069",
+        "type": "marker",
+        "text": "к =",
+        "bbox": [
+          694,
+          1277,
+          735,
+          1305
+        ],
+        "confidence": 22.6,
+        "words": [
+          {
+            "text": "к",
+            "confidence": 0.0,
+            "bbox": [
+              694,
+              1285,
+              732,
+              1299
+            ]
+          },
+          {
+            "text": "=",
+            "confidence": 45.2,
+            "bbox": [
+              720,
+              1277,
+              735,
+              1305
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0070",
+        "type": "marker",
+        "text": "te",
+        "bbox": [
+          727,
+          1278,
+          753,
+          1287
+        ],
+        "confidence": 38.29,
+        "words": [
+          {
+            "text": "te",
+            "confidence": 38.29,
+            "bbox": [
+              727,
+              1278,
+              753,
+              1287
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0071",
+        "type": "marker",
+        "text": "$",
+        "bbox": [
+          658,
+          1286,
+          673,
+          1302
+        ],
+        "confidence": 35.97,
+        "words": [
+          {
+            "text": "$",
+            "confidence": 35.97,
+            "bbox": [
+              658,
+              1286,
+              673,
+              1302
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0072",
+        "type": "marker",
+        "text": "Fa",
+        "bbox": [
+          581,
+          1287,
+          601,
+          1298
+        ],
+        "confidence": 45.19,
+        "words": [
+          {
+            "text": "Fa",
+            "confidence": 45.19,
+            "bbox": [
+              581,
+              1287,
+              601,
+              1298
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0073",
+        "type": "marker",
+        "text": "ОС",
+        "bbox": [
+          697,
+          1295,
+          740,
+          1315
+        ],
+        "confidence": 35.33,
+        "words": [
+          {
+            "text": "ОС",
+            "confidence": 35.33,
+            "bbox": [
+              697,
+              1295,
+              740,
+              1315
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0074",
+        "type": "marker",
+        "text": "E",
+        "bbox": [
+          520,
+          1307,
+          532,
+          1316
+        ],
+        "confidence": 55.96,
+        "words": [
+          {
+            "text": "E",
+            "confidence": 55.96,
+            "bbox": [
+              520,
+              1307,
+              532,
+              1316
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0075",
+        "type": "marker",
+        "text": "we",
+        "bbox": [
+          706,
+          1312,
+          727,
+          1319
+        ],
+        "confidence": 82.72,
+        "words": [
+          {
+            "text": "we",
+            "confidence": 82.72,
+            "bbox": [
+              706,
+              1312,
+              727,
+              1319
+            ]
+          }
+        ]
+      }
+    ],
+    "full_text": "DOCUMENTAŢIE MEDICALĂ\nMinisterul Si\ncii Moldova\nавоохранения Республики Моллова\nМинистерство\nFormular\n|<\nNr 083/е\nIMSP Dispensarul M\nастра! Ds\ntovenerlog:\nФорма\nYs\nsinău\nAprobat de MS al RM\ninstituția medico-sanitară\ne a eliberat adeverinta\nnr. 136 din 19.05.09\nузреждение здравоохранения выдавшее медицинскую справку\nУтвержлена M3 PM\nADEVERINTA MEDICALA nr. 11747 / 6359\na conducătorului de vehicul și a candidatului pentru obținerea permisului de conducere\nМЕДИЦИНСКАЯ СПРАВКА\nводителя и кандидата в водители транспортных средств\niz\nNumele, prenumele\nMOROZ ALEXANDR\nФамилия, имя, отчество\nNumăr de identificare\n2003500227856\nFE\nar E\nИдентификационный номер\n17.01.2004\nData nașterii\nДата рождения\n10-07-2024\nA trecut examinarea medicală\nПрошел медицинскую экспертизу\nCONCLUZIA COMISIEI MEDICALE\nЗАКЛЮЧЕНИЕ МЕДИЦИНСКОЙ КОМИССИИ\nPrivind aptitudinea de a conduce vehiculul cu (sub) categoriile\nО годности к управлению транспортным средством (под) категорий\nАМ, А1, A2, A, В1, В\nCategoriile\nFARA DREPT DE UTILIZARE A PERMISULUI DE CONDUCERE\nKareropuu\nÎN SCOPURI PROFESIONALE\nCod rest\n01.06. Ochelari sau lentile\ncontact\nКод ограничения\nUrmătoarea reexaminare\n10-07-2026\nСледующее переосвидетельствование\na\n10-07-2024\nData eliberării\n2\nHara выдачи A\nA\n7\niicoiae Babiiev\nreşedinte!\nlei\nTipencenaregh yous\nGe\nmf\nк =\nte\n$\nFa\nОС\nE\nwe"
+  },
+  "quality": {
+    "ocr_engine": "tesseract",
+    "ocr_languages": "eng+ron+rus",
+    "ocr_psm": 11,
+    "ocr_candidate": "standard",
+    "preprocessing": "standard_autocontrast",
+    "mean_confidence": 84.92,
+    "word_count": 185,
+    "candidate_scores": [
+      {
+        "name": "standard",
+        "preprocessing": "standard_autocontrast",
+        "score": 145.05,
+        "mean_confidence": 84.92,
+        "word_count": 185,
+        "subtype": "driver_medical_certificate"
+      }
+    ],
+    "low_confidence_blocks": [
+      "line_0011",
+      "line_0014",
+      "line_0025",
+      "line_0031",
+      "line_0032",
+      "line_0056",
+      "line_0060",
+      "line_0061",
+      "line_0062",
+      "line_0064",
+      "line_0066",
+      "line_0068",
+      "line_0069",
+      "line_0070",
+      "line_0071",
+      "line_0072",
+      "line_0073"
+    ]
+  },
+  "outputs": {
+    "json": "output/json/Adeverinta Medicala AUTO.json",
+    "html": "output/html/Adeverinta Medicala AUTO.html",
+    "pdf": "output/pdf/Adeverinta Medicala AUTO.pdf",
+    "pdf_status": "rendered"
+  }
+}

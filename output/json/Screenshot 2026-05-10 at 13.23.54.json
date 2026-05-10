@@ -1,0 +1,5525 @@
+{
+  "schema_version": "0.1",
+  "source": {
+    "filename": "Screenshot 2026-05-10 at 13.23.54.png",
+    "path": "test-img/Screenshot 2026-05-10 at 13.23.54.png",
+    "type": "image",
+    "working_image": "output/tmp/ocr/Screenshot 2026-05-10 at 13.23.54_ocr.png",
+    "original_image": "test-img/Screenshot 2026-05-10 at 13.23.54.png"
+  },
+  "document": {
+    "title": "Edit",
+    "document_type": "medical_document",
+    "subtype": "molecular_lab_report",
+    "processed_at": "2026-05-10T10:25:23.539152+00:00"
+  },
+  "layout": {
+    "page": {
+      "width": 2880,
+      "height": 1800,
+      "unit": "px"
+    },
+    "visual_elements": {
+      "lines": [
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            0,
+            22,
+            594,
+            23
+          ],
+          "length": 595
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            596,
+            22,
+            2879,
+            23
+          ],
+          "length": 2284
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            540,
+            31,
+            2879,
+            32
+          ],
+          "length": 2340
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            542,
+            40,
+            2879,
+            41
+          ],
+          "length": 2338
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            0,
+            60,
+            2879,
+            61
+          ],
+          "length": 2880
+        },
+        {
+          "orientation": "horizontal",
+          "bbox": [
+            0,
+            69,
+            2879,
+            70
+          ],
+          "length": 2880
+        }
+      ]
+    }
+  },
+  "content": {
+    "fields": [
+      {
+        "name": "Sânge integral. Metoda",
+        "value": "Westergren.",
+        "source_block_id": "line_0093",
+        "value_block_id": null,
+        "confidence": 91.53,
+        "bbox": [
+          1243,
+          713,
+          1472,
+          729
+        ],
+        "extraction_method": "inline_text"
+      },
+      {
+        "name": "Validat",
+        "value": "Șefă de Laborator",
+        "source_block_id": "line_0113",
+        "value_block_id": null,
+        "confidence": 90.97,
+        "bbox": [
+          1626,
+          883,
+          1837,
+          901
+        ],
+        "extraction_method": "inline_text"
+      }
+    ],
+    "schema_fields": {},
+    "sections": [
+      {
+        "id": "section_0001",
+        "title": "Executat și verificat",
+        "level": 2,
+        "source_block_id": "line_0112",
+        "block_ids": [],
+        "bbox": [
+          1234,
+          883,
+          1388,
+          901
+        ],
+        "confidence": 96.14,
+        "extraction_method": "semantic_heading"
+      },
+      {
+        "id": "section_0002",
+        "title": "Validat: Șefă de Laborator",
+        "level": 2,
+        "source_block_id": "line_0113",
+        "block_ids": [
+          "line_0114",
+          "line_0119",
+          "line_0120",
+          "line_0121",
+          "line_0124",
+          "line_0128",
+          "line_0131",
+          "line_0133",
+          "line_0134",
+          "line_0138",
+          "line_0144",
+          "line_0146",
+          "line_0149",
+          "line_0155",
+          "line_0156",
+          "line_0157",
+          "line_0158",
+          "line_0159",
+          "line_0160"
+        ],
+        "bbox": [
+          176,
+          883,
+          2854,
+          1793
+        ],
+        "confidence": 90.97,
+        "extraction_method": "semantic_heading"
+      }
+    ],
+    "tables": [],
+    "notes": [
+      {
+        "id": "note_0001",
+        "category": "accreditation",
+        "text": "Analizele marcate cu * nu sunt acreditate de MOLDAC.",
+        "source_block_id": "line_0096",
+        "bbox": [
+          1233,
+          743,
+          1588,
+          755
+        ],
+        "confidence": 93.42
+      },
+      {
+        "id": "note_0002",
+        "category": "clinical_limitation",
+        "text": "Valorile de referință corespund sexului si vârstei. Rezultatele investigaţiilor de laborator nu reprezintă diagnosticul clinic.",
+        "source_block_id": "line_0100",
+        "bbox": [
+          1235,
+          801,
+          2014,
+          817
+        ],
+        "confidence": 89.59
+      }
+    ],
+    "text_blocks": [
+      {
+        "id": "line_0001",
+        "type": "paragraph",
+        "text": "Kuzmitkaia...26 16.40.12.pdf v x",
+        "bbox": [
+          192,
+          20,
+          543,
+          50
+        ],
+        "confidence": 91.36,
+        "words": [
+          {
+            "text": "Kuzmitkaia...26",
+            "confidence": 91.32,
+            "bbox": [
+              192,
+              24,
+              347,
+              46
+            ]
+          },
+          {
+            "text": "16.40.12.pdf",
+            "confidence": 89.96,
+            "bbox": [
+              356,
+              24,
+              508,
+              45
+            ]
+          },
+          {
+            "text": "v",
+            "confidence": 90.76,
+            "bbox": [
+              495,
+              20,
+              508,
+              50
+            ]
+          },
+          {
+            "text": "x",
+            "confidence": 93.4,
+            "bbox": [
+              527,
+              27,
+              543,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0002",
+        "type": "marker",
+        "text": "a 9",
+        "bbox": [
+          2574,
+          84,
+          2679,
+          116
+        ],
+        "confidence": 89.53,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 91.11,
+            "bbox": [
+              2574,
+              86,
+              2602,
+              115
+            ]
+          },
+          {
+            "text": "9",
+            "confidence": 87.95,
+            "bbox": [
+              2648,
+              84,
+              2679,
+              116
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0003",
+        "type": "marker",
+        "text": "a",
+        "bbox": [
+          2729,
+          85,
+          2751,
+          115
+        ],
+        "confidence": 49.56,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 49.56,
+            "bbox": [
+              2729,
+              85,
+              2751,
+              115
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0004",
+        "type": "marker",
+        "text": "ре",
+        "bbox": [
+          33,
+          87,
+          112,
+          109
+        ],
+        "confidence": 69.54,
+        "words": [
+          {
+            "text": "ре",
+            "confidence": 69.54,
+            "bbox": [
+              33,
+              87,
+              112,
+              109
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0005",
+        "type": "paragraph",
+        "text": "Annotations",
+        "bbox": [
+          322,
+          87,
+          445,
+          104
+        ],
+        "confidence": 96.72,
+        "words": [
+          {
+            "text": "Annotations",
+            "confidence": 96.72,
+            "bbox": [
+              322,
+              87,
+              445,
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0006",
+        "type": "paragraph",
+        "text": "Fill & Sign",
+        "bbox": [
+          493,
+          87,
+          594,
+          108
+        ],
+        "confidence": 94.33,
+        "words": [
+          {
+            "text": "Fill",
+            "confidence": 93.04,
+            "bbox": [
+              493,
+              87,
+              519,
+              104
+            ]
+          },
+          {
+            "text": "&",
+            "confidence": 93.04,
+            "bbox": [
+              529,
+              88,
+              543,
+              104
+            ]
+          },
+          {
+            "text": "Sign",
+            "confidence": 96.89,
+            "bbox": [
+              551,
+              87,
+              594,
+              108
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0007",
+        "type": "paragraph",
+        "text": "Edit",
+        "bbox": [
+          685,
+          87,
+          723,
+          104
+        ],
+        "confidence": 96.98,
+        "words": [
+          {
+            "text": "Edit",
+            "confidence": 96.98,
+            "bbox": [
+              685,
+              87,
+              723,
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0008",
+        "type": "paragraph",
+        "text": "Tools",
+        "bbox": [
+          1157,
+          87,
+          1211,
+          104
+        ],
+        "confidence": 94.05,
+        "words": [
+          {
+            "text": "Tools",
+            "confidence": 94.05,
+            "bbox": [
+              1157,
+              87,
+              1211,
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0009",
+        "type": "paragraph",
+        "text": "Home",
+        "bbox": [
+          195,
+          88,
+          253,
+          104
+        ],
+        "confidence": 95.9,
+        "words": [
+          {
+            "text": "Home",
+            "confidence": 95.9,
+            "bbox": [
+              195,
+              88,
+              253,
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0010",
+        "type": "paragraph",
+        "text": "Pages",
+        "bbox": [
+          834,
+          88,
+          895,
+          108
+        ],
+        "confidence": 96.83,
+        "words": [
+          {
+            "text": "Pages",
+            "confidence": 96.83,
+            "bbox": [
+              834,
+              88,
+              895,
+              108
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0011",
+        "type": "paragraph",
+        "text": "Form",
+        "bbox": [
+          999,
+          88,
+          1049,
+          104
+        ],
+        "confidence": 96.02,
+        "words": [
+          {
+            "text": "Form",
+            "confidence": 96.02,
+            "bbox": [
+              999,
+              88,
+              1049,
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0012",
+        "type": "paragraph",
+        "text": "Protect",
+        "bbox": [
+          1307,
+          88,
+          1381,
+          104
+        ],
+        "confidence": 96.92,
+        "words": [
+          {
+            "text": "Protect",
+            "confidence": 96.92,
+            "bbox": [
+              1307,
+              88,
+              1381,
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0013",
+        "type": "paragraph",
+        "text": "(oor) М",
+        "bbox": [
+          997,
+          146,
+          1053,
+          177
+        ],
+        "confidence": 44.67,
+        "words": [
+          {
+            "text": "(oor)",
+            "confidence": 29.46,
+            "bbox": [
+              997,
+              151,
+              1048,
+              173
+            ]
+          },
+          {
+            "text": "М",
+            "confidence": 59.88,
+            "bbox": [
+              1036,
+              146,
+              1053,
+              177
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0014",
+        "type": "marker",
+        "text": "8",
+        "bbox": [
+          2554,
+          146,
+          2586,
+          178
+        ],
+        "confidence": 80.87,
+        "words": [
+          {
+            "text": "8",
+            "confidence": 80.87,
+            "bbox": [
+              2554,
+              146,
+              2586,
+              178
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0015",
+        "type": "marker",
+        "text": "a",
+        "bbox": [
+          282,
+          148,
+          306,
+          169
+        ],
+        "confidence": 77.12,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 77.12,
+            "bbox": [
+              282,
+              148,
+              306,
+              169
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0016",
+        "type": "marker",
+        "text": "E",
+        "bbox": [
+          1346,
+          148,
+          1374,
+          175
+        ],
+        "confidence": 66.99,
+        "words": [
+          {
+            "text": "E",
+            "confidence": 66.99,
+            "bbox": [
+              1346,
+              148,
+              1374,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0017",
+        "type": "marker",
+        "text": "&",
+        "bbox": [
+          164,
+          150,
+          183,
+          175
+        ],
+        "confidence": 79.65,
+        "words": [
+          {
+            "text": "&",
+            "confidence": 79.65,
+            "bbox": [
+              164,
+              150,
+              183,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0018",
+        "type": "marker",
+        "text": "Quv",
+        "bbox": [
+          759,
+          150,
+          811,
+          173
+        ],
+        "confidence": 82.14,
+        "words": [
+          {
+            "text": "Quv",
+            "confidence": 82.14,
+            "bbox": [
+              759,
+              150,
+              811,
+              173
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0019",
+        "type": "marker",
+        "text": "ay",
+        "bbox": [
+          884,
+          150,
+          932,
+          175
+        ],
+        "confidence": 61.99,
+        "words": [
+          {
+            "text": "ay",
+            "confidence": 61.99,
+            "bbox": [
+              884,
+              150,
+              932,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0020",
+        "type": "marker",
+        "text": "4",
+        "bbox": [
+          1115,
+          151,
+          1143,
+          175
+        ],
+        "confidence": 94.55,
+        "words": [
+          {
+            "text": "4",
+            "confidence": 94.55,
+            "bbox": [
+              1115,
+              151,
+              1143,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0021",
+        "type": "marker",
+        "text": "*",
+        "bbox": [
+          48,
+          152,
+          67,
+          173
+        ],
+        "confidence": 40.88,
+        "words": [
+          {
+            "text": "*",
+            "confidence": 40.88,
+            "bbox": [
+              48,
+              152,
+              67,
+              173
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0022",
+        "type": "marker",
+        "text": "Oy",
+        "bbox": [
+          400,
+          152,
+          448,
+          173
+        ],
+        "confidence": 53.39,
+        "words": [
+          {
+            "text": "Oy",
+            "confidence": 53.39,
+            "bbox": [
+              400,
+              152,
+              448,
+              173
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0023",
+        "type": "marker",
+        "text": "ty",
+        "bbox": [
+          640,
+          152,
+          690,
+          173
+        ],
+        "confidence": 58.9,
+        "words": [
+          {
+            "text": "ty",
+            "confidence": 58.9,
+            "bbox": [
+              640,
+              152,
+              690,
+              173
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0024",
+        "type": "marker",
+        "text": "UL",
+        "bbox": [
+          518,
+          165,
+          546,
+          173
+        ],
+        "confidence": 33.76,
+        "words": [
+          {
+            "text": "UL",
+            "confidence": 33.76,
+            "bbox": [
+              518,
+              165,
+              546,
+              173
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0025",
+        "type": "marker",
+        "text": "Jy",
+        "bbox": [
+          1240,
+          167,
+          1260,
+          175
+        ],
+        "confidence": 4.47,
+        "words": [
+          {
+            "text": "Jy",
+            "confidence": 4.47,
+            "bbox": [
+              1240,
+              167,
+              1260,
+              175
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0026",
+        "type": "paragraph",
+        "text": "Other Apps",
+        "bbox": [
+          2511,
+          189,
+          2629,
+          210
+        ],
+        "confidence": 92.43,
+        "words": [
+          {
+            "text": "Other",
+            "confidence": 93.27,
+            "bbox": [
+              2511,
+              189,
+              2569,
+              206
+            ]
+          },
+          {
+            "text": "Apps",
+            "confidence": 91.59,
+            "bbox": [
+              2577,
+              190,
+              2629,
+              210
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0027",
+        "type": "paragraph",
+        "text": "Select",
+        "bbox": [
+          26,
+          191,
+          90,
+          208
+        ],
+        "confidence": 96.94,
+        "words": [
+          {
+            "text": "Select",
+            "confidence": 96.94,
+            "bbox": [
+              26,
+              191,
+              90,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0028",
+        "type": "paragraph",
+        "text": "Hand",
+        "bbox": [
+          148,
+          191,
+          200,
+          208
+        ],
+        "confidence": 96.07,
+        "words": [
+          {
+            "text": "Hand",
+            "confidence": 96.07,
+            "bbox": [
+              148,
+              191,
+              200,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0029",
+        "type": "paragraph",
+        "text": "Highlight",
+        "bbox": [
+          248,
+          191,
+          340,
+          212
+        ],
+        "confidence": 92.51,
+        "words": [
+          {
+            "text": "Highlight",
+            "confidence": 92.51,
+            "bbox": [
+              248,
+              191,
+              340,
+              212
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0030",
+        "type": "paragraph",
+        "text": "Shapes",
+        "bbox": [
+          374,
+          191,
+          450,
+          212
+        ],
+        "confidence": 91.72,
+        "words": [
+          {
+            "text": "Shapes",
+            "confidence": 91.72,
+            "bbox": [
+              374,
+              191,
+              450,
+              212
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0031",
+        "type": "paragraph",
+        "text": "Convert Signature",
+        "bbox": [
+          614,
+          191,
+          824,
+          212
+        ],
+        "confidence": 93.95,
+        "words": [
+          {
+            "text": "Convert",
+            "confidence": 91.64,
+            "bbox": [
+              614,
+              192,
+              694,
+              208
+            ]
+          },
+          {
+            "text": "Signature",
+            "confidence": 96.26,
+            "bbox": [
+              726,
+              191,
+              824,
+              212
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0032",
+        "type": "paragraph",
+        "text": "Redact",
+        "bbox": [
+          1209,
+          191,
+          1280,
+          208
+        ],
+        "confidence": 92.91,
+        "words": [
+          {
+            "text": "Redact",
+            "confidence": 92.91,
+            "bbox": [
+              1209,
+              191,
+              1280,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0033",
+        "type": "paragraph",
+        "text": "Print",
+        "bbox": [
+          1339,
+          191,
+          1386,
+          208
+        ],
+        "confidence": 96.81,
+        "words": [
+          {
+            "text": "Print",
+            "confidence": 96.81,
+            "bbox": [
+              1339,
+              191,
+              1386,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0034",
+        "type": "paragraph",
+        "text": "PDFgear for mobile",
+        "bbox": [
+          2658,
+          191,
+          2857,
+          212
+        ],
+        "confidence": 94.44,
+        "words": [
+          {
+            "text": "PDFgear",
+            "confidence": 91.23,
+            "bbox": [
+              2658,
+              192,
+              2746,
+              212
+            ]
+          },
+          {
+            "text": "for",
+            "confidence": 96.43,
+            "bbox": [
+              2752,
+              191,
+              2781,
+              208
+            ]
+          },
+          {
+            "text": "mobile",
+            "confidence": 95.67,
+            "bbox": [
+              2789,
+              191,
+              2857,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0035",
+        "type": "paragraph",
+        "text": "Text",
+        "bbox": [
+          511,
+          192,
+          553,
+          208
+        ],
+        "confidence": 96.54,
+        "words": [
+          {
+            "text": "Text",
+            "confidence": 96.54,
+            "bbox": [
+              511,
+              192,
+              553,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0036",
+        "type": "paragraph",
+        "text": "Stamp",
+        "bbox": [
+          863,
+          192,
+          928,
+          212
+        ],
+        "confidence": 96.18,
+        "words": [
+          {
+            "text": "Stamp",
+            "confidence": 96.18,
+            "bbox": [
+              863,
+              192,
+              928,
+              212
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0037",
+        "type": "marker",
+        "text": "OCR",
+        "bbox": [
+          989,
+          192,
+          1034,
+          208
+        ],
+        "confidence": 94.83,
+        "words": [
+          {
+            "text": "OCR",
+            "confidence": 94.83,
+            "bbox": [
+              989,
+              192,
+              1034,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0038",
+        "type": "paragraph",
+        "text": "Crop",
+        "bbox": [
+          1104,
+          192,
+          1152,
+          212
+        ],
+        "confidence": 96.76,
+        "words": [
+          {
+            "text": "Crop",
+            "confidence": 96.76,
+            "bbox": [
+              1104,
+              192,
+              1152,
+              212
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0039",
+        "type": "date_line",
+        "text": "Kuzmitkaia Maia, 14.05.2004 | Comanda nr. 2056398 | Recoltat: 02.04.2026 10:37 | Data raportului: 02.04.2026",
+        "bbox": [
+          1239,
+          230,
+          1920,
+          244
+        ],
+        "confidence": 93.84,
+        "words": [
+          {
+            "text": "Kuzmitkaia",
+            "confidence": 91.12,
+            "bbox": [
+              1239,
+              230,
+              1306,
+              240
+            ]
+          },
+          {
+            "text": "Maia,",
+            "confidence": 90.93,
+            "bbox": [
+              1312,
+              230,
+              1344,
+              242
+            ]
+          },
+          {
+            "text": "14.05.2004",
+            "confidence": 94.2,
+            "bbox": [
+              1350,
+              230,
+              1416,
+              240
+            ]
+          },
+          {
+            "text": "|",
+            "confidence": 95.14,
+            "bbox": [
+              1421,
+              230,
+              1422,
+              244
+            ]
+          },
+          {
+            "text": "Comanda",
+            "confidence": 94.49,
+            "bbox": [
+              1428,
+              230,
+              1487,
+              240
+            ]
+          },
+          {
+            "text": "nr.",
+            "confidence": 96.27,
+            "bbox": [
+              1493,
+              233,
+              1507,
+              240
+            ]
+          },
+          {
+            "text": "2056398",
+            "confidence": 96.24,
+            "bbox": [
+              1512,
+              230,
+              1565,
+              240
+            ]
+          },
+          {
+            "text": "|",
+            "confidence": 93.2,
+            "bbox": [
+              1570,
+              230,
+              1572,
+              243
+            ]
+          },
+          {
+            "text": "Recoltat:",
+            "confidence": 83.41,
+            "bbox": [
+              1578,
+              230,
+              1630,
+              240
+            ]
+          },
+          {
+            "text": "02.04.2026",
+            "confidence": 96.17,
+            "bbox": [
+              1635,
+              230,
+              1702,
+              240
+            ]
+          },
+          {
+            "text": "10:37",
+            "confidence": 96.56,
+            "bbox": [
+              1707,
+              230,
+              1739,
+              240
+            ]
+          },
+          {
+            "text": "|",
+            "confidence": 96.18,
+            "bbox": [
+              1745,
+              230,
+              1746,
+              244
+            ]
+          },
+          {
+            "text": "Data",
+            "confidence": 93.55,
+            "bbox": [
+              1752,
+              230,
+              1780,
+              240
+            ]
+          },
+          {
+            "text": "raportului:",
+            "confidence": 93.55,
+            "bbox": [
+              1785,
+              230,
+              1849,
+              243
+            ]
+          },
+          {
+            "text": "02.04.2026",
+            "confidence": 96.61,
+            "bbox": [
+              1853,
+              230,
+              1920,
+              240
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0040",
+        "type": "paragraph",
+        "text": "Pagina 3 din 4",
+        "bbox": [
+          2116,
+          230,
+          2204,
+          244
+        ],
+        "confidence": 94.74,
+        "words": [
+          {
+            "text": "Pagina",
+            "confidence": 96.75,
+            "bbox": [
+              2116,
+              230,
+              2157,
+              244
+            ]
+          },
+          {
+            "text": "3",
+            "confidence": 96.52,
+            "bbox": [
+              2162,
+              231,
+              2168,
+              241
+            ]
+          },
+          {
+            "text": "din",
+            "confidence": 92.85,
+            "bbox": [
+              2173,
+              230,
+              2192,
+              241
+            ]
+          },
+          {
+            "text": "4",
+            "confidence": 92.85,
+            "bbox": [
+              2197,
+              231,
+              2204,
+              241
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0041",
+        "type": "paragraph",
+        "text": "Thumbnails",
+        "bbox": [
+          85,
+          241,
+          204,
+          258
+        ],
+        "confidence": 96.3,
+        "words": [
+          {
+            "text": "Thumbnails",
+            "confidence": 96.3,
+            "bbox": [
+              85,
+              241,
+              204,
+              258
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0042",
+        "type": "marker",
+        "text": "x",
+        "bbox": [
+          530,
+          244,
+          546,
+          260
+        ],
+        "confidence": 89.01,
+        "words": [
+          {
+            "text": "x",
+            "confidence": 89.01,
+            "bbox": [
+              530,
+              244,
+              546,
+              260
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0043",
+        "type": "marker",
+        "text": "&",
+        "bbox": [
+          20,
+          256,
+          43,
+          284
+        ],
+        "confidence": 69.51,
+        "words": [
+          {
+            "text": "&",
+            "confidence": 69.51,
+            "bbox": [
+              20,
+              256,
+              43,
+              284
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0044",
+        "type": "paragraph",
+        "text": "Sena ИМЕ",
+        "bbox": [
+          176,
+          274,
+          327,
+          287
+        ],
+        "confidence": 10.79,
+        "words": [
+          {
+            "text": "Sena",
+            "confidence": 0.0,
+            "bbox": [
+              176,
+              274,
+              270,
+              287
+            ]
+          },
+          {
+            "text": "ИМЕ",
+            "confidence": 21.59,
+            "bbox": [
+              286,
+              282,
+              327,
+              286
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0045",
+        "type": "paragraph",
+        "text": "maree",
+        "bbox": [
+          304,
+          274,
+          345,
+          278
+        ],
+        "confidence": 39.67,
+        "words": [
+          {
+            "text": "maree",
+            "confidence": 39.67,
+            "bbox": [
+              304,
+              274,
+              345,
+              278
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0046",
+        "type": "marker",
+        "text": "ыы",
+        "bbox": [
+          415,
+          282,
+          431,
+          286
+        ],
+        "confidence": 60.03,
+        "words": [
+          {
+            "text": "ыы",
+            "confidence": 60.03,
+            "bbox": [
+              415,
+              282,
+              431,
+              286
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0047",
+        "type": "marker",
+        "text": "A",
+        "bbox": [
+          22,
+          322,
+          41,
+          352
+        ],
+        "confidence": 48.13,
+        "words": [
+          {
+            "text": "A",
+            "confidence": 48.13,
+            "bbox": [
+              22,
+              322,
+              41,
+              352
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0048",
+        "type": "paragraph",
+        "text": "ALFA",
+        "bbox": [
+          1247,
+          378,
+          1453,
+          429
+        ],
+        "confidence": 95.26,
+        "words": [
+          {
+            "text": "ALFA",
+            "confidence": 95.26,
+            "bbox": [
+              1247,
+              378,
+              1453,
+              429
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0049",
+        "type": "paragraph",
+        "text": "Republica Moldova, MD-2021, mun. Chișinău",
+        "bbox": [
+          1539,
+          384,
+          1850,
+          412
+        ],
+        "confidence": 90.86,
+        "words": [
+          {
+            "text": "Republica",
+            "confidence": 96.05,
+            "bbox": [
+              1539,
+              384,
+              1608,
+              412
+            ]
+          },
+          {
+            "text": "Moldova,",
+            "confidence": 93.13,
+            "bbox": [
+              1614,
+              384,
+              1675,
+              412
+            ]
+          },
+          {
+            "text": "MD-2021,",
+            "confidence": 84.28,
+            "bbox": [
+              1686,
+              392,
+              1749,
+              403
+            ]
+          },
+          {
+            "text": "mun.",
+            "confidence": 94.75,
+            "bbox": [
+              1756,
+              384,
+              1781,
+              412
+            ]
+          },
+          {
+            "text": "Chișinău",
+            "confidence": 86.08,
+            "bbox": [
+              1790,
+              392,
+              1850,
+              405
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0050",
+        "type": "marker",
+        "text": "Sa)",
+        "bbox": [
+          16,
+          394,
+          48,
+          419
+        ],
+        "confidence": 46.99,
+        "words": [
+          {
+            "text": "Sa)",
+            "confidence": 46.99,
+            "bbox": [
+              16,
+              394,
+              48,
+              419
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0051",
+        "type": "paragraph",
+        "text": "MOLDAC",
+        "bbox": [
+          2112,
+          401,
+          2166,
+          414
+        ],
+        "confidence": 91.47,
+        "words": [
+          {
+            "text": "MOLDAC",
+            "confidence": 91.47,
+            "bbox": [
+              2112,
+              401,
+              2166,
+              414
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0052",
+        "type": "paragraph",
+        "text": "str. Mitr. Gurie Grosu, 17, alfalab.md, 022 82 44 44",
+        "bbox": [
+          1539,
+          409,
+          1850,
+          419
+        ],
+        "confidence": 84.6,
+        "words": [
+          {
+            "text": "str.",
+            "confidence": 92.7,
+            "bbox": [
+              1539,
+              410,
+              1555,
+              419
+            ]
+          },
+          {
+            "text": "Mitr.",
+            "confidence": 91.12,
+            "bbox": [
+              1562,
+              409,
+              1586,
+              419
+            ]
+          },
+          {
+            "text": "Gurie",
+            "confidence": 93.3,
+            "bbox": [
+              1593,
+              409,
+              1625,
+              419
+            ]
+          },
+          {
+            "text": "Grosu,",
+            "confidence": 94.96,
+            "bbox": [
+              1629,
+              409,
+              1665,
+              419
+            ]
+          },
+          {
+            "text": "17,",
+            "confidence": 88.29,
+            "bbox": [
+              1674,
+              409,
+              1688,
+              419
+            ]
+          },
+          {
+            "text": "alfalab.md,",
+            "confidence": 55.17,
+            "bbox": [
+              1696,
+              409,
+              1761,
+              419
+            ]
+          },
+          {
+            "text": "022",
+            "confidence": 55.17,
+            "bbox": [
+              1768,
+              409,
+              1791,
+              419
+            ]
+          },
+          {
+            "text": "82",
+            "confidence": 86.97,
+            "bbox": [
+              1796,
+              409,
+              1811,
+              419
+            ]
+          },
+          {
+            "text": "44",
+            "confidence": 94.26,
+            "bbox": [
+              1816,
+              409,
+              1831,
+              419
+            ]
+          },
+          {
+            "text": "44",
+            "confidence": 94.07,
+            "bbox": [
+              1835,
+              409,
+              1850,
+              419
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0053",
+        "type": "heading",
+        "text": "REPUBLICA MOLDOVA",
+        "bbox": [
+          2086,
+          418,
+          2170,
+          446
+        ],
+        "confidence": 34.67,
+        "words": [
+          {
+            "text": "REPUBLICA",
+            "confidence": 55.49,
+            "bbox": [
+              2086,
+              418,
+              2129,
+              446
+            ]
+          },
+          {
+            "text": "MOLDOVA",
+            "confidence": 13.86,
+            "bbox": [
+              2133,
+              418,
+              2170,
+              446
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0054",
+        "type": "paragraph",
+        "text": "diagnostica",
+        "bbox": [
+          1248,
+          427,
+          1449,
+          451
+        ],
+        "confidence": 91.13,
+        "words": [
+          {
+            "text": "diagnostica",
+            "confidence": 91.13,
+            "bbox": [
+              1248,
+              427,
+              1449,
+              451
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0055",
+        "type": "marker",
+        "text": "LE)",
+        "bbox": [
+          2095,
+          451,
+          2138,
+          471
+        ],
+        "confidence": 52.67,
+        "words": [
+          {
+            "text": "LE)",
+            "confidence": 52.67,
+            "bbox": [
+              2095,
+              451,
+              2138,
+              471
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0056",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          22,
+          469,
+          33,
+          471
+        ],
+        "confidence": 89.61,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 89.61,
+            "bbox": [
+              22,
+              469,
+              33,
+              471
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0057",
+        "type": "marker",
+        "text": "R",
+        "bbox": [
+          28,
+          470,
+          45,
+          487
+        ],
+        "confidence": 84.73,
+        "words": [
+          {
+            "text": "R",
+            "confidence": 84.73,
+            "bbox": [
+              28,
+              470,
+              45,
+              487
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0058",
+        "type": "marker",
+        "text": "E",
+        "bbox": [
+          2086,
+          500,
+          2102,
+          505
+        ],
+        "confidence": 48.37,
+        "words": [
+          {
+            "text": "E",
+            "confidence": 48.37,
+            "bbox": [
+              2086,
+              500,
+              2102,
+              505
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0059",
+        "type": "heading",
+        "text": "RAPORT DE EXAMINARE MEDICALĂ",
+        "bbox": [
+          1451,
+          504,
+          1892,
+          521
+        ],
+        "confidence": 95.96,
+        "words": [
+          {
+            "text": "RAPORT",
+            "confidence": 96.41,
+            "bbox": [
+              1451,
+              508,
+              1548,
+              521
+            ]
+          },
+          {
+            "text": "DE",
+            "confidence": 95.89,
+            "bbox": [
+              1564,
+              508,
+              1591,
+              521
+            ]
+          },
+          {
+            "text": "EXAMINARE",
+            "confidence": 95.6,
+            "bbox": [
+              1608,
+              508,
+              1751,
+              521
+            ]
+          },
+          {
+            "text": "MEDICALĂ",
+            "confidence": 95.95,
+            "bbox": [
+              1767,
+              504,
+              1892,
+              521
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0060",
+        "type": "paragraph",
+        "text": "FINAL",
+        "bbox": [
+          1909,
+          508,
+          1978,
+          521
+        ],
+        "confidence": 96.14,
+        "words": [
+          {
+            "text": "FINAL",
+            "confidence": 96.14,
+            "bbox": [
+              1909,
+              508,
+              1978,
+              521
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0061",
+        "type": "paragraph",
+        "text": "Forza",
+        "bbox": [
+          2074,
+          514,
+          2101,
+          520
+        ],
+        "confidence": 7.88,
+        "words": [
+          {
+            "text": "Forza",
+            "confidence": 7.88,
+            "bbox": [
+              2074,
+              514,
+              2101,
+              520
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0062",
+        "type": "paragraph",
+        "text": "cana",
+        "bbox": [
+          2121,
+          514,
+          2140,
+          520
+        ],
+        "confidence": 16.69,
+        "words": [
+          {
+            "text": "cana",
+            "confidence": 16.69,
+            "bbox": [
+              2121,
+              514,
+              2140,
+              520
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0063",
+        "type": "marker",
+        "text": "z",
+        "bbox": [
+          2175,
+          514,
+          2184,
+          520
+        ],
+        "confidence": 56.91,
+        "words": [
+          {
+            "text": "z",
+            "confidence": 56.91,
+            "bbox": [
+              2175,
+              514,
+              2184,
+              520
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0064",
+        "type": "paragraph",
+        "text": "Bazofile (numărul absolut)",
+        "bbox": [
+          1243,
+          566,
+          1443,
+          583
+        ],
+        "confidence": 95.03,
+        "words": [
+          {
+            "text": "Bazofile",
+            "confidence": 92.05,
+            "bbox": [
+              1243,
+              566,
+              1302,
+              580
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.4,
+            "bbox": [
+              1308,
+              566,
+              1376,
+              583
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.65,
+            "bbox": [
+              1382,
+              566,
+              1443,
+              583
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0065",
+        "type": "paragraph",
+        "text": "X10A3/uL",
+        "bbox": [
+          2087,
+          566,
+          2161,
+          584
+        ],
+        "confidence": 39.93,
+        "words": [
+          {
+            "text": "X10A3/uL",
+            "confidence": 39.93,
+            "bbox": [
+              2087,
+              566,
+              2161,
+              584
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0066",
+        "type": "paragraph",
+        "text": "BASO (#)",
+        "bbox": [
+          1687,
+          567,
+          1755,
+          583
+        ],
+        "confidence": 91.47,
+        "words": [
+          {
+            "text": "BASO",
+            "confidence": 92.88,
+            "bbox": [
+              1687,
+              567,
+              1730,
+              580
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 90.05,
+            "bbox": [
+              1736,
+              567,
+              1755,
+              583
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0067",
+        "type": "paragraph",
+        "text": "0,02",
+        "bbox": [
+          1829,
+          567,
+          1860,
+          583
+        ],
+        "confidence": 92.27,
+        "words": [
+          {
+            "text": "0,02",
+            "confidence": 92.27,
+            "bbox": [
+              1829,
+              567,
+              1860,
+              583
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0068",
+        "type": "paragraph",
+        "text": "0—0,2",
+        "bbox": [
+          1966,
+          567,
+          2025,
+          582
+        ],
+        "confidence": 87.46,
+        "words": [
+          {
+            "text": "0—0,2",
+            "confidence": 87.46,
+            "bbox": [
+              1966,
+              567,
+              2025,
+              582
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0069",
+        "type": "paragraph",
+        "text": "Bazofile (procentul)",
+        "bbox": [
+          1243,
+          596,
+          1392,
+          614
+        ],
+        "confidence": 93.75,
+        "words": [
+          {
+            "text": "Bazofile",
+            "confidence": 92.68,
+            "bbox": [
+              1243,
+              596,
+              1302,
+              610
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 94.82,
+            "bbox": [
+              1308,
+              596,
+              1392,
+              614
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0070",
+        "type": "paragraph",
+        "text": "BASO (%)",
+        "bbox": [
+          1687,
+          597,
+          1759,
+          613
+        ],
+        "confidence": 92.17,
+        "words": [
+          {
+            "text": "BASO",
+            "confidence": 93.1,
+            "bbox": [
+              1687,
+              597,
+              1730,
+              610
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 91.24,
+            "bbox": [
+              1736,
+              597,
+              1759,
+              613
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0071",
+        "type": "marker",
+        "text": "0,2",
+        "bbox": [
+          1833,
+          597,
+          1856,
+          612
+        ],
+        "confidence": 93.11,
+        "words": [
+          {
+            "text": "0,2",
+            "confidence": 93.11,
+            "bbox": [
+              1833,
+              597,
+              1856,
+              612
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0072",
+        "type": "marker",
+        "text": "0—2",
+        "bbox": [
+          1973,
+          597,
+          2018,
+          610
+        ],
+        "confidence": 94.7,
+        "words": [
+          {
+            "text": "0—2",
+            "confidence": 94.7,
+            "bbox": [
+              1973,
+              597,
+              2018,
+              610
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0073",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          2117,
+          597,
+          2131,
+          610
+        ],
+        "confidence": 93.17,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 93.17,
+            "bbox": [
+              2117,
+              597,
+              2131,
+              610
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0074",
+        "type": "paragraph",
+        "text": "Granulocite imature (numărul)",
+        "bbox": [
+          1242,
+          626,
+          1475,
+          643
+        ],
+        "confidence": 95.19,
+        "words": [
+          {
+            "text": "Granulocite",
+            "confidence": 92.37,
+            "bbox": [
+              1242,
+              626,
+              1331,
+              640
+            ]
+          },
+          {
+            "text": "imature",
+            "confidence": 96.76,
+            "bbox": [
+              1337,
+              626,
+              1396,
+              640
+            ]
+          },
+          {
+            "text": "(numărul)",
+            "confidence": 96.45,
+            "bbox": [
+              1402,
+              626,
+              1475,
+              643
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0075",
+        "type": "paragraph",
+        "text": "x1043/pL",
+        "bbox": [
+          2087,
+          626,
+          2161,
+          644
+        ],
+        "confidence": 34.48,
+        "words": [
+          {
+            "text": "x1043/pL",
+            "confidence": 34.48,
+            "bbox": [
+              2087,
+              626,
+              2161,
+              644
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0076",
+        "type": "paragraph",
+        "text": "IG (#)",
+        "bbox": [
+          1687,
+          627,
+          1728,
+          643
+        ],
+        "confidence": 78.02,
+        "words": [
+          {
+            "text": "IG",
+            "confidence": 86.85,
+            "bbox": [
+              1687,
+              627,
+              1702,
+              640
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 69.18,
+            "bbox": [
+              1708,
+              627,
+              1728,
+              643
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0077",
+        "type": "paragraph",
+        "text": "0,01",
+        "bbox": [
+          1829,
+          627,
+          1858,
+          643
+        ],
+        "confidence": 95.88,
+        "words": [
+          {
+            "text": "0,01",
+            "confidence": 95.88,
+            "bbox": [
+              1829,
+              627,
+              1858,
+              643
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0078",
+        "type": "paragraph",
+        "text": "0— 0,06",
+        "bbox": [
+          1961,
+          627,
+          2029,
+          643
+        ],
+        "confidence": 68.14,
+        "words": [
+          {
+            "text": "0—",
+            "confidence": 87.78,
+            "bbox": [
+              1961,
+              627,
+              1993,
+              640
+            ]
+          },
+          {
+            "text": "0,06",
+            "confidence": 48.49,
+            "bbox": [
+              1998,
+              627,
+              2029,
+              643
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0079",
+        "type": "marker",
+        "text": "pe",
+        "bbox": [
+          414,
+          639,
+          441,
+          652
+        ],
+        "confidence": 44.41,
+        "words": [
+          {
+            "text": "pe",
+            "confidence": 44.41,
+            "bbox": [
+              414,
+              639,
+              441,
+              652
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0080",
+        "type": "paragraph",
+        "text": "ALFA",
+        "bbox": [
+          180,
+          640,
+          236,
+          651
+        ],
+        "confidence": 94.84,
+        "words": [
+          {
+            "text": "ALFA",
+            "confidence": 94.84,
+            "bbox": [
+              180,
+              640,
+              236,
+              651
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0081",
+        "type": "marker",
+        "text": "oe",
+        "bbox": [
+          261,
+          652,
+          349,
+          658
+        ],
+        "confidence": 35.03,
+        "words": [
+          {
+            "text": "oe",
+            "confidence": 35.03,
+            "bbox": [
+              261,
+              652,
+              349,
+              658
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0082",
+        "type": "marker",
+        "text": "274",
+        "bbox": [
+          412,
+          655,
+          440,
+          669
+        ],
+        "confidence": 64.01,
+        "words": [
+          {
+            "text": "274",
+            "confidence": 64.01,
+            "bbox": [
+              412,
+              655,
+              440,
+              669
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0083",
+        "type": "paragraph",
+        "text": "Granulocite imature (procentul)",
+        "bbox": [
+          1242,
+          656,
+          1485,
+          674
+        ],
+        "confidence": 95.17,
+        "words": [
+          {
+            "text": "Granulocite",
+            "confidence": 92.49,
+            "bbox": [
+              1242,
+              656,
+              1331,
+              670
+            ]
+          },
+          {
+            "text": "imature",
+            "confidence": 96.65,
+            "bbox": [
+              1337,
+              656,
+              1396,
+              670
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 96.36,
+            "bbox": [
+              1402,
+              656,
+              1485,
+              674
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0084",
+        "type": "paragraph",
+        "text": "0,10",
+        "bbox": [
+          1829,
+          656,
+          1860,
+          673
+        ],
+        "confidence": 95.48,
+        "words": [
+          {
+            "text": "0,10",
+            "confidence": 95.48,
+            "bbox": [
+              1829,
+              656,
+              1860,
+              673
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0085",
+        "type": "paragraph",
+        "text": "1G (%)",
+        "bbox": [
+          1687,
+          657,
+          1732,
+          673
+        ],
+        "confidence": 91.17,
+        "words": [
+          {
+            "text": "1G",
+            "confidence": 92.7,
+            "bbox": [
+              1687,
+              657,
+              1702,
+              670
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 89.64,
+            "bbox": [
+              1708,
+              657,
+              1732,
+              673
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0086",
+        "type": "paragraph",
+        "text": "0—0,6",
+        "bbox": [
+          1966,
+          657,
+          2025,
+          672
+        ],
+        "confidence": 87.56,
+        "words": [
+          {
+            "text": "0—0,6",
+            "confidence": 87.56,
+            "bbox": [
+              1966,
+              657,
+              2025,
+              672
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0087",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          2117,
+          657,
+          2131,
+          670
+        ],
+        "confidence": 92.26,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.26,
+            "bbox": [
+              2117,
+              657,
+              2131,
+              670
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0088",
+        "type": "paragraph",
+        "text": "Viteza de sedimentare a hematiilor",
+        "bbox": [
+          1242,
+          690,
+          1512,
+          704
+        ],
+        "confidence": 95.47,
+        "words": [
+          {
+            "text": "Viteza",
+            "confidence": 96.8,
+            "bbox": [
+              1242,
+              690,
+              1289,
+              704
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.87,
+            "bbox": [
+              1295,
+              690,
+              1314,
+              704
+            ]
+          },
+          {
+            "text": "sedimentare",
+            "confidence": 96.5,
+            "bbox": [
+              1320,
+              690,
+              1415,
+              704
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 96.5,
+            "bbox": [
+              1421,
+              694,
+              1428,
+              704
+            ]
+          },
+          {
+            "text": "hematiilor",
+            "confidence": 90.69,
+            "bbox": [
+              1435,
+              690,
+              1512,
+              704
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0089",
+        "type": "paragraph",
+        "text": "mm/oră",
+        "bbox": [
+          2095,
+          690,
+          2154,
+          706
+        ],
+        "confidence": 87.25,
+        "words": [
+          {
+            "text": "mm/oră",
+            "confidence": 87.25,
+            "bbox": [
+              2095,
+              690,
+              2154,
+              706
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0090",
+        "type": "marker",
+        "text": "VSH",
+        "bbox": [
+          1686,
+          691,
+          1718,
+          704
+        ],
+        "confidence": 91.81,
+        "words": [
+          {
+            "text": "VSH",
+            "confidence": 91.81,
+            "bbox": [
+              1686,
+              691,
+              1718,
+              704
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0091",
+        "type": "marker",
+        "text": "5",
+        "bbox": [
+          1841,
+          691,
+          1849,
+          704
+        ],
+        "confidence": 96.91,
+        "words": [
+          {
+            "text": "5",
+            "confidence": 96.91,
+            "bbox": [
+              1841,
+              691,
+              1849,
+              704
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0092",
+        "type": "paragraph",
+        "text": "0—20",
+        "bbox": [
+          1969,
+          691,
+          2024,
+          704
+        ],
+        "confidence": 89.86,
+        "words": [
+          {
+            "text": "0—20",
+            "confidence": 89.86,
+            "bbox": [
+              1969,
+              691,
+              2024,
+              704
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0093",
+        "type": "field_line",
+        "text": "Sânge integral. Metoda: Westergren.",
+        "bbox": [
+          1243,
+          713,
+          1472,
+          729
+        ],
+        "confidence": 91.53,
+        "words": [
+          {
+            "text": "Sânge",
+            "confidence": 96.0,
+            "bbox": [
+              1243,
+              713,
+              1281,
+              729
+            ]
+          },
+          {
+            "text": "integral.",
+            "confidence": 96.0,
+            "bbox": [
+              1286,
+              713,
+              1335,
+              729
+            ]
+          },
+          {
+            "text": "Metoda:",
+            "confidence": 87.49,
+            "bbox": [
+              1341,
+              713,
+              1392,
+              725
+            ]
+          },
+          {
+            "text": "Westergren.",
+            "confidence": 86.63,
+            "bbox": [
+              1396,
+              714,
+              1472,
+              729
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0094",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          260,
+          743,
+          270,
+          747
+        ],
+        "confidence": 93.39,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 93.39,
+            "bbox": [
+              260,
+              743,
+              270,
+              747
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0095",
+        "type": "marker",
+        "text": "os",
+        "bbox": [
+          336,
+          743,
+          359,
+          747
+        ],
+        "confidence": 46.49,
+        "words": [
+          {
+            "text": "os",
+            "confidence": 46.49,
+            "bbox": [
+              336,
+              743,
+              359,
+              747
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0096",
+        "type": "paragraph",
+        "text": "Analizele marcate cu * nu sunt acreditate de MOLDAC.",
+        "bbox": [
+          1233,
+          743,
+          1588,
+          755
+        ],
+        "confidence": 93.42,
+        "words": [
+          {
+            "text": "Analizele",
+            "confidence": 94.46,
+            "bbox": [
+              1233,
+              743,
+              1292,
+              755
+            ]
+          },
+          {
+            "text": "marcate",
+            "confidence": 96.81,
+            "bbox": [
+              1297,
+              745,
+              1349,
+              755
+            ]
+          },
+          {
+            "text": "cu",
+            "confidence": 93.29,
+            "bbox": [
+              1354,
+              747,
+              1368,
+              755
+            ]
+          },
+          {
+            "text": "*",
+            "confidence": 92.88,
+            "bbox": [
+              1372,
+              744,
+              1378,
+              750
+            ]
+          },
+          {
+            "text": "nu",
+            "confidence": 95.25,
+            "bbox": [
+              1383,
+              747,
+              1398,
+              755
+            ]
+          },
+          {
+            "text": "sunt",
+            "confidence": 93.05,
+            "bbox": [
+              1403,
+              745,
+              1430,
+              755
+            ]
+          },
+          {
+            "text": "acreditate",
+            "confidence": 93.83,
+            "bbox": [
+              1435,
+              743,
+              1499,
+              755
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 93.26,
+            "bbox": [
+              1504,
+              743,
+              1520,
+              755
+            ]
+          },
+          {
+            "text": "MOLDAC.",
+            "confidence": 87.93,
+            "bbox": [
+              1525,
+              744,
+              1588,
+              755
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0097",
+        "type": "marker",
+        "text": "тии",
+        "bbox": [
+          228,
+          766,
+          292,
+          772
+        ],
+        "confidence": 19.42,
+        "words": [
+          {
+            "text": "тии",
+            "confidence": 19.42,
+            "bbox": [
+              228,
+              766,
+              292,
+              772
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0098",
+        "type": "marker",
+        "text": "—",
+        "bbox": [
+          176,
+          767,
+          200,
+          774
+        ],
+        "confidence": 56.03,
+        "words": [
+          {
+            "text": "—",
+            "confidence": 56.03,
+            "bbox": [
+              176,
+              767,
+              200,
+              774
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0099",
+        "type": "paragraph",
+        "text": "Rezultatele analizelor marcate си simbolul {!} sunt valori critice si necesita atentie imediata a pacientului si а medicului acestuia.",
+        "bbox": [
+          1234,
+          769,
+          2068,
+          785
+        ],
+        "confidence": 93.9,
+        "words": [
+          {
+            "text": "Rezultatele",
+            "confidence": 94.43,
+            "bbox": [
+              1234,
+              769,
+              1305,
+              781
+            ]
+          },
+          {
+            "text": "analizelor",
+            "confidence": 90.8,
+            "bbox": [
+              1310,
+              769,
+              1375,
+              781
+            ]
+          },
+          {
+            "text": "marcate",
+            "confidence": 96.33,
+            "bbox": [
+              1378,
+              771,
+              1432,
+              781
+            ]
+          },
+          {
+            "text": "си",
+            "confidence": 93.89,
+            "bbox": [
+              1436,
+              773,
+              1451,
+              781
+            ]
+          },
+          {
+            "text": "simbolul",
+            "confidence": 93.29,
+            "bbox": [
+              1455,
+              769,
+              1511,
+              781
+            ]
+          },
+          {
+            "text": "{!}",
+            "confidence": 72.95,
+            "bbox": [
+              1515,
+              770,
+              1528,
+              783
+            ]
+          },
+          {
+            "text": "sunt",
+            "confidence": 92.93,
+            "bbox": [
+              1533,
+              771,
+              1561,
+              781
+            ]
+          },
+          {
+            "text": "valori",
+            "confidence": 96.91,
+            "bbox": [
+              1565,
+              769,
+              1601,
+              781
+            ]
+          },
+          {
+            "text": "critice",
+            "confidence": 96.38,
+            "bbox": [
+              1605,
+              770,
+              1644,
+              781
+            ]
+          },
+          {
+            "text": "si",
+            "confidence": 96.73,
+            "bbox": [
+              1648,
+              769,
+              1659,
+              781
+            ]
+          },
+          {
+            "text": "necesita",
+            "confidence": 93.28,
+            "bbox": [
+              1663,
+              769,
+              1715,
+              781
+            ]
+          },
+          {
+            "text": "atentie",
+            "confidence": 96.54,
+            "bbox": [
+              1720,
+              769,
+              1764,
+              781
+            ]
+          },
+          {
+            "text": "imediata",
+            "confidence": 95.95,
+            "bbox": [
+              1769,
+              769,
+              1826,
+              781
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 95.96,
+            "bbox": [
+              1830,
+              773,
+              1838,
+              781
+            ]
+          },
+          {
+            "text": "pacientului",
+            "confidence": 96.41,
+            "bbox": [
+              1841,
+              769,
+              1914,
+              785
+            ]
+          },
+          {
+            "text": "si",
+            "confidence": 95.12,
+            "bbox": [
+              1918,
+              769,
+              1929,
+              781
+            ]
+          },
+          {
+            "text": "а",
+            "confidence": 92.7,
+            "bbox": [
+              1933,
+              773,
+              1941,
+              781
+            ]
+          },
+          {
+            "text": "medicului",
+            "confidence": 96.93,
+            "bbox": [
+              1945,
+              769,
+              2009,
+              781
+            ]
+          },
+          {
+            "text": "acestuia.",
+            "confidence": 96.63,
+            "bbox": [
+              2013,
+              770,
+              2068,
+              781
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0100",
+        "type": "paragraph",
+        "text": "Valorile de referință corespund sexului si vârstei. Rezultatele investigaţiilor de laborator nu reprezintă diagnosticul clinic.",
+        "bbox": [
+          1235,
+          801,
+          2014,
+          817
+        ],
+        "confidence": 89.59,
+        "words": [
+          {
+            "text": "Valorile",
+            "confidence": 95.58,
+            "bbox": [
+              1235,
+              801,
+              1284,
+              813
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.77,
+            "bbox": [
+              1289,
+              801,
+              1304,
+              813
+            ]
+          },
+          {
+            "text": "referință",
+            "confidence": 78.34,
+            "bbox": [
+              1308,
+              801,
+              1363,
+              816
+            ]
+          },
+          {
+            "text": "corespund",
+            "confidence": 94.94,
+            "bbox": [
+              1368,
+              801,
+              1434,
+              817
+            ]
+          },
+          {
+            "text": "sexului",
+            "confidence": 90.27,
+            "bbox": [
+              1438,
+              801,
+              1483,
+              813
+            ]
+          },
+          {
+            "text": "si",
+            "confidence": 75.14,
+            "bbox": [
+              1486,
+              802,
+              1497,
+              816
+            ]
+          },
+          {
+            "text": "vârstei.",
+            "confidence": 90.81,
+            "bbox": [
+              1502,
+              801,
+              1546,
+              813
+            ]
+          },
+          {
+            "text": "Rezultatele",
+            "confidence": 86.86,
+            "bbox": [
+              1553,
+              801,
+              1624,
+              813
+            ]
+          },
+          {
+            "text": "investigaţiilor",
+            "confidence": 82.3,
+            "bbox": [
+              1629,
+              801,
+              1718,
+              817
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 92.52,
+            "bbox": [
+              1721,
+              801,
+              1736,
+              813
+            ]
+          },
+          {
+            "text": "laborator",
+            "confidence": 91.13,
+            "bbox": [
+              1741,
+              801,
+              1802,
+              813
+            ]
+          },
+          {
+            "text": "nu",
+            "confidence": 93.31,
+            "bbox": [
+              1805,
+              805,
+              1821,
+              813
+            ]
+          },
+          {
+            "text": "reprezintă",
+            "confidence": 92.23,
+            "bbox": [
+              1826,
+              802,
+              1891,
+              817
+            ]
+          },
+          {
+            "text": "diagnosticul",
+            "confidence": 86.99,
+            "bbox": [
+              1895,
+              801,
+              1974,
+              817
+            ]
+          },
+          {
+            "text": "clinic.",
+            "confidence": 96.63,
+            "bbox": [
+              1978,
+              801,
+              2014,
+              813
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0101",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          303,
+          807,
+          312,
+          812
+        ],
+        "confidence": 43.45,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 43.45,
+            "bbox": [
+              303,
+              807,
+              312,
+              812
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0102",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          342,
+          807,
+          353,
+          812
+        ],
+        "confidence": 28.1,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 28.1,
+            "bbox": [
+              342,
+              807,
+              353,
+              812
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0103",
+        "type": "paragraph",
+        "text": "Pentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultaţi medicul Dvs. curant.",
+        "bbox": [
+          1234,
+          822,
+          1990,
+          838
+        ],
+        "confidence": 91.86,
+        "words": [
+          {
+            "text": "Pentru",
+            "confidence": 96.39,
+            "bbox": [
+              1234,
+              823,
+              1276,
+              834
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 96.34,
+            "bbox": [
+              1281,
+              826,
+              1289,
+              834
+            ]
+          },
+          {
+            "text": "interpreta",
+            "confidence": 94.79,
+            "bbox": [
+              1293,
+              822,
+              1357,
+              838
+            ]
+          },
+          {
+            "text": "datele",
+            "confidence": 94.79,
+            "bbox": [
+              1361,
+              822,
+              1400,
+              834
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.77,
+            "bbox": [
+              1405,
+              822,
+              1420,
+              834
+            ]
+          },
+          {
+            "text": "laborator",
+            "confidence": 90.82,
+            "bbox": [
+              1425,
+              822,
+              1485,
+              834
+            ]
+          },
+          {
+            "text": "raportate",
+            "confidence": 77.47,
+            "bbox": [
+              1489,
+              824,
+              1549,
+              838
+            ]
+          },
+          {
+            "text": "în",
+            "confidence": 90.95,
+            "bbox": [
+              1554,
+              822,
+              1566,
+              834
+            ]
+          },
+          {
+            "text": "documentul",
+            "confidence": 90.95,
+            "bbox": [
+              1570,
+              822,
+              1646,
+              834
+            ]
+          },
+          {
+            "text": "prezent,",
+            "confidence": 96.1,
+            "bbox": [
+              1649,
+              824,
+              1701,
+              838
+            ]
+          },
+          {
+            "text": "Vă",
+            "confidence": 96.73,
+            "bbox": [
+              1707,
+              823,
+              1724,
+              834
+            ]
+          },
+          {
+            "text": "rugăm",
+            "confidence": 96.73,
+            "bbox": [
+              1728,
+              823,
+              1770,
+              838
+            ]
+          },
+          {
+            "text": "să",
+            "confidence": 87.91,
+            "bbox": [
+              1774,
+              823,
+              1789,
+              834
+            ]
+          },
+          {
+            "text": "consultaţi",
+            "confidence": 83.85,
+            "bbox": [
+              1793,
+              822,
+              1856,
+              837
+            ]
+          },
+          {
+            "text": "medicul",
+            "confidence": 87.54,
+            "bbox": [
+              1860,
+              822,
+              1912,
+              834
+            ]
+          },
+          {
+            "text": "Dvs.",
+            "confidence": 89.08,
+            "bbox": [
+              1916,
+              823,
+              1942,
+              834
+            ]
+          },
+          {
+            "text": "curant.",
+            "confidence": 94.45,
+            "bbox": [
+              1947,
+              824,
+              1990,
+              834
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0104",
+        "type": "marker",
+        "text": "Ess",
+        "bbox": [
+          303,
+          824,
+          325,
+          828
+        ],
+        "confidence": 32.97,
+        "words": [
+          {
+            "text": "Ess",
+            "confidence": 32.97,
+            "bbox": [
+              303,
+              824,
+              325,
+              828
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0105",
+        "type": "marker",
+        "text": "Ea",
+        "bbox": [
+          303,
+          832,
+          327,
+          836
+        ],
+        "confidence": 23.1,
+        "words": [
+          {
+            "text": "Ea",
+            "confidence": 23.1,
+            "bbox": [
+              303,
+              832,
+              327,
+              836
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0106",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          385,
+          841,
+          394,
+          845
+        ],
+        "confidence": 53.8,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 53.8,
+            "bbox": [
+              385,
+              841,
+              394,
+              845
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0107",
+        "type": "marker",
+        "text": "E",
+        "bbox": [
+          303,
+          849,
+          323,
+          854
+        ],
+        "confidence": 43.15,
+        "words": [
+          {
+            "text": "E",
+            "confidence": 43.15,
+            "bbox": [
+              303,
+              849,
+              323,
+              854
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0108",
+        "type": "marker",
+        "text": "С",
+        "bbox": [
+          386,
+          849,
+          393,
+          853
+        ],
+        "confidence": 5.28,
+        "words": [
+          {
+            "text": "С",
+            "confidence": 5.28,
+            "bbox": [
+              386,
+              849,
+              393,
+              853
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0109",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          303,
+          874,
+          316,
+          878
+        ],
+        "confidence": 65.34,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 65.34,
+            "bbox": [
+              303,
+              874,
+              316,
+              878
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0110",
+        "type": "marker",
+        "text": "E",
+        "bbox": [
+          303,
+          882,
+          322,
+          887
+        ],
+        "confidence": 64.18,
+        "words": [
+          {
+            "text": "E",
+            "confidence": 64.18,
+            "bbox": [
+              303,
+              882,
+              322,
+              887
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0111",
+        "type": "marker",
+        "text": "i",
+        "bbox": [
+          381,
+          882,
+          385,
+          887
+        ],
+        "confidence": 43.23,
+        "words": [
+          {
+            "text": "i",
+            "confidence": 43.23,
+            "bbox": [
+              381,
+              882,
+              385,
+              887
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0112",
+        "type": "paragraph",
+        "text": "Executat și verificat",
+        "bbox": [
+          1234,
+          883,
+          1388,
+          901
+        ],
+        "confidence": 96.14,
+        "words": [
+          {
+            "text": "Executat",
+            "confidence": 96.4,
+            "bbox": [
+              1234,
+              884,
+              1301,
+              897
+            ]
+          },
+          {
+            "text": "și",
+            "confidence": 96.26,
+            "bbox": [
+              1305,
+              883,
+              1317,
+              901
+            ]
+          },
+          {
+            "text": "verificat",
+            "confidence": 95.76,
+            "bbox": [
+              1322,
+              883,
+              1388,
+              897
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0113",
+        "type": "field_line",
+        "text": "Validat: Șefă de Laborator",
+        "bbox": [
+          1626,
+          883,
+          1837,
+          901
+        ],
+        "confidence": 90.97,
+        "words": [
+          {
+            "text": "Validat:",
+            "confidence": 93.3,
+            "bbox": [
+              1626,
+              883,
+              1688,
+              897
+            ]
+          },
+          {
+            "text": "Șefă",
+            "confidence": 77.43,
+            "bbox": [
+              1693,
+              883,
+              1727,
+              901
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.79,
+            "bbox": [
+              1732,
+              883,
+              1752,
+              897
+            ]
+          },
+          {
+            "text": "Laborator",
+            "confidence": 96.35,
+            "bbox": [
+              1758,
+              883,
+              1837,
+              897
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0114",
+        "type": "paragraph",
+        "text": "Data",
+        "bbox": [
+          2062,
+          884,
+          2099,
+          897
+        ],
+        "confidence": 96.02,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 96.02,
+            "bbox": [
+              2062,
+              884,
+              2099,
+              897
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0115",
+        "type": "marker",
+        "text": "E",
+        "bbox": [
+          303,
+          891,
+          318,
+          895
+        ],
+        "confidence": 56.94,
+        "words": [
+          {
+            "text": "E",
+            "confidence": 56.94,
+            "bbox": [
+              303,
+              891,
+              318,
+              895
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0116",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          342,
+          891,
+          353,
+          895
+        ],
+        "confidence": 69.5,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 69.5,
+            "bbox": [
+              342,
+              891,
+              353,
+              895
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0117",
+        "type": "marker",
+        "text": "Ed",
+        "bbox": [
+          343,
+          899,
+          354,
+          903
+        ],
+        "confidence": 23.04,
+        "words": [
+          {
+            "text": "Ed",
+            "confidence": 23.04,
+            "bbox": [
+              343,
+              899,
+              354,
+              903
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0118",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          342,
+          908,
+          351,
+          912
+        ],
+        "confidence": 92.92,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 92.92,
+            "bbox": [
+              342,
+              908,
+              351,
+              912
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0119",
+        "type": "paragraph",
+        "text": "Viorica Binzaru",
+        "bbox": [
+          1234,
+          911,
+          1361,
+          927
+        ],
+        "confidence": 92.21,
+        "words": [
+          {
+            "text": "Viorica",
+            "confidence": 93.29,
+            "bbox": [
+              1234,
+              912,
+              1292,
+              927
+            ]
+          },
+          {
+            "text": "Binzaru",
+            "confidence": 91.14,
+            "bbox": [
+              1300,
+              911,
+              1361,
+              927
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0120",
+        "type": "paragraph",
+        "text": "Mariana Brailean",
+        "bbox": [
+          1629,
+          911,
+          1772,
+          927
+        ],
+        "confidence": 92.84,
+        "words": [
+          {
+            "text": "Mariana",
+            "confidence": 93.13,
+            "bbox": [
+              1629,
+              912,
+              1697,
+              927
+            ]
+          },
+          {
+            "text": "Brailean",
+            "confidence": 92.54,
+            "bbox": [
+              1705,
+              911,
+              1772,
+              927
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0121",
+        "type": "date_line",
+        "text": "02.04.2026",
+        "bbox": [
+          2062,
+          912,
+          2145,
+          925
+        ],
+        "confidence": 95.33,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 95.33,
+            "bbox": [
+              2062,
+              912,
+              2145,
+              925
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0122",
+        "type": "marker",
+        "text": "—",
+        "bbox": [
+          210,
+          916,
+          249,
+          920
+        ],
+        "confidence": 65.68,
+        "words": [
+          {
+            "text": "—",
+            "confidence": 65.68,
+            "bbox": [
+              210,
+              916,
+              249,
+              920
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0123",
+        "type": "marker",
+        "text": "E",
+        "bbox": [
+          303,
+          916,
+          313,
+          920
+        ],
+        "confidence": 60.41,
+        "words": [
+          {
+            "text": "E",
+            "confidence": 60.41,
+            "bbox": [
+              303,
+              916,
+              313,
+              920
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0124",
+        "type": "marker",
+        "text": "Fă",
+        "bbox": [
+          340,
+          916,
+          353,
+          920
+        ],
+        "confidence": 51.23,
+        "words": [
+          {
+            "text": "Fă",
+            "confidence": 51.23,
+            "bbox": [
+              340,
+              916,
+              353,
+              920
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0125",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          179,
+          951,
+          188,
+          955
+        ],
+        "confidence": 96.43,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 96.43,
+            "bbox": [
+              179,
+              951,
+              188,
+              955
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0126",
+        "type": "marker",
+        "text": "zi",
+        "bbox": [
+          303,
+          984,
+          318,
+          988
+        ],
+        "confidence": 31.34,
+        "words": [
+          {
+            "text": "zi",
+            "confidence": 31.34,
+            "bbox": [
+              303,
+              984,
+              318,
+              988
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0127",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          221,
+          985,
+          238,
+          989
+        ],
+        "confidence": 42.78,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 42.78,
+            "bbox": [
+              221,
+              985,
+              238,
+              989
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0128",
+        "type": "paragraph",
+        "text": "won!",
+        "bbox": [
+          303,
+          992,
+          318,
+          997
+        ],
+        "confidence": 39.16,
+        "words": [
+          {
+            "text": "won!",
+            "confidence": 39.16,
+            "bbox": [
+              303,
+              992,
+              318,
+              997
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0129",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          222,
+          1001,
+          238,
+          1005
+        ],
+        "confidence": 84.79,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 84.79,
+            "bbox": [
+              222,
+              1001,
+              238,
+              1005
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0130",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          342,
+          1001,
+          352,
+          1005
+        ],
+        "confidence": 37.74,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 37.74,
+            "bbox": [
+              342,
+              1001,
+              352,
+              1005
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0131",
+        "type": "marker",
+        "text": "oe",
+        "bbox": [
+          272,
+          1020,
+          304,
+          1024
+        ],
+        "confidence": 41.7,
+        "words": [
+          {
+            "text": "oe",
+            "confidence": 41.7,
+            "bbox": [
+              272,
+              1020,
+              304,
+              1024
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0132",
+        "type": "marker",
+        "text": "a",
+        "bbox": [
+          413,
+          1204,
+          441,
+          1218
+        ],
+        "confidence": 73.74,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 73.74,
+            "bbox": [
+              413,
+              1204,
+              441,
+              1218
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0133",
+        "type": "paragraph",
+        "text": "ALFA",
+        "bbox": [
+          180,
+          1206,
+          236,
+          1217
+        ],
+        "confidence": 93.07,
+        "words": [
+          {
+            "text": "ALFA",
+            "confidence": 93.07,
+            "bbox": [
+              180,
+              1206,
+              236,
+              1217
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0134",
+        "type": "marker",
+        "text": "iz",
+        "bbox": [
+          412,
+          1221,
+          440,
+          1234
+        ],
+        "confidence": 40.95,
+        "words": [
+          {
+            "text": "iz",
+            "confidence": 40.95,
+            "bbox": [
+              412,
+              1221,
+              440,
+              1234
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0135",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          415,
+          1238,
+          425,
+          1239
+        ],
+        "confidence": 23.94,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 23.94,
+            "bbox": [
+              415,
+              1238,
+              425,
+              1239
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0136",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          179,
+          1257,
+          191,
+          1261
+        ],
+        "confidence": 50.77,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 50.77,
+            "bbox": [
+              179,
+              1257,
+              191,
+              1261
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0137",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          225,
+          1257,
+          235,
+          1261
+        ],
+        "confidence": 62.27,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 62.27,
+            "bbox": [
+              225,
+              1257,
+              235,
+              1261
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0138",
+        "type": "marker",
+        "text": "men",
+        "bbox": [
+          303,
+          1257,
+          322,
+          1261
+        ],
+        "confidence": 71.61,
+        "words": [
+          {
+            "text": "men",
+            "confidence": 71.61,
+            "bbox": [
+              303,
+              1257,
+              322,
+              1261
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0139",
+        "type": "marker",
+        "text": "non",
+        "bbox": [
+          303,
+          1265,
+          323,
+          1270
+        ],
+        "confidence": 27.71,
+        "words": [
+          {
+            "text": "non",
+            "confidence": 27.71,
+            "bbox": [
+              303,
+              1265,
+              323,
+              1270
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0140",
+        "type": "marker",
+        "text": "Е",
+        "bbox": [
+          309,
+          1274,
+          314,
+          1278
+        ],
+        "confidence": 42.3,
+        "words": [
+          {
+            "text": "Е",
+            "confidence": 42.3,
+            "bbox": [
+              309,
+              1274,
+              314,
+              1278
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0141",
+        "type": "marker",
+        "text": "м",
+        "bbox": [
+          342,
+          1274,
+          351,
+          1278
+        ],
+        "confidence": 22.47,
+        "words": [
+          {
+            "text": "м",
+            "confidence": 22.47,
+            "bbox": [
+              342,
+              1274,
+              351,
+              1278
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0142",
+        "type": "marker",
+        "text": "<",
+        "bbox": [
+          342,
+          1282,
+          352,
+          1286
+        ],
+        "confidence": 27.08,
+        "words": [
+          {
+            "text": "<",
+            "confidence": 27.08,
+            "bbox": [
+              342,
+              1282,
+              352,
+              1286
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0143",
+        "type": "marker",
+        "text": "a",
+        "bbox": [
+          424,
+          1292,
+          434,
+          1296
+        ],
+        "confidence": 50.74,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 50.74,
+            "bbox": [
+              424,
+              1292,
+              434,
+              1296
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0144",
+        "type": "marker",
+        "text": "——",
+        "bbox": [
+          176,
+          1345,
+          219,
+          1350
+        ],
+        "confidence": 58.42,
+        "words": [
+          {
+            "text": "——",
+            "confidence": 58.42,
+            "bbox": [
+              176,
+              1345,
+              219,
+              1350
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0145",
+        "type": "paragraph",
+        "text": "mata",
+        "bbox": [
+          286,
+          1345,
+          345,
+          1350
+        ],
+        "confidence": 28.04,
+        "words": [
+          {
+            "text": "mata",
+            "confidence": 28.04,
+            "bbox": [
+              286,
+              1345,
+              345,
+              1350
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0146",
+        "type": "marker",
+        "text": "=>",
+        "bbox": [
+          408,
+          1353,
+          431,
+          1357
+        ],
+        "confidence": 42.65,
+        "words": [
+          {
+            "text": "=>",
+            "confidence": 42.65,
+            "bbox": [
+              408,
+              1353,
+              431,
+              1357
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0147",
+        "type": "marker",
+        "text": "[oz",
+        "bbox": [
+          176,
+          1354,
+          209,
+          1358
+        ],
+        "confidence": 33.17,
+        "words": [
+          {
+            "text": "[oz",
+            "confidence": 33.17,
+            "bbox": [
+              176,
+              1354,
+              209,
+              1358
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0148",
+        "type": "marker",
+        "text": "ЕЕ",
+        "bbox": [
+          286,
+          1354,
+          326,
+          1358
+        ],
+        "confidence": 28.97,
+        "words": [
+          {
+            "text": "ЕЕ",
+            "confidence": 28.97,
+            "bbox": [
+              286,
+              1354,
+              326,
+              1358
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0149",
+        "type": "paragraph",
+        "text": "4 )/4 >",
+        "bbox": [
+          1413,
+          1738,
+          1538,
+          1793
+        ],
+        "confidence": 78.34,
+        "words": [
+          {
+            "text": "4",
+            "confidence": 91.19,
+            "bbox": [
+              1413,
+              1764,
+              1426,
+              1781
+            ]
+          },
+          {
+            "text": ")/4",
+            "confidence": 48.65,
+            "bbox": [
+              1468,
+              1742,
+              1533,
+              1785
+            ]
+          },
+          {
+            "text": ">",
+            "confidence": 95.19,
+            "bbox": [
+              1514,
+              1738,
+              1538,
+              1793
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0150",
+        "type": "marker",
+        "text": "a",
+        "bbox": [
+          1512,
+          1742,
+          1572,
+          1744
+        ],
+        "confidence": 17.76,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 17.76,
+            "bbox": [
+              1512,
+              1742,
+              1572,
+              1744
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0151",
+        "type": "marker",
+        "text": "—",
+        "bbox": [
+          1369,
+          1743,
+          1407,
+          1744
+        ],
+        "confidence": 61.7,
+        "words": [
+          {
+            "text": "—",
+            "confidence": 61.7,
+            "bbox": [
+              1369,
+              1743,
+              1407,
+              1744
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0152",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          1430,
+          1743,
+          1436,
+          1744
+        ],
+        "confidence": 60.67,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 60.67,
+            "bbox": [
+              1430,
+              1743,
+              1436,
+              1744
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0153",
+        "type": "marker",
+        "text": "ce",
+        "bbox": [
+          1636,
+          1743,
+          1759,
+          1744
+        ],
+        "confidence": 21.65,
+        "words": [
+          {
+            "text": "ce",
+            "confidence": 21.65,
+            "bbox": [
+              1636,
+              1743,
+              1759,
+              1744
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0154",
+        "type": "marker",
+        "text": "a",
+        "bbox": [
+          1855,
+          1743,
+          1920,
+          1744
+        ],
+        "confidence": 19.55,
+        "words": [
+          {
+            "text": "a",
+            "confidence": 19.55,
+            "bbox": [
+              1855,
+              1743,
+              1920,
+              1744
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0155",
+        "type": "paragraph",
+        "text": "“a O",
+        "bbox": [
+          2213,
+          1759,
+          2408,
+          1785
+        ],
+        "confidence": 59.59,
+        "words": [
+          {
+            "text": "“a",
+            "confidence": 63.16,
+            "bbox": [
+              2213,
+              1760,
+              2277,
+              1784
+            ]
+          },
+          {
+            "text": "O",
+            "confidence": 56.01,
+            "bbox": [
+              2324,
+              1759,
+              2408,
+              1785
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0156",
+        "type": "paragraph",
+        "text": "Q [89%",
+        "bbox": [
+          2081,
+          1760,
+          2174,
+          1784
+        ],
+        "confidence": 58.08,
+        "words": [
+          {
+            "text": "Q",
+            "confidence": 91.85,
+            "bbox": [
+              2081,
+              1760,
+              2105,
+              1784
+            ]
+          },
+          {
+            "text": "[89%",
+            "confidence": 24.32,
+            "bbox": [
+              2128,
+              1763,
+              2174,
+              1779
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0157",
+        "type": "marker",
+        "text": "ВВ",
+        "bbox": [
+          2771,
+          1760,
+          2793,
+          1784
+        ],
+        "confidence": 75.42,
+        "words": [
+          {
+            "text": "ВВ",
+            "confidence": 75.42,
+            "bbox": [
+              2771,
+              1760,
+              2793,
+              1784
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0158",
+        "type": "marker",
+        "text": "[=]",
+        "bbox": [
+          2836,
+          1762,
+          2854,
+          1772
+        ],
+        "confidence": 53.97,
+        "words": [
+          {
+            "text": "[=]",
+            "confidence": 53.97,
+            "bbox": [
+              2836,
+              1762,
+              2854,
+              1772
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0159",
+        "type": "marker",
+        "text": ">I",
+        "bbox": [
+          1569,
+          1763,
+          1584,
+          1781
+        ],
+        "confidence": 77.99,
+        "words": [
+          {
+            "text": ">I",
+            "confidence": 77.99,
+            "bbox": [
+              1569,
+              1763,
+              1584,
+              1781
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0160",
+        "type": "paragraph",
+        "text": "-Day v",
+        "bbox": [
+          2575,
+          1764,
+          2664,
+          1784
+        ],
+        "confidence": 87.2,
+        "words": [
+          {
+            "text": "-Day",
+            "confidence": 88.68,
+            "bbox": [
+              2575,
+              1764,
+              2624,
+              1784
+            ]
+          },
+          {
+            "text": "v",
+            "confidence": 85.72,
+            "bbox": [
+              2650,
+              1767,
+              2664,
+              1776
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0161",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          2712,
+          1768,
+          2724,
+          1770
+        ],
+        "confidence": 90.01,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 90.01,
+            "bbox": [
+              2712,
+              1768,
+              2724,
+              1770
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0162",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          2714,
+          1772,
+          2722,
+          1774
+        ],
+        "confidence": 96.84,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 96.84,
+            "bbox": [
+              2714,
+              1772,
+              2722,
+              1774
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0163",
+        "type": "marker",
+        "text": "=",
+        "bbox": [
+          2836,
+          1774,
+          2854,
+          1784
+        ],
+        "confidence": 72.95,
+        "words": [
+          {
+            "text": "=",
+            "confidence": 72.95,
+            "bbox": [
+              2836,
+              1774,
+              2854,
+              1784
+            ]
+          }
+        ]
+      }
+    ],
+    "full_text": "Kuzmitkaia...26 16.40.12.pdf v x\na 9\na\nре\nAnnotations\nFill & Sign\nEdit\nTools\nHome\nPages\nForm\nProtect\n(oor) М\n8\na\nE\n&\nQuv\nay\n4\n*\nOy\nty\nUL\nJy\nOther Apps\nSelect\nHand\nHighlight\nShapes\nConvert Signature\nRedact\nPrint\nPDFgear for mobile\nText\nStamp\nOCR\nCrop\nKuzmitkaia Maia, 14.05.2004 | Comanda nr. 2056398 | Recoltat: 02.04.2026 10:37 | Data raportului: 02.04.2026\nPagina 3 din 4\nThumbnails\nx\n&\nSena ИМЕ\nmaree\nыы\nA\nALFA\nRepublica Moldova, MD-2021, mun. Chișinău\nSa)\nMOLDAC\nstr. Mitr. Gurie Grosu, 17, alfalab.md, 022 82 44 44\nREPUBLICA MOLDOVA\ndiagnostica\nLE)\n=\nR\nE\nRAPORT DE EXAMINARE MEDICALĂ\nFINAL\nForza\ncana\nz\nBazofile (numărul absolut)\nX10A3/uL\nBASO (#)\n0,02\n0—0,2\nBazofile (procentul)\nBASO (%)\n0,2\n0—2\n%\nGranulocite imature (numărul)\nx1043/pL\nIG (#)\n0,01\n0— 0,06\npe\nALFA\noe\n274\nGranulocite imature (procentul)\n0,10\n1G (%)\n0—0,6\n%\nViteza de sedimentare a hematiilor\nmm/oră\nVSH\n5\n0—20\nSânge integral. Metoda: Westergren.\n=\nos\nAnalizele marcate cu * nu sunt acreditate de MOLDAC.\nтии\n—\nRezultatele analizelor marcate си simbolul {!} sunt valori critice si necesita atentie imediata a pacientului si а medicului acestuia.\nValorile de referință corespund sexului si vârstei. Rezultatele investigaţiilor de laborator nu reprezintă diagnosticul clinic.\n=\n=\nPentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultaţi medicul Dvs. curant.\nEss\nEa\n=\nE\nС\n=\nE\ni\nExecutat și verificat\nValidat: Șefă de Laborator\nData\nE\n=\nEd\n=\nViorica Binzaru\nMariana Brailean\n02.04.2026\n—\nE\nFă\n=\nzi\n=\nwon!\n=\n=\noe\na\nALFA\niz\n=\n=\n=\nmen\nnon\nЕ\nм\n<\na\n——\nmata\n=>\n[oz\nЕЕ\n4 )/4 >\na\n—\n=\nce\na\n“a O\nQ [89%\nВВ\n[=]\n>I\n-Day v\n=\n=\n="
+  },
+  "quality": {
+    "ocr_engine": "tesseract",
+    "ocr_languages": "eng+ron+rus",
+    "ocr_psm": 11,
+    "ocr_candidate": "standard",
+    "preprocessing": "standard_autocontrast",
+    "mean_confidence": 78.58,
+    "word_count": 296,
+    "candidate_scores": [
+      {
+        "name": "standard",
+        "preprocessing": "standard_autocontrast",
+        "score": 131.08,
+        "mean_confidence": 78.58,
+        "word_count": 296,
+        "subtype": "molecular_lab_report"
+      }
+    ],
+    "low_confidence_blocks": [
+      "line_0003",
+      "line_0013",
+      "line_0021",
+      "line_0022",
+      "line_0024",
+      "line_0025",
+      "line_0044",
+      "line_0045",
+      "line_0047",
+      "line_0050",
+      "line_0053",
+      "line_0055",
+      "line_0058",
+      "line_0061",
+      "line_0062",
+      "line_0065",
+      "line_0075",
+      "line_0079",
+      "line_0081",
+      "line_0095",
+      "line_0097",
+      "line_0101",
+      "line_0102",
+      "line_0104",
+      "line_0105",
+      "line_0106",
+      "line_0107",
+      "line_0108",
+      "line_0111",
+      "line_0117",
+      "line_0124",
+      "line_0126",
+      "line_0127",
+      "line_0128",
+      "line_0130",
+      "line_0131",
+      "line_0134",
+      "line_0135",
+      "line_0136",
+      "line_0139",
+      "line_0140",
+      "line_0141",
+      "line_0142",
+      "line_0143",
+      "line_0145",
+      "line_0146",
+      "line_0147",
+      "line_0148",
+      "line_0150",
+      "line_0153",
+      "line_0154",
+      "line_0158"
+    ]
+  },
+  "outputs": {
+    "json": "output/json/Screenshot 2026-05-10 at 13.23.54.json",
+    "html": "output/html/Screenshot 2026-05-10 at 13.23.54.html",
+    "pdf": "output/pdf/Screenshot 2026-05-10 at 13.23.54.pdf",
+    "pdf_status": "rendered"
+  }
+}

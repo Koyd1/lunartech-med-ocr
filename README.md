@@ -44,7 +44,7 @@ For HTML-to-PDF export, install Google Chrome or set `CHROME_PATH` to a compatib
 Process private source documents:
 
 ```bash
-python3 run.py --input test-img --output output/private
+python3 run.py --input test-img --output output
 ```
 
 Process one file:

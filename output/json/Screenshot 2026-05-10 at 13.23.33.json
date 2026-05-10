@@ -1,0 +1,2270 @@
+{
+  "schema_version": "0.1",
+  "source": {
+    "filename": "Screenshot 2026-05-10 at 13.23.33.png",
+    "path": "test-img/Screenshot 2026-05-10 at 13.23.33.png",
+    "type": "image",
+    "working_image": "output/tmp/ocr/Screenshot 2026-05-10 at 13.23.33_ocr.png",
+    "original_image": "test-img/Screenshot 2026-05-10 at 13.23.33.png"
+  },
+  "document": {
+    "title": "Maia",
+    "document_type": "medical_document",
+    "subtype": "molecular_lab_report",
+    "processed_at": "2026-05-10T10:32:48.257422+00:00"
+  },
+  "layout": {
+    "page": {
+      "width": 1400,
+      "height": 923,
+      "unit": "px"
+    },
+    "visual_elements": {
+      "lines": []
+    }
+  },
+  "content": {
+    "fields": [
+      {
+        "name": "Data nasterii",
+        "value": "14.05.2004 (21 ani)",
+        "source_block_id": "line_0003",
+        "value_block_id": "line_0004",
+        "confidence": 93.94,
+        "bbox": [
+          449,
+          95,
+          1008,
+          119
+        ],
+        "extraction_method": "neighbor_geometry"
+      },
+      {
+        "name": "Ser. Metoda",
+        "value": "Electrochemiluminiscenta.",
+        "source_block_id": "line_0034",
+        "value_block_id": null,
+        "confidence": 92.44,
+        "bbox": [
+          53,
+          482,
+          383,
+          502
+        ],
+        "extraction_method": "inline_text"
+      },
+      {
+        "name": "Ser. Metoda",
+        "value": "Chemiluminiscenta.",
+        "source_block_id": "line_0039",
+        "value_block_id": null,
+        "confidence": 91.91,
+        "bbox": [
+          53,
+          553,
+          328,
+          573
+        ],
+        "extraction_method": "inline_text"
+      },
+      {
+        "name": "Validat",
+        "value": "Șefă de Laborator",
+        "source_block_id": "line_0044",
+        "value_block_id": null,
+        "confidence": 93.18,
+        "bbox": [
+          573,
+          746,
+          856,
+          771
+        ],
+        "extraction_method": "inline_text"
+      },
+      {
+        "name": "patient_name",
+        "value": "Kuzmitkaia Maia",
+        "source_block_id": "patient_name",
+        "value_block_id": null,
+        "confidence": 94.57,
+        "bbox": [
+          177,
+          95,
+          287,
+          153
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "patient_name"
+      },
+      {
+        "name": "birth_date",
+        "value": "14.05.2004 (21 ani)",
+        "source_block_id": "birth_date",
+        "value_block_id": null,
+        "confidence": 93.94,
+        "bbox": [
+          449,
+          95,
+          1008,
+          119
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "birth_date"
+      },
+      {
+        "name": "idnp",
+        "value": "Recoltarea probei",
+        "source_block_id": "idnp",
+        "value_block_id": null,
+        "confidence": 96.38,
+        "bbox": [
+          48,
+          210,
+          629,
+          234
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "idnp"
+      },
+      {
+        "name": "sample_collected_at",
+        "value": "02.04.2026 10:37",
+        "source_block_id": "sample_collected_at",
+        "value_block_id": null,
+        "confidence": 96.75,
+        "bbox": [
+          449,
+          210,
+          985,
+          234
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "sample_collected_at"
+      },
+      {
+        "name": "sample_received_at",
+        "value": "02.04.2026 11:36",
+        "source_block_id": "sample_received_at",
+        "value_block_id": null,
+        "confidence": 94.26,
+        "bbox": [
+          449,
+          247,
+          985,
+          272
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "sample_received_at"
+      },
+      {
+        "name": "performed_at",
+        "value": "02.04.2026",
+        "source_block_id": "performed_at",
+        "value_block_id": null,
+        "confidence": 92.86,
+        "bbox": [
+          449,
+          286,
+          922,
+          305
+        ],
+        "extraction_method": "schema_specific",
+        "schema_key": "performed_at"
+      }
+    ],
+    "schema_fields": {
+      "patient_name": {
+        "value": "Kuzmitkaia Maia",
+        "source_block_id": "patient_name",
+        "confidence": 94.57,
+        "bbox": [
+          177,
+          95,
+          287,
+          153
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "birth_date": {
+        "value": "14.05.2004 (21 ani)",
+        "source_block_id": "birth_date",
+        "confidence": 93.94,
+        "bbox": [
+          449,
+          95,
+          1008,
+          119
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "idnp": {
+        "value": "Recoltarea probei",
+        "source_block_id": "idnp",
+        "confidence": 96.38,
+        "bbox": [
+          48,
+          210,
+          629,
+          234
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "sample_collected_at": {
+        "value": "02.04.2026 10:37",
+        "source_block_id": "sample_collected_at",
+        "confidence": 96.75,
+        "bbox": [
+          449,
+          210,
+          985,
+          234
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "sample_received_at": {
+        "value": "02.04.2026 11:36",
+        "source_block_id": "sample_received_at",
+        "confidence": 94.26,
+        "bbox": [
+          449,
+          247,
+          985,
+          272
+        ],
+        "extraction_method": "schema_specific"
+      },
+      "performed_at": {
+        "value": "02.04.2026",
+        "source_block_id": "performed_at",
+        "confidence": 92.86,
+        "bbox": [
+          449,
+          286,
+          922,
+          305
+        ],
+        "extraction_method": "schema_specific"
+      }
+    },
+    "sections": [
+      {
+        "id": "section_0001",
+        "title": "Executat și verificat",
+        "level": 2,
+        "source_block_id": "line_0043",
+        "block_ids": [],
+        "bbox": [
+          48,
+          746,
+          254,
+          771
+        ],
+        "confidence": 96.17,
+        "extraction_method": "semantic_heading"
+      },
+      {
+        "id": "section_0002",
+        "title": "Validat: Șefă de Laborator",
+        "level": 2,
+        "source_block_id": "line_0044",
+        "block_ids": [
+          "line_0045",
+          "line_0046",
+          "line_0047",
+          "line_0048"
+        ],
+        "bbox": [
+          48,
+          746,
+          1268,
+          812
+        ],
+        "confidence": 93.18,
+        "extraction_method": "semantic_heading"
+      }
+    ],
+    "tables": [],
+    "notes": [
+      {
+        "id": "note_0001",
+        "category": "accreditation",
+        "text": "Analizele marcate cu * nu sunt acreditate de MOLDAC.",
+        "source_block_id": "line_0040",
+        "bbox": [
+          48,
+          594,
+          522,
+          610
+        ],
+        "confidence": 92.5
+      },
+      {
+        "id": "note_0002",
+        "category": "clinical_limitation",
+        "text": "Valorile de referință corespund sexului si vârstei. Rezultatele investigaţiilor de laborator nu reprezintă diagnosticul clinic.",
+        "source_block_id": "line_0041",
+        "bbox": [
+          49,
+          638,
+          1092,
+          659
+        ],
+        "confidence": 93.41
+      }
+    ],
+    "text_blocks": [
+      {
+        "id": "line_0001",
+        "type": "paragraph",
+        "text": "Nr. 11686333.2026",
+        "bbox": [
+          1165,
+          40,
+          1320,
+          55
+        ],
+        "confidence": 89.78,
+        "words": [
+          {
+            "text": "Nr.",
+            "confidence": 88.7,
+            "bbox": [
+              1165,
+              40,
+              1188,
+              55
+            ]
+          },
+          {
+            "text": "11686333.2026",
+            "confidence": 90.87,
+            "bbox": [
+              1206,
+              40,
+              1320,
+              55
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0002",
+        "type": "paragraph",
+        "text": "Kuzmitkaia",
+        "bbox": [
+          177,
+          95,
+          287,
+          118
+        ],
+        "confidence": 92.16,
+        "words": [
+          {
+            "text": "Kuzmitkaia",
+            "confidence": 92.16,
+            "bbox": [
+              177,
+              95,
+              287,
+              118
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0003",
+        "type": "paragraph",
+        "text": "Data nasterii",
+        "bbox": [
+          449,
+          95,
+          576,
+          119
+        ],
+        "confidence": 91.84,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 91.84,
+            "bbox": [
+              449,
+              96,
+              495,
+              114
+            ]
+          },
+          {
+            "text": "nasterii",
+            "confidence": 91.84,
+            "bbox": [
+              503,
+              95,
+              576,
+              119
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0004",
+        "type": "date_line",
+        "text": "14.05.2004 (21 ani)",
+        "bbox": [
+          812,
+          95,
+          1008,
+          118
+        ],
+        "confidence": 96.05,
+        "words": [
+          {
+            "text": "14.05.2004",
+            "confidence": 95.8,
+            "bbox": [
+              812,
+              95,
+              923,
+              114
+            ]
+          },
+          {
+            "text": "(21",
+            "confidence": 95.89,
+            "bbox": [
+              934,
+              95,
+              961,
+              118
+            ]
+          },
+          {
+            "text": "ani)",
+            "confidence": 96.45,
+            "bbox": [
+              972,
+              95,
+              1008,
+              118
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0005",
+        "type": "paragraph",
+        "text": "Nume",
+        "bbox": [
+          49,
+          96,
+          111,
+          114
+        ],
+        "confidence": 92.81,
+        "words": [
+          {
+            "text": "Nume",
+            "confidence": 92.81,
+            "bbox": [
+              49,
+              96,
+              111,
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0006",
+        "type": "paragraph",
+        "text": "Maia",
+        "bbox": [
+          177,
+          134,
+          224,
+          153
+        ],
+        "confidence": 96.98,
+        "words": [
+          {
+            "text": "Maia",
+            "confidence": 96.98,
+            "bbox": [
+              177,
+              134,
+              224,
+              153
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0007",
+        "type": "paragraph",
+        "text": "Domiciliu, adresa",
+        "bbox": [
+          449,
+          134,
+          623,
+          156
+        ],
+        "confidence": 92.81,
+        "words": [
+          {
+            "text": "Domiciliu,",
+            "confidence": 92.59,
+            "bbox": [
+              449,
+              134,
+              547,
+              156
+            ]
+          },
+          {
+            "text": "adresa",
+            "confidence": 93.03,
+            "bbox": [
+              557,
+              134,
+              623,
+              153
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0008",
+        "type": "paragraph",
+        "text": "Prenume",
+        "bbox": [
+          49,
+          135,
+          142,
+          153
+        ],
+        "confidence": 92.7,
+        "words": [
+          {
+            "text": "Prenume",
+            "confidence": 92.7,
+            "bbox": [
+              49,
+              135,
+              142,
+              153
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0009",
+        "type": "paragraph",
+        "text": "Înregistrarea, adresa",
+        "bbox": [
+          447,
+          163,
+          657,
+          200
+        ],
+        "confidence": 95.49,
+        "words": [
+          {
+            "text": "Înregistrarea,",
+            "confidence": 94.36,
+            "bbox": [
+              447,
+              163,
+              582,
+              200
+            ]
+          },
+          {
+            "text": "adresa",
+            "confidence": 96.62,
+            "bbox": [
+              590,
+              171,
+              657,
+              190
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0010",
+        "type": "paragraph",
+        "text": "Feminin",
+        "bbox": [
+          177,
+          171,
+          256,
+          190
+        ],
+        "confidence": 91.31,
+        "words": [
+          {
+            "text": "Feminin",
+            "confidence": 91.31,
+            "bbox": [
+              177,
+              171,
+              256,
+              190
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0011",
+        "type": "marker",
+        "text": "Sex",
+        "bbox": [
+          48,
+          172,
+          84,
+          190
+        ],
+        "confidence": 96.55,
+        "words": [
+          {
+            "text": "Sex",
+            "confidence": 96.55,
+            "bbox": [
+              48,
+              172,
+              84,
+              190
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0012",
+        "type": "paragraph",
+        "text": "Recoltarea probei",
+        "bbox": [
+          449,
+          210,
+          629,
+          234
+        ],
+        "confidence": 96.76,
+        "words": [
+          {
+            "text": "Recoltarea",
+            "confidence": 96.61,
+            "bbox": [
+              449,
+              210,
+              557,
+              229
+            ]
+          },
+          {
+            "text": "probei",
+            "confidence": 96.91,
+            "bbox": [
+              565,
+              210,
+              629,
+              234
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0013",
+        "type": "date_line",
+        "text": "02.04.2026 10:37",
+        "bbox": [
+          811,
+          210,
+          985,
+          229
+        ],
+        "confidence": 96.74,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 96.63,
+            "bbox": [
+              811,
+              211,
+              922,
+              229
+            ]
+          },
+          {
+            "text": "10:37",
+            "confidence": 96.84,
+            "bbox": [
+              932,
+              210,
+              985,
+              229
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0014",
+        "type": "paragraph",
+        "text": "Proba nr. 11686333",
+        "bbox": [
+          1107,
+          210,
+          1309,
+          229
+        ],
+        "confidence": 96.19,
+        "words": [
+          {
+            "text": "Proba",
+            "confidence": 96.31,
+            "bbox": [
+              1107,
+              210,
+              1165,
+              229
+            ]
+          },
+          {
+            "text": "nr.",
+            "confidence": 96.74,
+            "bbox": [
+              1174,
+              215,
+              1198,
+              229
+            ]
+          },
+          {
+            "text": "11686333",
+            "confidence": 95.51,
+            "bbox": [
+              1211,
+              210,
+              1309,
+              229
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0015",
+        "type": "marker",
+        "text": "CNP",
+        "bbox": [
+          48,
+          211,
+          92,
+          229
+        ],
+        "confidence": 95.99,
+        "words": [
+          {
+            "text": "CNP",
+            "confidence": 95.99,
+            "bbox": [
+              48,
+              211,
+              92,
+              229
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0016",
+        "type": "marker",
+        "text": "IMA",
+        "bbox": [
+          1116,
+          234,
+          1305,
+          272
+        ],
+        "confidence": 40.77,
+        "words": [
+          {
+            "text": "IMA",
+            "confidence": 40.77,
+            "bbox": [
+              1116,
+              234,
+              1305,
+              272
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0017",
+        "type": "paragraph",
+        "text": "Polita",
+        "bbox": [
+          49,
+          247,
+          105,
+          272
+        ],
+        "confidence": 92.13,
+        "words": [
+          {
+            "text": "Polita",
+            "confidence": 92.13,
+            "bbox": [
+              49,
+              247,
+              105,
+              272
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0018",
+        "type": "paragraph",
+        "text": "Receptionarea probei",
+        "bbox": [
+          449,
+          247,
+          670,
+          272
+        ],
+        "confidence": 92.28,
+        "words": [
+          {
+            "text": "Receptionarea",
+            "confidence": 92.28,
+            "bbox": [
+              449,
+              247,
+              597,
+              272
+            ]
+          },
+          {
+            "text": "probei",
+            "confidence": 92.28,
+            "bbox": [
+              605,
+              247,
+              670,
+              272
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0019",
+        "type": "date_line",
+        "text": "02.04.2026 11:36",
+        "bbox": [
+          811,
+          248,
+          985,
+          266
+        ],
+        "confidence": 96.24,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 96.13,
+            "bbox": [
+              811,
+              248,
+              922,
+              266
+            ]
+          },
+          {
+            "text": "11:36",
+            "confidence": 96.34,
+            "bbox": [
+              932,
+              248,
+              985,
+              266
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0020",
+        "type": "paragraph",
+        "text": "Trimis de:",
+        "bbox": [
+          48,
+          286,
+          146,
+          305
+        ],
+        "confidence": 94.92,
+        "words": [
+          {
+            "text": "Trimis",
+            "confidence": 92.97,
+            "bbox": [
+              48,
+              286,
+              110,
+              305
+            ]
+          },
+          {
+            "text": "de:",
+            "confidence": 96.88,
+            "bbox": [
+              116,
+              286,
+              146,
+              305
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0021",
+        "type": "paragraph",
+        "text": "Data efectuarii examinarilor",
+        "bbox": [
+          449,
+          286,
+          732,
+          305
+        ],
+        "confidence": 89.5,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 93.08,
+            "bbox": [
+              449,
+              287,
+              495,
+              305
+            ]
+          },
+          {
+            "text": "efectuarii",
+            "confidence": 87.9,
+            "bbox": [
+              503,
+              286,
+              597,
+              305
+            ]
+          },
+          {
+            "text": "examinarilor",
+            "confidence": 87.53,
+            "bbox": [
+              605,
+              286,
+              732,
+              305
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0022",
+        "type": "date_line",
+        "text": "02.04.2026",
+        "bbox": [
+          811,
+          287,
+          922,
+          305
+        ],
+        "confidence": 96.22,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 96.22,
+            "bbox": [
+              811,
+              287,
+              922,
+              305
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0023",
+        "type": "paragraph",
+        "text": "Starea esantionului primar — conformă.",
+        "bbox": [
+          48,
+          336,
+          376,
+          365
+        ],
+        "confidence": 90.28,
+        "words": [
+          {
+            "text": "Starea",
+            "confidence": 93.3,
+            "bbox": [
+              48,
+              341,
+              100,
+              356
+            ]
+          },
+          {
+            "text": "esantionului",
+            "confidence": 91.42,
+            "bbox": [
+              107,
+              340,
+              208,
+              360
+            ]
+          },
+          {
+            "text": "primar",
+            "confidence": 93.05,
+            "bbox": [
+              215,
+              340,
+              284,
+              361
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 76.97,
+            "bbox": [
+              276,
+              336,
+              284,
+              365
+            ]
+          },
+          {
+            "text": "conformă.",
+            "confidence": 96.65,
+            "bbox": [
+              292,
+              340,
+              376,
+              356
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0024",
+        "type": "paragraph",
+        "text": "Valori",
+        "bbox": [
+          980,
+          388,
+          1028,
+          404
+        ],
+        "confidence": 95.95,
+        "words": [
+          {
+            "text": "Valori",
+            "confidence": 95.95,
+            "bbox": [
+              980,
+              388,
+              1028,
+              404
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0025",
+        "type": "paragraph",
+        "text": "Unităţi",
+        "bbox": [
+          1204,
+          388,
+          1257,
+          408
+        ],
+        "confidence": 87.58,
+        "words": [
+          {
+            "text": "Unităţi",
+            "confidence": 87.58,
+            "bbox": [
+              1204,
+              388,
+              1257,
+              408
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0026",
+        "type": "paragraph",
+        "text": "Rezultat",
+        "bbox": [
+          745,
+          401,
+          813,
+          418
+        ],
+        "confidence": 96.87,
+        "words": [
+          {
+            "text": "Rezultat",
+            "confidence": 96.87,
+            "bbox": [
+              745,
+              401,
+              813,
+              418
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0027",
+        "type": "paragraph",
+        "text": "Parametru",
+        "bbox": [
+          326,
+          402,
+          411,
+          418
+        ],
+        "confidence": 92.02,
+        "words": [
+          {
+            "text": "Parametru",
+            "confidence": 92.02,
+            "bbox": [
+              326,
+              402,
+              411,
+              418
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0028",
+        "type": "paragraph",
+        "text": "de referință",
+        "bbox": [
+          956,
+          415,
+          1053,
+          435
+        ],
+        "confidence": 84.51,
+        "words": [
+          {
+            "text": "de",
+            "confidence": 96.95,
+            "bbox": [
+              956,
+              415,
+              977,
+              431
+            ]
+          },
+          {
+            "text": "referință",
+            "confidence": 72.07,
+            "bbox": [
+              984,
+              415,
+              1053,
+              435
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0029",
+        "type": "paragraph",
+        "text": "de măsură",
+        "bbox": [
+          1187,
+          415,
+          1274,
+          431
+        ],
+        "confidence": 96.73,
+        "words": [
+          {
+            "text": "de",
+            "confidence": 96.89,
+            "bbox": [
+              1187,
+              415,
+              1207,
+              431
+            ]
+          },
+          {
+            "text": "măsură",
+            "confidence": 96.56,
+            "bbox": [
+              1214,
+              416,
+              1274,
+              431
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0030",
+        "type": "paragraph",
+        "text": "Hormonul tireotrop, TSH",
+        "bbox": [
+          55,
+          451,
+          309,
+          475
+        ],
+        "confidence": 93.13,
+        "words": [
+          {
+            "text": "Hormonul",
+            "confidence": 91.72,
+            "bbox": [
+              55,
+              451,
+              157,
+              470
+            ]
+          },
+          {
+            "text": "tireotrop,",
+            "confidence": 90.95,
+            "bbox": [
+              164,
+              451,
+              260,
+              475
+            ]
+          },
+          {
+            "text": "TSH",
+            "confidence": 96.71,
+            "bbox": [
+              268,
+              452,
+              309,
+              470
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0031",
+        "type": "marker",
+        "text": "1,8",
+        "bbox": [
+          735,
+          452,
+          763,
+          473
+        ],
+        "confidence": 95.15,
+        "words": [
+          {
+            "text": "1,8",
+            "confidence": 95.15,
+            "bbox": [
+              735,
+              452,
+              763,
+              473
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0032",
+        "type": "paragraph",
+        "text": "0,27 —4,20",
+        "bbox": [
+          943,
+          452,
+          1065,
+          473
+        ],
+        "confidence": 92.54,
+        "words": [
+          {
+            "text": "0,27",
+            "confidence": 93.15,
+            "bbox": [
+              943,
+              452,
+              985,
+              473
+            ]
+          },
+          {
+            "text": "—4,20",
+            "confidence": 91.93,
+            "bbox": [
+              992,
+              452,
+              1065,
+              473
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0033",
+        "type": "paragraph",
+        "text": "yIU/mL",
+        "bbox": [
+          1194,
+          452,
+          1269,
+          475
+        ],
+        "confidence": 28.57,
+        "words": [
+          {
+            "text": "yIU/mL",
+            "confidence": 28.57,
+            "bbox": [
+              1194,
+              452,
+              1269,
+              475
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0034",
+        "type": "field_line",
+        "text": "Ser. Metoda: Electrochemiluminiscenta.",
+        "bbox": [
+          53,
+          482,
+          383,
+          502
+        ],
+        "confidence": 92.44,
+        "words": [
+          {
+            "text": "Ser.",
+            "confidence": 93.29,
+            "bbox": [
+              53,
+              483,
+              83,
+              498
+            ]
+          },
+          {
+            "text": "Metoda:",
+            "confidence": 93.17,
+            "bbox": [
+              91,
+              482,
+              158,
+              498
+            ]
+          },
+          {
+            "text": "Electrochemiluminiscenta.",
+            "confidence": 90.86,
+            "bbox": [
+              166,
+              482,
+              383,
+              502
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0035",
+        "type": "paragraph",
+        "text": "Feritina*",
+        "bbox": [
+          55,
+          522,
+          141,
+          541
+        ],
+        "confidence": 92.77,
+        "words": [
+          {
+            "text": "Feritina*",
+            "confidence": 92.77,
+            "bbox": [
+              55,
+              522,
+              141,
+              541
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0036",
+        "type": "paragraph",
+        "text": "10,8",
+        "bbox": [
+          728,
+          522,
+          770,
+          544
+        ],
+        "confidence": 96.25,
+        "words": [
+          {
+            "text": "10,8",
+            "confidence": 96.25,
+            "bbox": [
+              728,
+              522,
+              770,
+              544
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0037",
+        "type": "paragraph",
+        "text": "5 — 148",
+        "bbox": [
+          962,
+          523,
+          1047,
+          541
+        ],
+        "confidence": 93.53,
+        "words": [
+          {
+            "text": "5",
+            "confidence": 92.0,
+            "bbox": [
+              962,
+              523,
+              972,
+              541
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 92.0,
+            "bbox": [
+              987,
+              532,
+              1001,
+              535
+            ]
+          },
+          {
+            "text": "148",
+            "confidence": 96.58,
+            "bbox": [
+              1012,
+              523,
+              1047,
+              541
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0038",
+        "type": "paragraph",
+        "text": "ng/mL",
+        "bbox": [
+          1198,
+          523,
+          1265,
+          546
+        ],
+        "confidence": 95.9,
+        "words": [
+          {
+            "text": "ng/mL",
+            "confidence": 95.9,
+            "bbox": [
+              1198,
+              523,
+              1265,
+              546
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0039",
+        "type": "field_line",
+        "text": "Ser. Metoda: Chemiluminiscenta.",
+        "bbox": [
+          53,
+          553,
+          328,
+          573
+        ],
+        "confidence": 91.91,
+        "words": [
+          {
+            "text": "Ser.",
+            "confidence": 93.31,
+            "bbox": [
+              53,
+              554,
+              83,
+              569
+            ]
+          },
+          {
+            "text": "Metoda:",
+            "confidence": 92.14,
+            "bbox": [
+              91,
+              553,
+              158,
+              569
+            ]
+          },
+          {
+            "text": "Chemiluminiscenta.",
+            "confidence": 90.29,
+            "bbox": [
+              165,
+              553,
+              328,
+              573
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0040",
+        "type": "paragraph",
+        "text": "Analizele marcate cu * nu sunt acreditate de MOLDAC.",
+        "bbox": [
+          48,
+          594,
+          522,
+          610
+        ],
+        "confidence": 92.5,
+        "words": [
+          {
+            "text": "Analizele",
+            "confidence": 91.19,
+            "bbox": [
+              48,
+              594,
+              125,
+              610
+            ]
+          },
+          {
+            "text": "marcate",
+            "confidence": 92.58,
+            "bbox": [
+              132,
+              597,
+              202,
+              610
+            ]
+          },
+          {
+            "text": "cu",
+            "confidence": 90.72,
+            "bbox": [
+              208,
+              599,
+              227,
+              610
+            ]
+          },
+          {
+            "text": "*",
+            "confidence": 91.01,
+            "bbox": [
+              233,
+              595,
+              241,
+              603
+            ]
+          },
+          {
+            "text": "nu",
+            "confidence": 96.88,
+            "bbox": [
+              247,
+              599,
+              268,
+              610
+            ]
+          },
+          {
+            "text": "sunt",
+            "confidence": 92.9,
+            "bbox": [
+              274,
+              597,
+              311,
+              610
+            ]
+          },
+          {
+            "text": "acreditate",
+            "confidence": 92.9,
+            "bbox": [
+              317,
+              594,
+              402,
+              610
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 93.29,
+            "bbox": [
+              409,
+              594,
+              431,
+              610
+            ]
+          },
+          {
+            "text": "MOLDAC.",
+            "confidence": 91.04,
+            "bbox": [
+              438,
+              595,
+              522,
+              610
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0041",
+        "type": "paragraph",
+        "text": "Valorile de referință corespund sexului si vârstei. Rezultatele investigaţiilor de laborator nu reprezintă diagnosticul clinic.",
+        "bbox": [
+          49,
+          638,
+          1092,
+          659
+        ],
+        "confidence": 93.41,
+        "words": [
+          {
+            "text": "Valorile",
+            "confidence": 96.5,
+            "bbox": [
+              49,
+              638,
+              115,
+              654
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.83,
+            "bbox": [
+              122,
+              638,
+              142,
+              654
+            ]
+          },
+          {
+            "text": "referință",
+            "confidence": 80.21,
+            "bbox": [
+              147,
+              638,
+              221,
+              658
+            ]
+          },
+          {
+            "text": "corespund",
+            "confidence": 96.89,
+            "bbox": [
+              227,
+              638,
+              316,
+              659
+            ]
+          },
+          {
+            "text": "sexului",
+            "confidence": 93.82,
+            "bbox": [
+              321,
+              638,
+              381,
+              654
+            ]
+          },
+          {
+            "text": "si",
+            "confidence": 91.65,
+            "bbox": [
+              386,
+              639,
+              400,
+              658
+            ]
+          },
+          {
+            "text": "vârstei.",
+            "confidence": 96.41,
+            "bbox": [
+              407,
+              638,
+              465,
+              654
+            ]
+          },
+          {
+            "text": "Rezultatele",
+            "confidence": 96.64,
+            "bbox": [
+              475,
+              638,
+              570,
+              654
+            ]
+          },
+          {
+            "text": "investigaţiilor",
+            "confidence": 77.0,
+            "bbox": [
+              577,
+              638,
+              696,
+              659
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.47,
+            "bbox": [
+              700,
+              638,
+              720,
+              654
+            ]
+          },
+          {
+            "text": "laborator",
+            "confidence": 96.02,
+            "bbox": [
+              727,
+              638,
+              808,
+              654
+            ]
+          },
+          {
+            "text": "nu",
+            "confidence": 93.18,
+            "bbox": [
+              812,
+              643,
+              834,
+              654
+            ]
+          },
+          {
+            "text": "reprezintă",
+            "confidence": 96.81,
+            "bbox": [
+              840,
+              639,
+              928,
+              659
+            ]
+          },
+          {
+            "text": "diagnosticul",
+            "confidence": 95.8,
+            "bbox": [
+              933,
+              638,
+              1039,
+              659
+            ]
+          },
+          {
+            "text": "clinic.",
+            "confidence": 96.89,
+            "bbox": [
+              1044,
+              638,
+              1092,
+              654
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0042",
+        "type": "paragraph",
+        "text": "Pentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultaţi medicul Dvs. curant.",
+        "bbox": [
+          48,
+          665,
+          1060,
+          686
+        ],
+        "confidence": 94.79,
+        "words": [
+          {
+            "text": "Pentru",
+            "confidence": 96.61,
+            "bbox": [
+              48,
+              666,
+              105,
+              681
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 96.61,
+            "bbox": [
+              111,
+              670,
+              121,
+              681
+            ]
+          },
+          {
+            "text": "interpreta",
+            "confidence": 93.79,
+            "bbox": [
+              127,
+              665,
+              212,
+              686
+            ]
+          },
+          {
+            "text": "datele",
+            "confidence": 96.89,
+            "bbox": [
+              218,
+              665,
+              271,
+              681
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.97,
+            "bbox": [
+              277,
+              665,
+              297,
+              681
+            ]
+          },
+          {
+            "text": "laborator",
+            "confidence": 96.08,
+            "bbox": [
+              304,
+              665,
+              384,
+              681
+            ]
+          },
+          {
+            "text": "raportate",
+            "confidence": 96.21,
+            "bbox": [
+              389,
+              667,
+              470,
+              686
+            ]
+          },
+          {
+            "text": "în",
+            "confidence": 96.89,
+            "bbox": [
+              476,
+              665,
+              492,
+              681
+            ]
+          },
+          {
+            "text": "documentul",
+            "confidence": 96.29,
+            "bbox": [
+              498,
+              665,
+              600,
+              681
+            ]
+          },
+          {
+            "text": "prezent,",
+            "confidence": 91.23,
+            "bbox": [
+              604,
+              667,
+              673,
+              686
+            ]
+          },
+          {
+            "text": "Vă",
+            "confidence": 95.98,
+            "bbox": [
+              682,
+              666,
+              703,
+              681
+            ]
+          },
+          {
+            "text": "rugăm",
+            "confidence": 96.03,
+            "bbox": [
+              709,
+              666,
+              766,
+              686
+            ]
+          },
+          {
+            "text": "să",
+            "confidence": 96.89,
+            "bbox": [
+              771,
+              666,
+              790,
+              681
+            ]
+          },
+          {
+            "text": "consultaţi",
+            "confidence": 77.56,
+            "bbox": [
+              796,
+              665,
+              881,
+              685
+            ]
+          },
+          {
+            "text": "medicul",
+            "confidence": 96.08,
+            "bbox": [
+              886,
+              665,
+              955,
+              681
+            ]
+          },
+          {
+            "text": "Dvs.",
+            "confidence": 96.44,
+            "bbox": [
+              961,
+              666,
+              995,
+              681
+            ]
+          },
+          {
+            "text": "curant.",
+            "confidence": 94.94,
+            "bbox": [
+              1002,
+              667,
+              1060,
+              681
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0043",
+        "type": "paragraph",
+        "text": "Executat și verificat",
+        "bbox": [
+          48,
+          746,
+          254,
+          771
+        ],
+        "confidence": 96.17,
+        "words": [
+          {
+            "text": "Executat",
+            "confidence": 96.29,
+            "bbox": [
+              48,
+              748,
+              138,
+              765
+            ]
+          },
+          {
+            "text": "și",
+            "confidence": 96.17,
+            "bbox": [
+              144,
+              746,
+              159,
+              771
+            ]
+          },
+          {
+            "text": "verificat",
+            "confidence": 96.05,
+            "bbox": [
+              166,
+              746,
+              254,
+              765
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0044",
+        "type": "field_line",
+        "text": "Validat: Șefă de Laborator",
+        "bbox": [
+          573,
+          746,
+          856,
+          771
+        ],
+        "confidence": 93.18,
+        "words": [
+          {
+            "text": "Validat:",
+            "confidence": 92.19,
+            "bbox": [
+              573,
+              746,
+              656,
+              765
+            ]
+          },
+          {
+            "text": "Șefă",
+            "confidence": 87.0,
+            "bbox": [
+              662,
+              746,
+              708,
+              771
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.98,
+            "bbox": [
+              715,
+              746,
+              742,
+              765
+            ]
+          },
+          {
+            "text": "Laborator",
+            "confidence": 96.53,
+            "bbox": [
+              749,
+              746,
+              856,
+              765
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0045",
+        "type": "paragraph",
+        "text": "Data",
+        "bbox": [
+          1156,
+          748,
+          1206,
+          765
+        ],
+        "confidence": 96.32,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 96.32,
+            "bbox": [
+              1156,
+              748,
+              1206,
+              765
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0046",
+        "type": "paragraph",
+        "text": "Ariadna Artemenko; Nicolae Sușchevici",
+        "bbox": [
+          48,
+          785,
+          495,
+          812
+        ],
+        "confidence": 92.42,
+        "words": [
+          {
+            "text": "Ariadna",
+            "confidence": 93.09,
+            "bbox": [
+              48,
+              786,
+              137,
+              807
+            ]
+          },
+          {
+            "text": "Artemenko;",
+            "confidence": 91.44,
+            "bbox": [
+              144,
+              786,
+              278,
+              811
+            ]
+          },
+          {
+            "text": "Nicolae",
+            "confidence": 93.17,
+            "bbox": [
+              288,
+              785,
+              373,
+              807
+            ]
+          },
+          {
+            "text": "Sușchevici",
+            "confidence": 91.99,
+            "bbox": [
+              381,
+              786,
+              495,
+              812
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0047",
+        "type": "paragraph",
+        "text": "Mariana Brailean",
+        "bbox": [
+          576,
+          786,
+          768,
+          807
+        ],
+        "confidence": 92.27,
+        "words": [
+          {
+            "text": "Mariana",
+            "confidence": 93.3,
+            "bbox": [
+              576,
+              786,
+              668,
+              807
+            ]
+          },
+          {
+            "text": "Brailean",
+            "confidence": 91.24,
+            "bbox": [
+              678,
+              786,
+              768,
+              807
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0048",
+        "type": "date_line",
+        "text": "02.04.2026",
+        "bbox": [
+          1156,
+          786,
+          1268,
+          804
+        ],
+        "confidence": 96.63,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 96.63,
+            "bbox": [
+              1156,
+              786,
+              1268,
+              804
+            ]
+          }
+        ]
+      }
+    ],
+    "full_text": "Nr. 11686333.2026\nKuzmitkaia\nData nasterii\n14.05.2004 (21 ani)\nNume\nMaia\nDomiciliu, adresa\nPrenume\nÎnregistrarea, adresa\nFeminin\nSex\nRecoltarea probei\n02.04.2026 10:37\nProba nr. 11686333\nCNP\nIMA\nPolita\nReceptionarea probei\n02.04.2026 11:36\nTrimis de:\nData efectuarii examinarilor\n02.04.2026\nStarea esantionului primar — conformă.\nValori\nUnităţi\nRezultat\nParametru\nde referință\nde măsură\nHormonul tireotrop, TSH\n1,8\n0,27 —4,20\nyIU/mL\nSer. Metoda: Electrochemiluminiscenta.\nFeritina*\n10,8\n5 — 148\nng/mL\nSer. Metoda: Chemiluminiscenta.\nAnalizele marcate cu * nu sunt acreditate de MOLDAC.\nValorile de referință corespund sexului si vârstei. Rezultatele investigaţiilor de laborator nu reprezintă diagnosticul clinic.\nPentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultaţi medicul Dvs. curant.\nExecutat și verificat\nValidat: Șefă de Laborator\nData\nAriadna Artemenko; Nicolae Sușchevici\nMariana Brailean\n02.04.2026"
+  },
+  "quality": {
+    "ocr_engine": "tesseract",
+    "ocr_languages": "eng+ron+rus",
+    "ocr_psm": 11,
+    "ocr_candidate": "standard",
+    "preprocessing": "standard_autocontrast",
+    "mean_confidence": 92.58,
+    "word_count": 125,
+    "candidate_scores": [
+      {
+        "name": "standard",
+        "preprocessing": "standard_autocontrast",
+        "score": 142.2,
+        "mean_confidence": 92.58,
+        "word_count": 125,
+        "subtype": "molecular_lab_report"
+      }
+    ],
+    "low_confidence_blocks": [
+      "line_0016",
+      "line_0033"
+    ]
+  },
+  "outputs": {
+    "json": "output/json/Screenshot 2026-05-10 at 13.23.33.json",
+    "html": "output/html/Screenshot 2026-05-10 at 13.23.33.html",
+    "pdf": "output/pdf/Screenshot 2026-05-10 at 13.23.33.pdf",
+    "pdf_status": "rendered"
+  }
+}

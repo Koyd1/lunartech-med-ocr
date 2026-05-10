@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>E MEDICALE</title>
+  <style>
+    @page { size: A4; margin: 12mm; }
+    body {
+      margin: 0;
+      background: #f4f5f7;
+      color: #111827;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sheet {
+      position: relative;
+      width: 630.0px;
+      height: 891.5px;
+      margin: 24px auto;
+      background: #fff;
+      box-shadow: 0 1px 8px rgba(15, 23, 42, 0.16);
+      overflow: hidden;
+    }
+    .page-underlay {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      opacity: 0.95;
+      filter: grayscale(1) contrast(1.05);
+    }
+    .block {
+      position: absolute;
+      white-space: nowrap;
+      line-height: 1.15;
+      color: rgba(17, 24, 39, 0.28);
+    }
+    .heading { font-weight: 700; }
+    .field_line { font-weight: 600; }
+    .date_line { font-weight: 600; }
+    .low-confidence { color: #9f1239; }
+    .field-box {
+      position: absolute;
+      border: 1px solid rgba(37, 99, 235, 0.28);
+      background: rgba(219, 234, 254, 0.12);
+      box-sizing: border-box;
+      pointer-events: none;
+    }
+    .detected-line {
+      position: absolute;
+      background: rgba(15, 23, 42, 0.42);
+      pointer-events: none;
+    }
+    .meta {
+      max-width: 630.0px;
+      margin: 18px auto 0;
+      font-size: 12px;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <section class="meta">
+    OCR: tesseract |
+    Mean confidence: 86.24 |
+    Source: Moroz_Alexandr_Investigatii_biologie_moleculara_18_03_2024_15_25.pdf
+  </section>
+  <main class="sheet">
+    <img class="page-underlay" src="assets/Moroz_Alexandr_Investigatii_biologie_moleculara_18_03_2024_15_25_page_1.png" alt="">
+    <div class="field-box" title="Data nasterii" style="left:205.2px; top:167.4px; width:234.9px; height:9.5px;"></div>
+    <div class="field-box" title="Sensibilitatea clinică" style="left:41.4px; top:616.1px; width:237.2px; height:8.6px;"></div>
+    <div class="field-box" title="Sensibilitatea analitică" style="left:41.4px; top:626.0px; width:138.6px; height:8.6px;"></div>
+    <div class="field-box" title="patient_name" style="left:90.0px; top:167.4px; width:39.1px; height:23.4px;"></div>
+    <div class="field-box" title="birth_date" style="left:205.2px; top:167.4px; width:234.9px; height:9.5px;"></div>
+    <div class="field-box" title="idnp" style="left:36.9px; top:214.7px; width:122.0px; height:7.7px;"></div>
+    <div class="field-box" title="sample_collected_at" style="left:205.2px; top:214.7px; width:223.7px; height:9.9px;"></div>
+    <div class="field-box" title="sample_received_at" style="left:205.2px; top:230.8px; width:225.0px; height:9.5px;"></div>
+    <div class="field-box" title="performed_at" style="left:205.2px; top:246.6px; width:198.5px; height:7.7px;"></div>
+
+    <div class="detected-line horizontal" style="left:216.0px; top:68.0px; width:171.5px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:216.0px; top:76.5px; width:171.5px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:741.1px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:745.2px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:749.2px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:753.3px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:757.4px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:761.4px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:765.5px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:769.5px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:773.6px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:777.6px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:781.6px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:785.7px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:789.8px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:793.8px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:797.9px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:801.9px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:806.0px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:810.0px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:814.1px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:818.1px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:822.1px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:826.2px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:830.2px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:834.3px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:838.4px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:842.4px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:846.5px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:850.5px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:854.6px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:858.6px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line horizontal" style="left:0.0px; top:862.6px; width:629.6px; height:1.0px;"></div>
+    <div class="detected-line vertical" style="left:30.6px; top:740.7px; width:1.0px; height:150.3px;"></div>
+    <div class="detected-line vertical" style="left:34.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:38.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:42.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:46.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:50.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:54.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:59.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:63.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:67.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:71.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:75.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:79.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:83.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:87.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:91.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:95.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:99.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:103.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:107.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:111.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:115.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:119.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:123.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:127.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:131.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:135.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:140.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:144.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:148.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:152.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:156.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:160.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:164.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:168.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:172.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:176.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:180.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:184.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:188.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:192.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:196.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:200.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:204.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:208.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:212.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:216.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:221.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:225.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:229.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:233.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:237.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:241.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:245.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:249.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:253.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:257.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:261.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:265.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:269.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:273.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:277.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:281.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:285.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:289.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:293.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:297.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:301.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:306.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:310.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:314.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:318.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:322.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:326.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:330.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:334.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:338.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:342.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:346.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:350.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:354.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:358.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:362.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:366.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:370.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:374.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:378.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:382.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:387.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:391.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:395.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:399.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:403.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:407.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:411.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:415.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:419.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:423.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:427.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:431.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:435.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:439.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:443.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:447.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:451.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:455.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:459.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:463.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:468.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:472.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:476.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:480.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:484.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:488.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:492.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:496.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:500.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:504.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:508.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:512.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:516.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:520.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:524.7px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:528.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:532.8px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:536.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:540.9px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:545.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:549.0px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:553.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:557.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:561.1px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:565.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:569.2px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:573.3px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:577.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:581.4px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:585.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:589.5px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:593.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+    <div class="detected-line vertical" style="left:597.6px; top:741.1px; width:1.0px; height:149.8px;"></div>
+
+    <div class="block paragraph" style="left:347.4px; top:43.6px; font-size:7.2px;">п, Ch</div>
+    <div class="block paragraph" style="left:41.0px; top:45.5px; font-size:14.0px;">ALFA</div>
+    <div class="block marker" style="left:216.5px; top:45.9px; font-size:7.0px;">Я</div>
+    <div class="block marker" style="left:334.8px; top:47.2px; font-size:7.0px;">mi</div>
+    <div class="block paragraph" style="left:342.0px; top:56.2px; font-size:7.0px;">22 8</div>
+    <div class="block heading" style="left:513.0px; top:56.2px; font-size:7.7px;">4 MOLDAC }</div>
+    <div class="block heading" style="left:332.6px; top:69.8px; font-size:7.0px;">E MEDICALE</div>
+    <div class="block paragraph" style="left:189.5px; top:105.3px; font-size:7.4px;">ВАРОВТ</div>
+    <div class="block heading" style="left:274.1px; top:105.3px; font-size:7.6px;">DE LABORATOR</div>
+    <div class="block paragraph" style="left:499.5px; top:127.8px; font-size:7.0px;">Nr: 10885254.2024</div>
+    <div class="block paragraph" style="left:37.4px; top:167.4px; font-size:7.0px;">Nume</div>
+    <div class="block paragraph" style="left:90.9px; top:167.4px; font-size:7.0px;">Moroz</div>
+    <div class="block paragraph" style="left:205.2px; top:167.4px; font-size:7.0px;">Data nasterii</div>
+    <div class="block date_line" style="left:357.8px; top:167.4px; font-size:7.0px;">17.01.2004 (20 ani}</div>
+    <div class="block paragraph" style="left:37.4px; top:183.2px; font-size:7.0px;">Prenume</div>
+    <div class="block paragraph" style="left:90.0px; top:183.2px; font-size:7.0px;">Alexandr</div>
+    <div class="block paragraph" style="left:205.2px; top:183.2px; font-size:7.0px;">Domiciliu, adresa</div>
+    <div class="block paragraph" style="left:356.9px; top:183.2px; font-size:7.0px;">Chisinau</div>
+    <div class="block marker" style="left:36.9px; top:198.9px; font-size:7.0px;">Sex</div>
+    <div class="block paragraph" style="left:90.9px; top:198.9px; font-size:7.0px;">Masculin</div>
+    <div class="block paragraph" style="left:205.2px; top:198.9px; font-size:7.0px;">Inregistrarea, adresa</div>
+    <div class="block paragraph" style="left:357.3px; top:198.9px; font-size:7.2px;">mun.Chişinău, str. Testemitanu 21</div>
+    <div class="block marker" style="left:36.9px; top:214.7px; font-size:7.0px;">CNP</div>
+    <div class="block paragraph" style="left:90.0px; top:214.7px; font-size:7.0px;">2003500227856</div>
+    <div class="block paragraph" style="left:205.2px; top:214.7px; font-size:7.0px;">Recoltarea probei</div>
+    <div class="block date_line" style="left:357.8px; top:214.7px; font-size:7.0px;">16.03.2024 10:31</div>
+    <div class="block paragraph" style="left:479.7px; top:214.7px; font-size:7.0px;">Proba nr. 10985254</div>
+    <div class="block paragraph" style="left:37.4px; top:230.8px; font-size:7.7px;">Polita</div>
+    <div class="block paragraph" style="left:205.2px; top:230.8px; font-size:7.7px;">Receptionarea probei</div>
+    <div class="block date_line" style="left:357.8px; top:230.8px; font-size:7.0px;">16.03.2024 10:44</div>
+    <div class="block paragraph" style="left:36.9px; top:246.6px; font-size:7.0px;">Trimis de:</div>
+    <div class="block paragraph" style="left:205.2px; top:246.6px; font-size:7.0px;">Data efectuării examinarilor</div>
+    <div class="block date_line" style="left:357.8px; top:246.6px; font-size:7.0px;">16.03.2024</div>
+    <div class="block paragraph" style="left:36.9px; top:269.1px; font-size:7.0px;">Starea esantionulul primar = conformă,</div>
+    <div class="block paragraph" style="left:36.9px; top:281.7px; font-size:7.0px;">Egantionul conţine un număr suficient de celule epiteliale umane pentru efectuarea investigaţiei,</div>
+    <div class="block paragraph" style="left:37.4px; top:303.8px; font-size:9.6px;">Panel infecții sexual transmisibile</div>
+    <div class="block paragraph" style="left:36.9px; top:322.7px; font-size:7.0px;">Celule epiteliale (raclaj urogenital). Metoda: Reacţia de polimerizare in lant cu detecție în timp real, calitativ.</div>
+    <div class="block paragraph" style="left:424.4px; top:339.3px; font-size:7.0px;">Rezultat</div>
+    <div class="block paragraph" style="left:516.6px; top:339.3px; font-size:7.0px;">valori</div>
+    <div class="block paragraph" style="left:198.9px; top:339.8px; font-size:7.0px;">Denumire</div>
+    <div class="block paragraph" style="left:505.8px; top:349.2px; font-size:7.0px;">de referință</div>
+    <div class="block paragraph" style="left:41.4px; top:364.1px; font-size:7.0px;">Chlamydia trachomatis, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:364.1px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:364.1px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:418.9px; top:382.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:382.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:41.9px; top:383.4px; font-size:7.0px;">Ureaplasma species, ADN</div>
+    <div class="block paragraph" style="left:42.3px; top:400.9px; font-size:7.0px;">Mycoplasma hominis, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:400.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:400.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:42.3px; top:418.9px; font-size:7.7px;">Mycoplasma genitalium, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:418.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:418.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:41.4px; top:436.9px; font-size:7.0px;">Trichomonas vaginalis, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:436.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:436.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:42.3px; top:456.3px; font-size:7.0px;">Neisseria gonorrhoeae, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:456.3px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:456.3px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:41.4px; top:474.3px; font-size:7.0px;">Candida albicans, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:474.3px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:474.3px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:41.4px; top:492.3px; font-size:7.0px;">Gardnerella vaginalis, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:492.3px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:492.3px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:41.4px; top:511.2px; font-size:7.2px;">Cytomegalovirus, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:511.2px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:511.2px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:42.3px; top:529.2px; font-size:7.0px;">Herpes simplex virus 1+2, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:529.2px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:529.2px; font-size:7.0px;">NEGATIV</div>
+    <div class="block heading" style="left:41.4px; top:547.2px; font-size:7.0px;">Tip 16 HPV, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:547.2px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:547.2px; font-size:7.0px;">NEGATIV</div>
+    <div class="block heading" style="left:41.4px; top:565.2px; font-size:7.0px;">Tip 18 HPV, ADN</div>
+    <div class="block paragraph" style="left:418.9px; top:565.2px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:508.1px; top:565.2px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:41.9px; top:580.1px; font-size:7.0px;">NEGATIV - în eşantion nu au fost detectate secvenţe de ADN specifice.</div>
+    <div class="block paragraph" style="left:41.9px; top:591.8px; font-size:7.0px;">POZITIV - în eşantion au fost detectate secvenţe de ADN specifice</div>
+    <div class="block field_line" style="left:41.4px; top:616.1px; font-size:7.0px;">Sensibilitatea clinică: 100,0 % | Specificitatea clinică: 100,0 %</div>
+    <div class="block field_line" style="left:41.4px; top:626.0px; font-size:7.0px;">Sensibilitatea analitică: 100 copil/ml</div>
+    <div class="block paragraph" style="left:36.9px; top:643.5px; font-size:7.0px;">Analizele marcate cu * nu sunt acreditate de MOLDAC,</div>
+    <div class="block paragraph" style="left:36.9px; top:662.9px; font-size:7.0px;">Rezultoteie investigațiilor de toborator nu reprezintă diognosticul clinic.</div>
+    <div class="block paragraph" style="left:36.9px; top:672.3px; font-size:7.0px;">Pentru a interpreta dotete de laborator rapartete in documentul prezent, Vă rugăm să consultați medicul Ors. curan!.</div>
+    <div class="block paragraph" style="left:36.9px; top:705.1px; font-size:7.0px;">Executat și verificat</div>
+    <div class="block paragraph" style="left:257.4px; top:705.1px; font-size:7.7px;">Validat, Șată Laborator</div>
+    <div class="block paragraph" style="left:501.8px; top:705.1px; font-size:7.0px;">Data</div>
+    <div class="block paragraph" style="left:37.8px; top:721.8px; font-size:8.3px;">Denis Negruta</div>
+    <div class="block paragraph" style="left:258.3px; top:721.8px; font-size:8.1px;">Maria Casapu</div>
+    <div class="block date_line" style="left:502.7px; top:721.8px; font-size:7.0px;">16.03.2024</div>
+  </main>
+</body>
+</html>

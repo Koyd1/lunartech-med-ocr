@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Maia</title>
+  <style>
+    @page { size: A4; margin: 12mm; }
+    body {
+      margin: 0;
+      background: #f4f5f7;
+      color: #111827;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sheet {
+      position: relative;
+      width: 630.0px;
+      height: 415.4px;
+      margin: 24px auto;
+      background: #fff;
+      box-shadow: 0 1px 8px rgba(15, 23, 42, 0.16);
+      overflow: hidden;
+    }
+    .page-underlay {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      opacity: 0.95;
+      filter: grayscale(1) contrast(1.05);
+    }
+    .block {
+      position: absolute;
+      white-space: nowrap;
+      line-height: 1.15;
+      color: rgba(17, 24, 39, 0.28);
+    }
+    .heading { font-weight: 700; }
+    .field_line { font-weight: 600; }
+    .date_line { font-weight: 600; }
+    .low-confidence { color: #9f1239; }
+    .field-box {
+      position: absolute;
+      border: 1px solid rgba(37, 99, 235, 0.28);
+      background: rgba(219, 234, 254, 0.12);
+      box-sizing: border-box;
+      pointer-events: none;
+    }
+    .detected-line {
+      position: absolute;
+      background: rgba(15, 23, 42, 0.42);
+      pointer-events: none;
+    }
+    .meta {
+      max-width: 630.0px;
+      margin: 18px auto 0;
+      font-size: 12px;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <section class="meta">
+    OCR: tesseract |
+    Mean confidence: 92.58 |
+    Source: Screenshot 2026-05-10 at 13.23.33.png
+  </section>
+  <main class="sheet">
+    <img class="page-underlay" src="assets/Screenshot 2026-05-10 at 13.23.33.png" alt="">
+    <div class="field-box" title="Data nasterii" style="left:202.1px; top:42.8px; width:251.6px; height:10.8px;"></div>
+    <div class="field-box" title="Ser. Metoda" style="left:23.9px; top:216.9px; width:148.5px; height:9.0px;"></div>
+    <div class="field-box" title="Ser. Metoda" style="left:23.9px; top:248.8px; width:123.8px; height:9.0px;"></div>
+    <div class="field-box" title="Validat" style="left:257.9px; top:335.7px; width:127.4px; height:11.2px;"></div>
+    <div class="field-box" title="patient_name" style="left:79.7px; top:42.8px; width:49.5px; height:26.1px;"></div>
+    <div class="field-box" title="birth_date" style="left:202.1px; top:42.8px; width:251.6px; height:10.8px;"></div>
+    <div class="field-box" title="idnp" style="left:21.6px; top:94.5px; width:261.4px; height:10.8px;"></div>
+    <div class="field-box" title="sample_collected_at" style="left:202.1px; top:94.5px; width:241.2px; height:10.8px;"></div>
+    <div class="field-box" title="sample_received_at" style="left:202.1px; top:111.2px; width:241.2px; height:11.2px;"></div>
+    <div class="field-box" title="performed_at" style="left:202.1px; top:128.7px; width:212.8px; height:8.6px;"></div>
+
+
+    <div class="block paragraph" style="left:524.2px; top:18.0px; font-size:7.0px;">Nr. 11686333.2026</div>
+    <div class="block paragraph" style="left:79.7px; top:42.8px; font-size:8.5px;">Kuzmitkaia</div>
+    <div class="block paragraph" style="left:202.1px; top:42.8px; font-size:7.7px;">Data nasterii</div>
+    <div class="block date_line" style="left:365.4px; top:42.8px; font-size:8.5px;">14.05.2004 (21 ani)</div>
+    <div class="block paragraph" style="left:22.1px; top:43.2px; font-size:7.0px;">Nume</div>
+    <div class="block paragraph" style="left:79.7px; top:60.3px; font-size:7.0px;">Maia</div>
+    <div class="block paragraph" style="left:202.1px; top:60.3px; font-size:7.6px;">Domiciliu, adresa</div>
+    <div class="block paragraph" style="left:22.1px; top:60.8px; font-size:7.0px;">Prenume</div>
+    <div class="block paragraph" style="left:201.2px; top:73.4px; font-size:10.3px;">Înregistrarea, adresa</div>
+    <div class="block paragraph" style="left:79.7px; top:77.0px; font-size:7.0px;">Feminin</div>
+    <div class="block marker" style="left:21.6px; top:77.4px; font-size:7.0px;">Sex</div>
+    <div class="block paragraph" style="left:202.1px; top:94.5px; font-size:7.9px;">Recoltarea probei</div>
+    <div class="block date_line" style="left:364.9px; top:94.5px; font-size:7.0px;">02.04.2026 10:37</div>
+    <div class="block paragraph" style="left:498.2px; top:94.5px; font-size:7.0px;">Proba nr. 11686333</div>
+    <div class="block marker" style="left:21.6px; top:95.0px; font-size:7.0px;">CNP</div>
+    <div class="block paragraph" style="left:22.1px; top:111.2px; font-size:9.2px;">Polita</div>
+    <div class="block paragraph" style="left:202.1px; top:111.2px; font-size:9.2px;">Receptionarea probei</div>
+    <div class="block date_line" style="left:364.9px; top:111.6px; font-size:7.0px;">02.04.2026 11:36</div>
+    <div class="block paragraph" style="left:21.6px; top:128.7px; font-size:7.0px;">Trimis de:</div>
+    <div class="block paragraph" style="left:202.1px; top:128.7px; font-size:7.0px;">Data efectuarii examinarilor</div>
+    <div class="block date_line" style="left:364.9px; top:129.2px; font-size:7.0px;">02.04.2026</div>
+    <div class="block paragraph" style="left:21.6px; top:151.2px; font-size:7.4px;">Starea esantionului primar — conformă.</div>
+    <div class="block paragraph" style="left:441.0px; top:174.6px; font-size:7.0px;">Valori</div>
+    <div class="block paragraph" style="left:541.8px; top:174.6px; font-size:7.4px;">Unităţi</div>
+    <div class="block paragraph" style="left:335.2px; top:180.5px; font-size:7.0px;">Rezultat</div>
+    <div class="block paragraph" style="left:146.7px; top:180.9px; font-size:7.0px;">Parametru</div>
+    <div class="block paragraph" style="left:430.2px; top:186.8px; font-size:7.0px;">de referință</div>
+    <div class="block paragraph" style="left:534.1px; top:186.8px; font-size:7.0px;">de măsură</div>
+    <div class="block paragraph" style="left:24.8px; top:203.0px; font-size:7.0px;">Hormonul tireotrop, TSH</div>
+    <div class="block marker" style="left:330.8px; top:203.4px; font-size:7.7px;">1,8</div>
+    <div class="block paragraph" style="left:424.4px; top:203.4px; font-size:7.7px;">0,27 —4,20</div>
+    <div class="block field_line" style="left:23.9px; top:216.9px; font-size:7.0px;">Ser. Metoda: Electrochemiluminiscenta.</div>
+    <div class="block paragraph" style="left:24.8px; top:234.9px; font-size:7.0px;">Feritina*</div>
+    <div class="block paragraph" style="left:327.6px; top:234.9px; font-size:8.1px;">10,8</div>
+    <div class="block paragraph" style="left:432.9px; top:235.3px; font-size:7.0px;">5 — 148</div>
+    <div class="block paragraph" style="left:539.1px; top:235.3px; font-size:8.5px;">ng/mL</div>
+    <div class="block field_line" style="left:23.9px; top:248.8px; font-size:7.0px;">Ser. Metoda: Chemiluminiscenta.</div>
+    <div class="block paragraph" style="left:21.6px; top:267.3px; font-size:7.0px;">Analizele marcate cu * nu sunt acreditate de MOLDAC.</div>
+    <div class="block paragraph" style="left:22.1px; top:287.1px; font-size:7.0px;">Valorile de referință corespund sexului si vârstei. Rezultatele investigaţiilor de laborator nu reprezintă diagnosticul clinic.</div>
+    <div class="block paragraph" style="left:21.6px; top:299.2px; font-size:7.0px;">Pentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultaţi medicul Dvs. curant.</div>
+    <div class="block paragraph" style="left:21.6px; top:335.7px; font-size:7.0px;">Executat și verificat</div>
+    <div class="block field_line" style="left:257.9px; top:335.7px; font-size:7.0px;">Validat: Șefă de Laborator</div>
+    <div class="block paragraph" style="left:520.2px; top:336.6px; font-size:7.0px;">Data</div>
+    <div class="block paragraph" style="left:21.6px; top:353.2px; font-size:8.7px;">Ariadna Artemenko; Nicolae Sușchevici</div>
+    <div class="block paragraph" style="left:259.2px; top:353.7px; font-size:7.7px;">Mariana Brailean</div>
+    <div class="block date_line" style="left:520.2px; top:353.7px; font-size:7.0px;">02.04.2026</div>
+  </main>
+</body>
+</html>

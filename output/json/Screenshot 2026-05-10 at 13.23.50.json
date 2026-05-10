@@ -1,0 +1,5455 @@
+{
+  "schema_version": "0.1",
+  "source": {
+    "filename": "Screenshot 2026-05-10 at 13.23.50.png",
+    "path": "test-img/Screenshot 2026-05-10 at 13.23.50.png",
+    "type": "image",
+    "working_image": "output/tmp/ocr/Screenshot 2026-05-10 at 13.23.50_ocr_degraded.png",
+    "original_image": "test-img/Screenshot 2026-05-10 at 13.23.50.png"
+  },
+  "document": {
+    "title": "de măsură",
+    "document_type": "medical_document",
+    "subtype": "generic_medical_document",
+    "processed_at": "2026-05-10T10:32:54.096043+00:00"
+  },
+  "layout": {
+    "page": {
+      "width": 1400,
+      "height": 1706,
+      "unit": "px"
+    },
+    "visual_elements": {
+      "lines": []
+    }
+  },
+  "content": {
+    "fields": [
+      {
+        "name": "Data nasterii",
+        "value": "14.05.2004 (21 ani)",
+        "source_block_id": "line_0003",
+        "value_block_id": "line_0004",
+        "confidence": 94.09,
+        "bbox": [
+          447,
+          111,
+          1013,
+          136
+        ],
+        "extraction_method": "neighbor_geometry"
+      },
+      {
+        "name": "Sânge integral. Metoda",
+        "value": "Citometria în flux cu fluorescentă / Focalizarea hidrodinamică / SLS hemoglobină",
+        "source_block_id": "line_0025",
+        "value_block_id": null,
+        "confidence": 94.27,
+        "bbox": [
+          41,
+          462,
+          1142,
+          487
+        ],
+        "extraction_method": "inline_text"
+      }
+    ],
+    "schema_fields": {},
+    "sections": [],
+    "tables": [],
+    "notes": [],
+    "text_blocks": [
+      {
+        "id": "line_0001",
+        "type": "paragraph",
+        "text": "Nr. 11686332.2026",
+        "bbox": [
+          1173,
+          55,
+          1329,
+          71
+        ],
+        "confidence": 90.91,
+        "words": [
+          {
+            "text": "Nr.",
+            "confidence": 89.88,
+            "bbox": [
+              1173,
+              56,
+              1196,
+              71
+            ]
+          },
+          {
+            "text": "11686332.2026",
+            "confidence": 91.94,
+            "bbox": [
+              1205,
+              55,
+              1329,
+              71
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0002",
+        "type": "paragraph",
+        "text": "Kuzmitkaia",
+        "bbox": [
+          171,
+          111,
+          283,
+          135
+        ],
+        "confidence": 91.85,
+        "words": [
+          {
+            "text": "Kuzmitkaia",
+            "confidence": 91.85,
+            "bbox": [
+              171,
+              111,
+              283,
+              135
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0003",
+        "type": "paragraph",
+        "text": "Data nasterii",
+        "bbox": [
+          447,
+          111,
+          576,
+          136
+        ],
+        "confidence": 93.09,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 93.27,
+            "bbox": [
+              447,
+              112,
+              494,
+              130
+            ]
+          },
+          {
+            "text": "nasterii",
+            "confidence": 92.9,
+            "bbox": [
+              502,
+              111,
+              576,
+              136
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0004",
+        "type": "date_line",
+        "text": "14.05.2004 (21 ani)",
+        "bbox": [
+          816,
+          111,
+          1013,
+          134
+        ],
+        "confidence": 95.08,
+        "words": [
+          {
+            "text": "14.05.2004",
+            "confidence": 94.93,
+            "bbox": [
+              816,
+              112,
+              927,
+              130
+            ]
+          },
+          {
+            "text": "(21",
+            "confidence": 93.89,
+            "bbox": [
+              938,
+              112,
+              966,
+              134
+            ]
+          },
+          {
+            "text": "ani)",
+            "confidence": 96.41,
+            "bbox": [
+              977,
+              111,
+              1013,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0005",
+        "type": "paragraph",
+        "text": "Nume",
+        "bbox": [
+          42,
+          112,
+          104,
+          130
+        ],
+        "confidence": 92.12,
+        "words": [
+          {
+            "text": "Nume",
+            "confidence": 92.12,
+            "bbox": [
+              42,
+              112,
+              104,
+              130
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0006",
+        "type": "paragraph",
+        "text": "Domiciliu, adresa",
+        "bbox": [
+          447,
+          150,
+          623,
+          173
+        ],
+        "confidence": 92.85,
+        "words": [
+          {
+            "text": "Domiciliu,",
+            "confidence": 92.7,
+            "bbox": [
+              447,
+              150,
+              547,
+              173
+            ]
+          },
+          {
+            "text": "adresa",
+            "confidence": 93.01,
+            "bbox": [
+              556,
+              150,
+              623,
+              170
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0007",
+        "type": "paragraph",
+        "text": "Maia",
+        "bbox": [
+          171,
+          151,
+          219,
+          170
+        ],
+        "confidence": 96.65,
+        "words": [
+          {
+            "text": "Maia",
+            "confidence": 96.65,
+            "bbox": [
+              171,
+              151,
+              219,
+              170
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0008",
+        "type": "paragraph",
+        "text": "Prenume",
+        "bbox": [
+          42,
+          152,
+          135,
+          170
+        ],
+        "confidence": 90.94,
+        "words": [
+          {
+            "text": "Prenume",
+            "confidence": 90.94,
+            "bbox": [
+              42,
+              152,
+              135,
+              170
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0009",
+        "type": "paragraph",
+        "text": "Înregistrarea, adresa",
+        "bbox": [
+          445,
+          184,
+          658,
+          213
+        ],
+        "confidence": 96.15,
+        "words": [
+          {
+            "text": "Înregistrarea,",
+            "confidence": 95.77,
+            "bbox": [
+              445,
+              184,
+              582,
+              213
+            ]
+          },
+          {
+            "text": "adresa",
+            "confidence": 96.52,
+            "bbox": [
+              590,
+              188,
+              658,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0010",
+        "type": "marker",
+        "text": "Sex",
+        "bbox": [
+          41,
+          189,
+          77,
+          208
+        ],
+        "confidence": 96.78,
+        "words": [
+          {
+            "text": "Sex",
+            "confidence": 96.78,
+            "bbox": [
+              41,
+              189,
+              77,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0011",
+        "type": "paragraph",
+        "text": "Feminin",
+        "bbox": [
+          171,
+          189,
+          251,
+          208
+        ],
+        "confidence": 91.44,
+        "words": [
+          {
+            "text": "Feminin",
+            "confidence": 91.44,
+            "bbox": [
+              171,
+              189,
+              251,
+              208
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0012",
+        "type": "paragraph",
+        "text": "Recoltarea probei",
+        "bbox": [
+          447,
+          228,
+          630,
+          253
+        ],
+        "confidence": 96.66,
+        "words": [
+          {
+            "text": "Recoltarea",
+            "confidence": 96.6,
+            "bbox": [
+              447,
+              228,
+              556,
+              247
+            ]
+          },
+          {
+            "text": "probei",
+            "confidence": 96.72,
+            "bbox": [
+              565,
+              228,
+              630,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0013",
+        "type": "paragraph",
+        "text": "Proba nr. 11686332",
+        "bbox": [
+          1114,
+          228,
+          1320,
+          247
+        ],
+        "confidence": 96.46,
+        "words": [
+          {
+            "text": "Proba",
+            "confidence": 96.39,
+            "bbox": [
+              1114,
+              228,
+              1172,
+              247
+            ]
+          },
+          {
+            "text": "nr.",
+            "confidence": 96.39,
+            "bbox": [
+              1181,
+              234,
+              1206,
+              247
+            ]
+          },
+          {
+            "text": "11686332",
+            "confidence": 96.62,
+            "bbox": [
+              1219,
+              229,
+              1320,
+              247
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0014",
+        "type": "marker",
+        "text": "CNP",
+        "bbox": [
+          41,
+          229,
+          86,
+          247
+        ],
+        "confidence": 96.56,
+        "words": [
+          {
+            "text": "CNP",
+            "confidence": 96.56,
+            "bbox": [
+              41,
+              229,
+              86,
+              247
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0015",
+        "type": "date_line",
+        "text": "02.04.2026 10:37",
+        "bbox": [
+          814,
+          229,
+          991,
+          247
+        ],
+        "confidence": 96.82,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 96.67,
+            "bbox": [
+              814,
+              229,
+              927,
+              247
+            ]
+          },
+          {
+            "text": "10:37",
+            "confidence": 96.97,
+            "bbox": [
+              936,
+              229,
+              991,
+              247
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0016",
+        "type": "marker",
+        "text": "I",
+        "bbox": [
+          1123,
+          252,
+          1315,
+          290
+        ],
+        "confidence": 49.74,
+        "words": [
+          {
+            "text": "I",
+            "confidence": 49.74,
+            "bbox": [
+              1123,
+              252,
+              1315,
+              290
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0017",
+        "type": "paragraph",
+        "text": "Polita",
+        "bbox": [
+          42,
+          266,
+          98,
+          290
+        ],
+        "confidence": 91.7,
+        "words": [
+          {
+            "text": "Polita",
+            "confidence": 91.7,
+            "bbox": [
+              42,
+              266,
+              98,
+              290
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0018",
+        "type": "paragraph",
+        "text": "Receptionarea probei",
+        "bbox": [
+          447,
+          266,
+          671,
+          291
+        ],
+        "confidence": 92.68,
+        "words": [
+          {
+            "text": "Receptionarea",
+            "confidence": 92.13,
+            "bbox": [
+              447,
+              266,
+              597,
+              291
+            ]
+          },
+          {
+            "text": "probei",
+            "confidence": 93.23,
+            "bbox": [
+              605,
+              266,
+              671,
+              291
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0019",
+        "type": "date_line",
+        "text": "02.04.2026 11:39",
+        "bbox": [
+          814,
+          266,
+          990,
+          285
+        ],
+        "confidence": 96.39,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 96.44,
+            "bbox": [
+              814,
+              267,
+              927,
+              285
+            ]
+          },
+          {
+            "text": "11:39",
+            "confidence": 96.35,
+            "bbox": [
+              936,
+              266,
+              990,
+              285
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0020",
+        "type": "paragraph",
+        "text": "Trimis de:",
+        "bbox": [
+          40,
+          305,
+          135,
+          324
+        ],
+        "confidence": 94.42,
+        "words": [
+          {
+            "text": "Trimis",
+            "confidence": 92.76,
+            "bbox": [
+              40,
+              305,
+              103,
+              324
+            ]
+          },
+          {
+            "text": "de:",
+            "confidence": 96.09,
+            "bbox": [
+              110,
+              305,
+              135,
+              324
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0021",
+        "type": "paragraph",
+        "text": "Data efectuării examinărilor",
+        "bbox": [
+          447,
+          305,
+          734,
+          324
+        ],
+        "confidence": 94.09,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 96.94,
+            "bbox": [
+              447,
+              306,
+              494,
+              324
+            ]
+          },
+          {
+            "text": "efectuării",
+            "confidence": 93.26,
+            "bbox": [
+              502,
+              305,
+              597,
+              324
+            ]
+          },
+          {
+            "text": "examinărilor",
+            "confidence": 92.07,
+            "bbox": [
+              605,
+              305,
+              734,
+              324
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0022",
+        "type": "date_line",
+        "text": "02.04.2026",
+        "bbox": [
+          814,
+          306,
+          927,
+          324
+        ],
+        "confidence": 96.66,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 96.66,
+            "bbox": [
+              814,
+              306,
+              927,
+              324
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0023",
+        "type": "paragraph",
+        "text": "Starea eşantionului primar — conformă",
+        "bbox": [
+          41,
+          365,
+          368,
+          394
+        ],
+        "confidence": 92.15,
+        "words": [
+          {
+            "text": "Starea",
+            "confidence": 93.3,
+            "bbox": [
+              41,
+              370,
+              93,
+              385
+            ]
+          },
+          {
+            "text": "eşantionului",
+            "confidence": 92.06,
+            "bbox": [
+              100,
+              369,
+              202,
+              389
+            ]
+          },
+          {
+            "text": "primar",
+            "confidence": 93.21,
+            "bbox": [
+              210,
+              370,
+              280,
+              390
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 85.35,
+            "bbox": [
+              269,
+              365,
+              279,
+              394
+            ]
+          },
+          {
+            "text": "conformă",
+            "confidence": 96.86,
+            "bbox": [
+              288,
+              369,
+              368,
+              385
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0024",
+        "type": "paragraph",
+        "text": "Hemograma cu formula leucocitară",
+        "bbox": [
+          42,
+          419,
+          600,
+          454
+        ],
+        "confidence": 93.61,
+        "words": [
+          {
+            "text": "Hemograma",
+            "confidence": 92.57,
+            "bbox": [
+              42,
+              420,
+              236,
+              454
+            ]
+          },
+          {
+            "text": "cu",
+            "confidence": 96.74,
+            "bbox": [
+              248,
+              427,
+              283,
+              447
+            ]
+          },
+          {
+            "text": "formula",
+            "confidence": 93.27,
+            "bbox": [
+              293,
+              419,
+              417,
+              447
+            ]
+          },
+          {
+            "text": "leucocitară",
+            "confidence": 91.86,
+            "bbox": [
+              430,
+              419,
+              600,
+              447
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0025",
+        "type": "field_line",
+        "text": "Sânge integral. Metoda: Citometria în flux cu fluorescentă / Focalizarea hidrodinamică / SLS hemoglobină",
+        "bbox": [
+          41,
+          462,
+          1142,
+          487
+        ],
+        "confidence": 94.27,
+        "words": [
+          {
+            "text": "Sânge",
+            "confidence": 96.89,
+            "bbox": [
+              41,
+              462,
+              105,
+              487
+            ]
+          },
+          {
+            "text": "integral.",
+            "confidence": 96.6,
+            "bbox": [
+              113,
+              462,
+              196,
+              487
+            ]
+          },
+          {
+            "text": "Metoda:",
+            "confidence": 93.31,
+            "bbox": [
+              206,
+              462,
+              290,
+              482
+            ]
+          },
+          {
+            "text": "Citometria",
+            "confidence": 92.02,
+            "bbox": [
+              299,
+              463,
+              407,
+              482
+            ]
+          },
+          {
+            "text": "în",
+            "confidence": 96.99,
+            "bbox": [
+              413,
+              462,
+              432,
+              482
+            ]
+          },
+          {
+            "text": "flux",
+            "confidence": 95.69,
+            "bbox": [
+              440,
+              462,
+              478,
+              482
+            ]
+          },
+          {
+            "text": "cu",
+            "confidence": 95.69,
+            "bbox": [
+              484,
+              468,
+              508,
+              482
+            ]
+          },
+          {
+            "text": "fluorescentă",
+            "confidence": 93.29,
+            "bbox": [
+              515,
+              462,
+              644,
+              482
+            ]
+          },
+          {
+            "text": "/",
+            "confidence": 92.52,
+            "bbox": [
+              651,
+              464,
+              661,
+              484
+            ]
+          },
+          {
+            "text": "Focalizarea",
+            "confidence": 92.52,
+            "bbox": [
+              669,
+              462,
+              783,
+              482
+            ]
+          },
+          {
+            "text": "hidrodinamică",
+            "confidence": 92.64,
+            "bbox": [
+              791,
+              462,
+              938,
+              482
+            ]
+          },
+          {
+            "text": "/",
+            "confidence": 92.64,
+            "bbox": [
+              944,
+              464,
+              955,
+              484
+            ]
+          },
+          {
+            "text": "SLS",
+            "confidence": 92.54,
+            "bbox": [
+              962,
+              463,
+              997,
+              482
+            ]
+          },
+          {
+            "text": "hemoglobină",
+            "confidence": 96.39,
+            "bbox": [
+              1005,
+              462,
+              1142,
+              487
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0026",
+        "type": "paragraph",
+        "text": "Rezultat",
+        "bbox": [
+          861,
+          514,
+          930,
+          530
+        ],
+        "confidence": 96.77,
+        "words": [
+          {
+            "text": "Rezultat",
+            "confidence": 96.77,
+            "bbox": [
+              861,
+              514,
+              930,
+              530
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0027",
+        "type": "paragraph",
+        "text": "Valori",
+        "bbox": [
+          1049,
+          514,
+          1097,
+          530
+        ],
+        "confidence": 95.85,
+        "words": [
+          {
+            "text": "Valori",
+            "confidence": 95.85,
+            "bbox": [
+              1049,
+              514,
+              1097,
+              530
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0028",
+        "type": "paragraph",
+        "text": "Parametru",
+        "bbox": [
+          381,
+          515,
+          468,
+          530
+        ],
+        "confidence": 92.94,
+        "words": [
+          {
+            "text": "Parametru",
+            "confidence": 92.94,
+            "bbox": [
+              381,
+              515,
+              468,
+              530
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0029",
+        "type": "paragraph",
+        "text": "Unităţi",
+        "bbox": [
+          1221,
+          515,
+          1275,
+          535
+        ],
+        "confidence": 88.1,
+        "words": [
+          {
+            "text": "Unităţi",
+            "confidence": 88.1,
+            "bbox": [
+              1221,
+              515,
+              1275,
+              535
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0030",
+        "type": "paragraph",
+        "text": "de referință",
+        "bbox": [
+          1025,
+          542,
+          1122,
+          563
+        ],
+        "confidence": 89.76,
+        "words": [
+          {
+            "text": "de",
+            "confidence": 96.96,
+            "bbox": [
+              1025,
+              543,
+              1045,
+              559
+            ]
+          },
+          {
+            "text": "referință",
+            "confidence": 82.55,
+            "bbox": [
+              1052,
+              542,
+              1122,
+              563
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0031",
+        "type": "paragraph",
+        "text": "de măsură",
+        "bbox": [
+          1203,
+          543,
+          1292,
+          559
+        ],
+        "confidence": 96.97,
+        "words": [
+          {
+            "text": "de",
+            "confidence": 96.96,
+            "bbox": [
+              1203,
+              543,
+              1224,
+              559
+            ]
+          },
+          {
+            "text": "măsură",
+            "confidence": 96.97,
+            "bbox": [
+              1231,
+              543,
+              1292,
+              559
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0032",
+        "type": "paragraph",
+        "text": "Eritrocite (numărul absolut)",
+        "bbox": [
+          53,
+          576,
+          336,
+          600
+        ],
+        "confidence": 94.88,
+        "words": [
+          {
+            "text": "Eritrocite",
+            "confidence": 91.87,
+            "bbox": [
+              53,
+              577,
+              145,
+              596
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.51,
+            "bbox": [
+              153,
+              576,
+              245,
+              600
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.27,
+            "bbox": [
+              254,
+              576,
+              336,
+              599
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0033",
+        "type": "marker",
+        "text": "RBC",
+        "bbox": [
+          655,
+          577,
+          696,
+          596
+        ],
+        "confidence": 91.99,
+        "words": [
+          {
+            "text": "RBC",
+            "confidence": 91.99,
+            "bbox": [
+              655,
+              577,
+              696,
+              596
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0034",
+        "type": "paragraph",
+        "text": "5,00",
+        "bbox": [
+          848,
+          577,
+          890,
+          599
+        ],
+        "confidence": 96.25,
+        "words": [
+          {
+            "text": "5,00",
+            "confidence": 96.25,
+            "bbox": [
+              848,
+              577,
+              890,
+              599
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0035",
+        "type": "paragraph",
+        "text": "3,8 —5,1",
+        "bbox": [
+          1025,
+          577,
+          1119,
+          599
+        ],
+        "confidence": 55.98,
+        "words": [
+          {
+            "text": "3,8",
+            "confidence": 90.72,
+            "bbox": [
+              1025,
+              577,
+              1055,
+              599
+            ]
+          },
+          {
+            "text": "—5,1",
+            "confidence": 21.24,
+            "bbox": [
+              1062,
+              577,
+              1119,
+              599
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0036",
+        "type": "paragraph",
+        "text": "x1046/uL",
+        "bbox": [
+          1197,
+          577,
+          1298,
+          601
+        ],
+        "confidence": 51.83,
+        "words": [
+          {
+            "text": "x1046/uL",
+            "confidence": 51.83,
+            "bbox": [
+              1197,
+              577,
+              1298,
+              601
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0037",
+        "type": "paragraph",
+        "text": "11,7 — 15,5",
+        "bbox": [
+          1014,
+          614,
+          1135,
+          647
+        ],
+        "confidence": 91.74,
+        "words": [
+          {
+            "text": "11,7",
+            "confidence": 89.97,
+            "bbox": [
+              1014,
+              618,
+              1135,
+              639
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 89.97,
+            "bbox": [
+              1073,
+              614,
+              1085,
+              647
+            ]
+          },
+          {
+            "text": "15,5",
+            "confidence": 95.28,
+            "bbox": [
+              1095,
+              618,
+              1135,
+              639
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0038",
+        "type": "paragraph",
+        "text": "Hemoglobina",
+        "bbox": [
+          53,
+          617,
+          192,
+          642
+        ],
+        "confidence": 92.34,
+        "words": [
+          {
+            "text": "Hemoglobina",
+            "confidence": 92.34,
+            "bbox": [
+              53,
+              617,
+              192,
+              642
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0039",
+        "type": "paragraph",
+        "text": "g/dL",
+        "bbox": [
+          1224,
+          617,
+          1271,
+          642
+        ],
+        "confidence": 72.25,
+        "words": [
+          {
+            "text": "g/dL",
+            "confidence": 72.25,
+            "bbox": [
+              1224,
+              617,
+              1271,
+              642
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0040",
+        "type": "marker",
+        "text": "HGB",
+        "bbox": [
+          655,
+          618,
+          700,
+          636
+        ],
+        "confidence": 92.72,
+        "words": [
+          {
+            "text": "HGB",
+            "confidence": 92.72,
+            "bbox": [
+              655,
+              618,
+              700,
+              636
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0041",
+        "type": "paragraph",
+        "text": "13,60",
+        "bbox": [
+          842,
+          618,
+          897,
+          639
+        ],
+        "confidence": 96.39,
+        "words": [
+          {
+            "text": "13,60",
+            "confidence": 96.39,
+            "bbox": [
+              842,
+              618,
+              897,
+              639
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0042",
+        "type": "paragraph",
+        "text": "Hematocrit",
+        "bbox": [
+          53,
+          658,
+          168,
+          677
+        ],
+        "confidence": 96.58,
+        "words": [
+          {
+            "text": "Hematocrit",
+            "confidence": 96.58,
+            "bbox": [
+              53,
+              658,
+              168,
+              677
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0043",
+        "type": "paragraph",
+        "text": "41,40",
+        "bbox": [
+          840,
+          658,
+          897,
+          680
+        ],
+        "confidence": 96.59,
+        "words": [
+          {
+            "text": "41,40",
+            "confidence": 96.59,
+            "bbox": [
+              840,
+              658,
+              897,
+              680
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0044",
+        "type": "marker",
+        "text": "HCT",
+        "bbox": [
+          655,
+          659,
+          697,
+          677
+        ],
+        "confidence": 91.46,
+        "words": [
+          {
+            "text": "HCT",
+            "confidence": 91.46,
+            "bbox": [
+              655,
+              659,
+              697,
+              677
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0045",
+        "type": "paragraph",
+        "text": "35 —45",
+        "bbox": [
+          1031,
+          659,
+          1117,
+          677
+        ],
+        "confidence": 84.51,
+        "words": [
+          {
+            "text": "35",
+            "confidence": 84.51,
+            "bbox": [
+              1031,
+              659,
+              1054,
+              677
+            ]
+          },
+          {
+            "text": "—45",
+            "confidence": 84.51,
+            "bbox": [
+              1062,
+              659,
+              1117,
+              677
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0046",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          659,
+          1258,
+          677
+        ],
+        "confidence": 93.06,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 93.06,
+            "bbox": [
+              1239,
+              659,
+              1258,
+              677
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0047",
+        "type": "paragraph",
+        "text": "Eritrocite microcitare (procentul) *",
+        "bbox": [
+          53,
+          698,
+          407,
+          723
+        ],
+        "confidence": 91.75,
+        "words": [
+          {
+            "text": "Eritrocite",
+            "confidence": 91.8,
+            "bbox": [
+              53,
+              699,
+              145,
+              718
+            ]
+          },
+          {
+            "text": "microcitare",
+            "confidence": 92.92,
+            "bbox": [
+              153,
+              699,
+              268,
+              718
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 91.13,
+            "bbox": [
+              276,
+              698,
+              389,
+              723
+            ]
+          },
+          {
+            "text": "*",
+            "confidence": 91.13,
+            "bbox": [
+              398,
+              700,
+              407,
+              708
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0048",
+        "type": "paragraph",
+        "text": "MicroR (%)",
+        "bbox": [
+          655,
+          699,
+          767,
+          722
+        ],
+        "confidence": 90.91,
+        "words": [
+          {
+            "text": "MicroR",
+            "confidence": 89.8,
+            "bbox": [
+              655,
+              699,
+              728,
+              718
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 92.02,
+            "bbox": [
+              735,
+              699,
+              767,
+              722
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0049",
+        "type": "paragraph",
+        "text": "4,70",
+        "bbox": [
+          846,
+          699,
+          890,
+          721
+        ],
+        "confidence": 95.64,
+        "words": [
+          {
+            "text": "4,70",
+            "confidence": 95.64,
+            "bbox": [
+              846,
+              699,
+              890,
+              721
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0050",
+        "type": "paragraph",
+        "text": "0,5 — 5,8",
+        "bbox": [
+          1024,
+          699,
+          1122,
+          721
+        ],
+        "confidence": 91.9,
+        "words": [
+          {
+            "text": "0,5",
+            "confidence": 91.2,
+            "bbox": [
+              1024,
+              699,
+              1054,
+              721
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 91.2,
+            "bbox": [
+              1061,
+              709,
+              1086,
+              711
+            ]
+          },
+          {
+            "text": "5,8",
+            "confidence": 93.29,
+            "bbox": [
+              1093,
+              699,
+              1122,
+              721
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0051",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          699,
+          1258,
+          718
+        ],
+        "confidence": 92.96,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.96,
+            "bbox": [
+              1239,
+              699,
+              1258,
+              718
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0052",
+        "type": "paragraph",
+        "text": "Eritrocite macrocitare (procentul) *",
+        "bbox": [
+          53,
+          739,
+          413,
+          764
+        ],
+        "confidence": 92.26,
+        "words": [
+          {
+            "text": "Eritrocite",
+            "confidence": 92.17,
+            "bbox": [
+              53,
+              739,
+              145,
+              758
+            ]
+          },
+          {
+            "text": "macrocitare",
+            "confidence": 92.16,
+            "bbox": [
+              153,
+              739,
+              274,
+              758
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 91.5,
+            "bbox": [
+              283,
+              739,
+              396,
+              764
+            ]
+          },
+          {
+            "text": "*",
+            "confidence": 93.2,
+            "bbox": [
+              404,
+              740,
+              413,
+              749
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0053",
+        "type": "paragraph",
+        "text": "MacroR (%)",
+        "bbox": [
+          655,
+          740,
+          773,
+          762
+        ],
+        "confidence": 89.58,
+        "words": [
+          {
+            "text": "MacroR",
+            "confidence": 90.46,
+            "bbox": [
+              655,
+              740,
+              735,
+              758
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 88.71,
+            "bbox": [
+              742,
+              740,
+              773,
+              762
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0054",
+        "type": "paragraph",
+        "text": "4,00",
+        "bbox": [
+          846,
+          740,
+          890,
+          762
+        ],
+        "confidence": 94.96,
+        "words": [
+          {
+            "text": "4,00",
+            "confidence": 94.96,
+            "bbox": [
+              846,
+              740,
+              890,
+              762
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0055",
+        "type": "paragraph",
+        "text": "3,3—5,1",
+        "bbox": [
+          1025,
+          740,
+          1119,
+          761
+        ],
+        "confidence": 77.63,
+        "words": [
+          {
+            "text": "3,3—5,1",
+            "confidence": 77.63,
+            "bbox": [
+              1025,
+              740,
+              1119,
+              761
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0056",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          740,
+          1258,
+          758
+        ],
+        "confidence": 91.81,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 91.81,
+            "bbox": [
+              1239,
+              740,
+              1258,
+              758
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0057",
+        "type": "paragraph",
+        "text": "Eritrocite nucleate (numărul absolut) *",
+        "bbox": [
+          53,
+          780,
+          451,
+          803
+        ],
+        "confidence": 93.7,
+        "words": [
+          {
+            "text": "Eritrocite",
+            "confidence": 92.61,
+            "bbox": [
+              53,
+              780,
+              145,
+              799
+            ]
+          },
+          {
+            "text": "nucleate",
+            "confidence": 93.31,
+            "bbox": [
+              153,
+              780,
+              241,
+              799
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.16,
+            "bbox": [
+              250,
+              780,
+              342,
+              803
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 93.22,
+            "bbox": [
+              350,
+              780,
+              433,
+              803
+            ]
+          },
+          {
+            "text": "*",
+            "confidence": 93.22,
+            "bbox": [
+              442,
+              781,
+              451,
+              790
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0058",
+        "type": "paragraph",
+        "text": "x1043/uL",
+        "bbox": [
+          1198,
+          780,
+          1298,
+          804
+        ],
+        "confidence": 63.94,
+        "words": [
+          {
+            "text": "x1043/uL",
+            "confidence": 63.94,
+            "bbox": [
+              1198,
+              780,
+              1298,
+              804
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0059",
+        "type": "paragraph",
+        "text": "NRBC (#)",
+        "bbox": [
+          655,
+          781,
+          747,
+          803
+        ],
+        "confidence": 90.7,
+        "words": [
+          {
+            "text": "NRBC",
+            "confidence": 89.17,
+            "bbox": [
+              655,
+              781,
+              714,
+              799
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 92.24,
+            "bbox": [
+              722,
+              781,
+              747,
+              803
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0060",
+        "type": "paragraph",
+        "text": "0,00",
+        "bbox": [
+          847,
+          781,
+          890,
+          802
+        ],
+        "confidence": 95.49,
+        "words": [
+          {
+            "text": "0,00",
+            "confidence": 95.49,
+            "bbox": [
+              847,
+              781,
+              890,
+              802
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0061",
+        "type": "paragraph",
+        "text": "0,00",
+        "bbox": [
+          1051,
+          781,
+          1095,
+          802
+        ],
+        "confidence": 96.76,
+        "words": [
+          {
+            "text": "0,00",
+            "confidence": 96.76,
+            "bbox": [
+              1051,
+              781,
+              1095,
+              802
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0062",
+        "type": "paragraph",
+        "text": "Eritrocite nucleate (procentul) *",
+        "bbox": [
+          53,
+          820,
+          380,
+          845
+        ],
+        "confidence": 92.19,
+        "words": [
+          {
+            "text": "Eritrocite",
+            "confidence": 92.53,
+            "bbox": [
+              53,
+              821,
+              145,
+              840
+            ]
+          },
+          {
+            "text": "nucleate",
+            "confidence": 93.26,
+            "bbox": [
+              153,
+              820,
+              241,
+              840
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 89.72,
+            "bbox": [
+              250,
+              820,
+              363,
+              845
+            ]
+          },
+          {
+            "text": "*",
+            "confidence": 93.25,
+            "bbox": [
+              371,
+              822,
+              380,
+              830
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0063",
+        "type": "paragraph",
+        "text": "NRBC (%)",
+        "bbox": [
+          655,
+          821,
+          753,
+          844
+        ],
+        "confidence": 87.18,
+        "words": [
+          {
+            "text": "NRBC",
+            "confidence": 81.53,
+            "bbox": [
+              655,
+              821,
+              714,
+              840
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 92.83,
+            "bbox": [
+              722,
+              821,
+              753,
+              844
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0064",
+        "type": "paragraph",
+        "text": "0,00",
+        "bbox": [
+          847,
+          821,
+          890,
+          843
+        ],
+        "confidence": 94.87,
+        "words": [
+          {
+            "text": "0,00",
+            "confidence": 94.87,
+            "bbox": [
+              847,
+              821,
+              890,
+              843
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0065",
+        "type": "marker",
+        "text": "0,0",
+        "bbox": [
+          1058,
+          821,
+          1088,
+          843
+        ],
+        "confidence": 96.17,
+        "words": [
+          {
+            "text": "0,0",
+            "confidence": 96.17,
+            "bbox": [
+              1058,
+              821,
+              1088,
+              843
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0066",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          821,
+          1258,
+          840
+        ],
+        "confidence": 91.41,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 91.41,
+            "bbox": [
+              1239,
+              821,
+              1258,
+              840
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0067",
+        "type": "paragraph",
+        "text": "Volum eritrocitar mediu",
+        "bbox": [
+          51,
+          860,
+          299,
+          879
+        ],
+        "confidence": 91.92,
+        "words": [
+          {
+            "text": "Volum",
+            "confidence": 92.97,
+            "bbox": [
+              51,
+              860,
+              119,
+              879
+            ]
+          },
+          {
+            "text": "eritrocitar",
+            "confidence": 92.13,
+            "bbox": [
+              126,
+              860,
+              229,
+              879
+            ]
+          },
+          {
+            "text": "mediu",
+            "confidence": 90.65,
+            "bbox": [
+              236,
+              860,
+              299,
+              879
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0068",
+        "type": "marker",
+        "text": "fl",
+        "bbox": [
+          1241,
+          860,
+          1252,
+          879
+        ],
+        "confidence": 93.02,
+        "words": [
+          {
+            "text": "fl",
+            "confidence": 93.02,
+            "bbox": [
+              1241,
+              860,
+              1252,
+              879
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0069",
+        "type": "marker",
+        "text": "MCV",
+        "bbox": [
+          655,
+          861,
+          704,
+          879
+        ],
+        "confidence": 93.88,
+        "words": [
+          {
+            "text": "MCV",
+            "confidence": 93.88,
+            "bbox": [
+              655,
+              861,
+              704,
+              879
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0070",
+        "type": "paragraph",
+        "text": "82,80",
+        "bbox": [
+          841,
+          861,
+          897,
+          882
+        ],
+        "confidence": 96.75,
+        "words": [
+          {
+            "text": "82,80",
+            "confidence": 96.75,
+            "bbox": [
+              841,
+              861,
+              897,
+              882
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0071",
+        "type": "paragraph",
+        "text": "81,0 — 100,0",
+        "bbox": [
+          1005,
+          861,
+          1143,
+          882
+        ],
+        "confidence": 90.84,
+        "words": [
+          {
+            "text": "81,0",
+            "confidence": 89.92,
+            "bbox": [
+              1005,
+              861,
+              1049,
+              882
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 89.92,
+            "bbox": [
+              1055,
+              871,
+              1081,
+              873
+            ]
+          },
+          {
+            "text": "100,0",
+            "confidence": 92.68,
+            "bbox": [
+              1088,
+              861,
+              1143,
+              882
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0072",
+        "type": "paragraph",
+        "text": "Hemoglobină eritrocitară medie",
+        "bbox": [
+          53,
+          900,
+          385,
+          925
+        ],
+        "confidence": 93.93,
+        "words": [
+          {
+            "text": "Hemoglobină",
+            "confidence": 92.32,
+            "bbox": [
+              53,
+              900,
+              193,
+              925
+            ]
+          },
+          {
+            "text": "eritrocitară",
+            "confidence": 92.56,
+            "bbox": [
+              200,
+              901,
+              313,
+              920
+            ]
+          },
+          {
+            "text": "medie",
+            "confidence": 96.92,
+            "bbox": [
+              322,
+              900,
+              385,
+              920
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0073",
+        "type": "marker",
+        "text": "MCH",
+        "bbox": [
+          655,
+          901,
+          705,
+          920
+        ],
+        "confidence": 90.55,
+        "words": [
+          {
+            "text": "MCH",
+            "confidence": 90.55,
+            "bbox": [
+              655,
+              901,
+              705,
+              920
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0074",
+        "type": "paragraph",
+        "text": "27,20",
+        "bbox": [
+          841,
+          901,
+          897,
+          923
+        ],
+        "confidence": 96.38,
+        "words": [
+          {
+            "text": "27,20",
+            "confidence": 96.38,
+            "bbox": [
+              841,
+              901,
+              897,
+              923
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0075",
+        "type": "paragraph",
+        "text": "27,0 — 34,0",
+        "bbox": [
+          1012,
+          901,
+          1136,
+          923
+        ],
+        "confidence": 93.01,
+        "words": [
+          {
+            "text": "27,0",
+            "confidence": 92.94,
+            "bbox": [
+              1012,
+              901,
+              1055,
+              923
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 92.94,
+            "bbox": [
+              1062,
+              911,
+              1088,
+              913
+            ]
+          },
+          {
+            "text": "34,0",
+            "confidence": 93.13,
+            "bbox": [
+              1093,
+              901,
+              1136,
+              923
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0076",
+        "type": "marker",
+        "text": "pg",
+        "bbox": [
+          1235,
+          906,
+          1260,
+          925
+        ],
+        "confidence": 82.83,
+        "words": [
+          {
+            "text": "pg",
+            "confidence": 82.83,
+            "bbox": [
+              1235,
+              906,
+              1260,
+              925
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0077",
+        "type": "paragraph",
+        "text": "Concentratia medie de hemoglobină eritrocitară",
+        "bbox": [
+          52,
+          941,
+          556,
+          966
+        ],
+        "confidence": 94.1,
+        "words": [
+          {
+            "text": "Concentratia",
+            "confidence": 91.9,
+            "bbox": [
+              52,
+              941,
+              185,
+              966
+            ]
+          },
+          {
+            "text": "medie",
+            "confidence": 96.81,
+            "bbox": [
+              194,
+              941,
+              256,
+              960
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 97.01,
+            "bbox": [
+              265,
+              941,
+              290,
+              960
+            ]
+          },
+          {
+            "text": "hemoglobină",
+            "confidence": 93.3,
+            "bbox": [
+              299,
+              941,
+              435,
+              966
+            ]
+          },
+          {
+            "text": "eritrocitară",
+            "confidence": 91.48,
+            "bbox": [
+              443,
+              941,
+              556,
+              960
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0078",
+        "type": "paragraph",
+        "text": "g/dL",
+        "bbox": [
+          1224,
+          941,
+          1271,
+          966
+        ],
+        "confidence": 73.99,
+        "words": [
+          {
+            "text": "g/dL",
+            "confidence": 73.99,
+            "bbox": [
+              1224,
+              941,
+              1271,
+              966
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0079",
+        "type": "paragraph",
+        "text": "MCHC",
+        "bbox": [
+          655,
+          942,
+          720,
+          960
+        ],
+        "confidence": 91.12,
+        "words": [
+          {
+            "text": "MCHC",
+            "confidence": 91.12,
+            "bbox": [
+              655,
+              942,
+              720,
+              960
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0080",
+        "type": "paragraph",
+        "text": "32,90",
+        "bbox": [
+          841,
+          942,
+          897,
+          963
+        ],
+        "confidence": 96.08,
+        "words": [
+          {
+            "text": "32,90",
+            "confidence": 96.08,
+            "bbox": [
+              841,
+              942,
+              897,
+              963
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0081",
+        "type": "paragraph",
+        "text": "32,0 — 36,0",
+        "bbox": [
+          1012,
+          942,
+          1136,
+          964
+        ],
+        "confidence": 91.68,
+        "words": [
+          {
+            "text": "32,0",
+            "confidence": 89.11,
+            "bbox": [
+              1012,
+              942,
+              1055,
+              964
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 89.11,
+            "bbox": [
+              1062,
+              952,
+              1088,
+              954
+            ]
+          },
+          {
+            "text": "36,0",
+            "confidence": 96.81,
+            "bbox": [
+              1093,
+              942,
+              1136,
+              963
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0082",
+        "type": "paragraph",
+        "text": "Largimea distributiei eritrocitare (SD)",
+        "bbox": [
+          53,
+          982,
+          435,
+          1007
+        ],
+        "confidence": 93.7,
+        "words": [
+          {
+            "text": "Largimea",
+            "confidence": 92.52,
+            "bbox": [
+              53,
+              982,
+              146,
+              1007
+            ]
+          },
+          {
+            "text": "distributiei",
+            "confidence": 92.12,
+            "bbox": [
+              154,
+              982,
+              264,
+              1006
+            ]
+          },
+          {
+            "text": "eritrocitare",
+            "confidence": 93.15,
+            "bbox": [
+              272,
+              982,
+              385,
+              1001
+            ]
+          },
+          {
+            "text": "(SD)",
+            "confidence": 96.99,
+            "bbox": [
+              394,
+              983,
+              435,
+              1005
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0083",
+        "type": "marker",
+        "text": "fl",
+        "bbox": [
+          1241,
+          982,
+          1252,
+          1001
+        ],
+        "confidence": 95.11,
+        "words": [
+          {
+            "text": "fl",
+            "confidence": 95.11,
+            "bbox": [
+              1241,
+              982,
+              1252,
+              1001
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0084",
+        "type": "paragraph",
+        "text": "RDW-SD",
+        "bbox": [
+          655,
+          983,
+          745,
+          1001
+        ],
+        "confidence": 89.09,
+        "words": [
+          {
+            "text": "RDW-SD",
+            "confidence": 89.09,
+            "bbox": [
+              655,
+              983,
+              745,
+              1001
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0085",
+        "type": "paragraph",
+        "text": "43,50",
+        "bbox": [
+          840,
+          983,
+          897,
+          1004
+        ],
+        "confidence": 96.79,
+        "words": [
+          {
+            "text": "43,50",
+            "confidence": 96.79,
+            "bbox": [
+              840,
+              983,
+              897,
+              1004
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0086",
+        "type": "paragraph",
+        "text": "37—54",
+        "bbox": [
+          1030,
+          983,
+          1117,
+          1001
+        ],
+        "confidence": 91.94,
+        "words": [
+          {
+            "text": "37—54",
+            "confidence": 91.94,
+            "bbox": [
+              1030,
+              983,
+              1117,
+              1001
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0087",
+        "type": "paragraph",
+        "text": "11,6 — 14,8",
+        "bbox": [
+          1014,
+          1019,
+          1136,
+          1053
+        ],
+        "confidence": 91.86,
+        "words": [
+          {
+            "text": "11,6",
+            "confidence": 86.04,
+            "bbox": [
+              1014,
+              1023,
+              1136,
+              1045
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 93.15,
+            "bbox": [
+              1069,
+              1019,
+              1081,
+              1053
+            ]
+          },
+          {
+            "text": "14,8",
+            "confidence": 96.4,
+            "bbox": [
+              1095,
+              1023,
+              1136,
+              1045
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0088",
+        "type": "paragraph",
+        "text": "Largimea distributiei eritrocitare (CV)",
+        "bbox": [
+          53,
+          1022,
+          435,
+          1047
+        ],
+        "confidence": 93.6,
+        "words": [
+          {
+            "text": "Largimea",
+            "confidence": 92.7,
+            "bbox": [
+              53,
+              1023,
+              146,
+              1047
+            ]
+          },
+          {
+            "text": "distributiei",
+            "confidence": 92.87,
+            "bbox": [
+              154,
+              1022,
+              264,
+              1046
+            ]
+          },
+          {
+            "text": "eritrocitare",
+            "confidence": 91.95,
+            "bbox": [
+              272,
+              1023,
+              385,
+              1042
+            ]
+          },
+          {
+            "text": "(CV)",
+            "confidence": 96.87,
+            "bbox": [
+              394,
+              1023,
+              435,
+              1046
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0089",
+        "type": "paragraph",
+        "text": "RDW-CV",
+        "bbox": [
+          655,
+          1023,
+          746,
+          1042
+        ],
+        "confidence": 88.99,
+        "words": [
+          {
+            "text": "RDW-CV",
+            "confidence": 88.99,
+            "bbox": [
+              655,
+              1023,
+              746,
+              1042
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0090",
+        "type": "paragraph",
+        "text": "14,30",
+        "bbox": [
+          842,
+          1023,
+          897,
+          1045
+        ],
+        "confidence": 96.47,
+        "words": [
+          {
+            "text": "14,30",
+            "confidence": 96.47,
+            "bbox": [
+              842,
+              1023,
+              897,
+              1045
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0091",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          1023,
+          1258,
+          1042
+        ],
+        "confidence": 90.64,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 90.64,
+            "bbox": [
+              1239,
+              1023,
+              1258,
+              1042
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0092",
+        "type": "paragraph",
+        "text": "Trombocite (numărul absolut)",
+        "bbox": [
+          51,
+          1063,
+          363,
+          1086
+        ],
+        "confidence": 95.28,
+        "words": [
+          {
+            "text": "Trombocite",
+            "confidence": 92.67,
+            "bbox": [
+              51,
+              1063,
+              171,
+              1082
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.77,
+            "bbox": [
+              180,
+              1063,
+              272,
+              1086
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.4,
+            "bbox": [
+              280,
+              1063,
+              363,
+              1086
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0093",
+        "type": "marker",
+        "text": "PLT",
+        "bbox": [
+          655,
+          1064,
+          691,
+          1082
+        ],
+        "confidence": 96.97,
+        "words": [
+          {
+            "text": "PLT",
+            "confidence": 96.97,
+            "bbox": [
+              655,
+              1064,
+              691,
+              1082
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0094",
+        "type": "paragraph",
+        "text": "196,00",
+        "bbox": [
+          836,
+          1064,
+          903,
+          1085
+        ],
+        "confidence": 96.46,
+        "words": [
+          {
+            "text": "196,00",
+            "confidence": 96.46,
+            "bbox": [
+              836,
+              1064,
+              903,
+              1085
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0095",
+        "type": "paragraph",
+        "text": "150 — 400",
+        "bbox": [
+          1019,
+          1064,
+          1130,
+          1082
+        ],
+        "confidence": 63.9,
+        "words": [
+          {
+            "text": "150",
+            "confidence": 93.01,
+            "bbox": [
+              1019,
+              1064,
+              1055,
+              1082
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 49.34,
+            "bbox": [
+              1062,
+              1074,
+              1088,
+              1076
+            ]
+          },
+          {
+            "text": "400",
+            "confidence": 49.34,
+            "bbox": [
+              1092,
+              1064,
+              1130,
+              1082
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0096",
+        "type": "paragraph",
+        "text": "x1043/uL",
+        "bbox": [
+          1197,
+          1064,
+          1298,
+          1087
+        ],
+        "confidence": 53.95,
+        "words": [
+          {
+            "text": "x1043/uL",
+            "confidence": 53.95,
+            "bbox": [
+              1197,
+              1064,
+              1298,
+              1087
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0097",
+        "type": "paragraph",
+        "text": "0,1 — 1,0",
+        "bbox": [
+          1024,
+          1101,
+          1122,
+          1134
+        ],
+        "confidence": 65.55,
+        "words": [
+          {
+            "text": "0,1",
+            "confidence": 30.62,
+            "bbox": [
+              1024,
+              1105,
+              1122,
+              1126
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 69.07,
+            "bbox": [
+              1066,
+              1101,
+              1081,
+              1134
+            ]
+          },
+          {
+            "text": "1,0",
+            "confidence": 96.96,
+            "bbox": [
+              1091,
+              1105,
+              1122,
+              1126
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0098",
+        "type": "paragraph",
+        "text": "Trombocrit",
+        "bbox": [
+          51,
+          1104,
+          167,
+          1123
+        ],
+        "confidence": 92.54,
+        "words": [
+          {
+            "text": "Trombocrit",
+            "confidence": 92.54,
+            "bbox": [
+              51,
+              1104,
+              167,
+              1123
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0099",
+        "type": "marker",
+        "text": "PCT",
+        "bbox": [
+          655,
+          1105,
+          695,
+          1123
+        ],
+        "confidence": 96.97,
+        "words": [
+          {
+            "text": "PCT",
+            "confidence": 96.97,
+            "bbox": [
+              655,
+              1105,
+              695,
+              1123
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0100",
+        "type": "paragraph",
+        "text": "0,25",
+        "bbox": [
+          847,
+          1105,
+          890,
+          1126
+        ],
+        "confidence": 95.69,
+        "words": [
+          {
+            "text": "0,25",
+            "confidence": 95.69,
+            "bbox": [
+              847,
+              1105,
+              890,
+              1126
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0101",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          1105,
+          1258,
+          1123
+        ],
+        "confidence": 92.74,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.74,
+            "bbox": [
+              1239,
+              1105,
+              1258,
+              1123
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0102",
+        "type": "paragraph",
+        "text": "Largimea distributiei trombocitare",
+        "bbox": [
+          53,
+          1143,
+          407,
+          1168
+        ],
+        "confidence": 92.66,
+        "words": [
+          {
+            "text": "Largimea",
+            "confidence": 92.54,
+            "bbox": [
+              53,
+              1143,
+              146,
+              1168
+            ]
+          },
+          {
+            "text": "distributiei",
+            "confidence": 92.95,
+            "bbox": [
+              154,
+              1143,
+              264,
+              1167
+            ]
+          },
+          {
+            "text": "trombocitare",
+            "confidence": 92.49,
+            "bbox": [
+              271,
+              1143,
+              407,
+              1162
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0103",
+        "type": "marker",
+        "text": "fl",
+        "bbox": [
+          1241,
+          1143,
+          1252,
+          1162
+        ],
+        "confidence": 95.96,
+        "words": [
+          {
+            "text": "fl",
+            "confidence": 95.96,
+            "bbox": [
+              1241,
+              1143,
+              1252,
+              1162
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0104",
+        "type": "marker",
+        "text": "PDW",
+        "bbox": [
+          655,
+          1144,
+          707,
+          1162
+        ],
+        "confidence": 90.47,
+        "words": [
+          {
+            "text": "PDW",
+            "confidence": 90.47,
+            "bbox": [
+              655,
+              1144,
+              707,
+              1162
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0105",
+        "type": "paragraph",
+        "text": "20,70",
+        "bbox": [
+          838,
+          1144,
+          899,
+          1165
+        ],
+        "confidence": 96.83,
+        "words": [
+          {
+            "text": "20,70",
+            "confidence": 96.83,
+            "bbox": [
+              838,
+              1144,
+              899,
+              1165
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0106",
+        "type": "paragraph",
+        "text": "10—20",
+        "bbox": [
+          1031,
+          1144,
+          1117,
+          1162
+        ],
+        "confidence": 95.88,
+        "words": [
+          {
+            "text": "10—20",
+            "confidence": 95.88,
+            "bbox": [
+              1031,
+              1144,
+              1117,
+              1162
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0107",
+        "type": "paragraph",
+        "text": "13 — 43",
+        "bbox": [
+          1031,
+          1181,
+          1116,
+          1214
+        ],
+        "confidence": 93.21,
+        "words": [
+          {
+            "text": "13",
+            "confidence": 91.35,
+            "bbox": [
+              1031,
+              1185,
+              1116,
+              1203
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 91.7,
+            "bbox": [
+              1071,
+              1181,
+              1085,
+              1214
+            ]
+          },
+          {
+            "text": "43",
+            "confidence": 96.58,
+            "bbox": [
+              1093,
+              1185,
+              1116,
+              1203
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0108",
+        "type": "paragraph",
+        "text": "Macrotrombocite (procentul)",
+        "bbox": [
+          53,
+          1184,
+          355,
+          1209
+        ],
+        "confidence": 91.76,
+        "words": [
+          {
+            "text": "Macrotrombocite",
+            "confidence": 91.54,
+            "bbox": [
+              53,
+              1184,
+              233,
+              1203
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 91.98,
+            "bbox": [
+              242,
+              1184,
+              355,
+              1209
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0109",
+        "type": "paragraph",
+        "text": "49,10",
+        "bbox": [
+          837,
+          1184,
+          899,
+          1206
+        ],
+        "confidence": 96.97,
+        "words": [
+          {
+            "text": "49,10",
+            "confidence": 96.97,
+            "bbox": [
+              837,
+              1184,
+              899,
+              1206
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0110",
+        "type": "paragraph",
+        "text": "P-LSR",
+        "bbox": [
+          655,
+          1185,
+          715,
+          1203
+        ],
+        "confidence": 92.61,
+        "words": [
+          {
+            "text": "P-LSR",
+            "confidence": 92.61,
+            "bbox": [
+              655,
+              1185,
+              715,
+              1203
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0111",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          1185,
+          1258,
+          1203
+        ],
+        "confidence": 92.76,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.76,
+            "bbox": [
+              1239,
+              1185,
+              1258,
+              1203
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0112",
+        "type": "paragraph",
+        "text": "Volum trombocitar mediu",
+        "bbox": [
+          51,
+          1224,
+          320,
+          1244
+        ],
+        "confidence": 92.21,
+        "words": [
+          {
+            "text": "Volum",
+            "confidence": 93.22,
+            "bbox": [
+              51,
+              1225,
+              119,
+              1244
+            ]
+          },
+          {
+            "text": "trombocitar",
+            "confidence": 90.82,
+            "bbox": [
+              126,
+              1224,
+              250,
+              1244
+            ]
+          },
+          {
+            "text": "mediu",
+            "confidence": 92.58,
+            "bbox": [
+              257,
+              1225,
+              320,
+              1244
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0113",
+        "type": "marker",
+        "text": "fl",
+        "bbox": [
+          1241,
+          1224,
+          1252,
+          1244
+        ],
+        "confidence": 95.06,
+        "words": [
+          {
+            "text": "fl",
+            "confidence": 95.06,
+            "bbox": [
+              1241,
+              1224,
+              1252,
+              1244
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0114",
+        "type": "paragraph",
+        "text": "13,00",
+        "bbox": [
+          839,
+          1225,
+          899,
+          1247
+        ],
+        "confidence": 96.35,
+        "words": [
+          {
+            "text": "13,00",
+            "confidence": 96.35,
+            "bbox": [
+              839,
+              1225,
+              899,
+              1247
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0115",
+        "type": "paragraph",
+        "text": "9,4 — 12,3",
+        "bbox": [
+          1018,
+          1225,
+          1129,
+          1247
+        ],
+        "confidence": 93.37,
+        "words": [
+          {
+            "text": "9,4",
+            "confidence": 92.86,
+            "bbox": [
+              1018,
+              1225,
+              1049,
+              1247
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 92.86,
+            "bbox": [
+              1055,
+              1235,
+              1081,
+              1238
+            ]
+          },
+          {
+            "text": "12,3",
+            "confidence": 94.39,
+            "bbox": [
+              1088,
+              1225,
+              1129,
+              1247
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0116",
+        "type": "marker",
+        "text": "MPV",
+        "bbox": [
+          655,
+          1226,
+          704,
+          1244
+        ],
+        "confidence": 95.43,
+        "words": [
+          {
+            "text": "MPV",
+            "confidence": 95.43,
+            "bbox": [
+              655,
+              1226,
+              704,
+              1244
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0117",
+        "type": "paragraph",
+        "text": "Leucocite (numărul absolut)",
+        "bbox": [
+          53,
+          1265,
+          342,
+          1288
+        ],
+        "confidence": 95.5,
+        "words": [
+          {
+            "text": "Leucocite",
+            "confidence": 92.83,
+            "bbox": [
+              53,
+              1266,
+              151,
+              1285
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.78,
+            "bbox": [
+              160,
+              1265,
+              252,
+              1288
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.89,
+            "bbox": [
+              260,
+              1265,
+              342,
+              1288
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0118",
+        "type": "marker",
+        "text": "WBC",
+        "bbox": [
+          653,
+          1266,
+          704,
+          1284
+        ],
+        "confidence": 95.04,
+        "words": [
+          {
+            "text": "WBC",
+            "confidence": 95.04,
+            "bbox": [
+              653,
+              1266,
+              704,
+              1284
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0119",
+        "type": "paragraph",
+        "text": "8,09",
+        "bbox": [
+          848,
+          1266,
+          890,
+          1288
+        ],
+        "confidence": 96.63,
+        "words": [
+          {
+            "text": "8,09",
+            "confidence": 96.63,
+            "bbox": [
+              848,
+              1266,
+              890,
+              1288
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0120",
+        "type": "paragraph",
+        "text": "4,5 — 110",
+        "bbox": [
+          1017,
+          1266,
+          1130,
+          1288
+        ],
+        "confidence": 85.8,
+        "words": [
+          {
+            "text": "4,5",
+            "confidence": 92.74,
+            "bbox": [
+              1017,
+              1266,
+              1048,
+              1288
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 90.63,
+            "bbox": [
+              1062,
+              1276,
+              1077,
+              1278
+            ]
+          },
+          {
+            "text": "110",
+            "confidence": 74.04,
+            "bbox": [
+              1088,
+              1266,
+              1130,
+              1288
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0121",
+        "type": "paragraph",
+        "text": "x1043/uL",
+        "bbox": [
+          1197,
+          1266,
+          1298,
+          1289
+        ],
+        "confidence": 59.55,
+        "words": [
+          {
+            "text": "x1043/uL",
+            "confidence": 59.55,
+            "bbox": [
+              1197,
+              1266,
+              1298,
+              1289
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0122",
+        "type": "paragraph",
+        "text": "Neutrofile (numărul absolut)",
+        "bbox": [
+          53,
+          1311,
+          348,
+          1335
+        ],
+        "confidence": 95.14,
+        "words": [
+          {
+            "text": "Neutrofile",
+            "confidence": 92.45,
+            "bbox": [
+              53,
+              1311,
+              157,
+              1331
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.12,
+            "bbox": [
+              165,
+              1311,
+              257,
+              1335
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.85,
+            "bbox": [
+              266,
+              1311,
+              348,
+              1335
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0123",
+        "type": "paragraph",
+        "text": "NEUT (#)",
+        "bbox": [
+          655,
+          1312,
+          746,
+          1335
+        ],
+        "confidence": 90.02,
+        "words": [
+          {
+            "text": "NEUT",
+            "confidence": 92.92,
+            "bbox": [
+              655,
+              1312,
+              712,
+              1331
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 87.12,
+            "bbox": [
+              720,
+              1312,
+              746,
+              1335
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0124",
+        "type": "marker",
+        "text": "3,8",
+        "bbox": [
+          854,
+          1312,
+          884,
+          1334
+        ],
+        "confidence": 93.06,
+        "words": [
+          {
+            "text": "3,8",
+            "confidence": 93.06,
+            "bbox": [
+              854,
+              1312,
+              884,
+              1334
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0125",
+        "type": "marker",
+        "text": "2—8",
+        "bbox": [
+          1043,
+          1312,
+          1105,
+          1331
+        ],
+        "confidence": 88.76,
+        "words": [
+          {
+            "text": "2—8",
+            "confidence": 88.76,
+            "bbox": [
+              1043,
+              1312,
+              1105,
+              1331
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0126",
+        "type": "paragraph",
+        "text": "X1043/uL",
+        "bbox": [
+          1197,
+          1312,
+          1298,
+          1336
+        ],
+        "confidence": 58.07,
+        "words": [
+          {
+            "text": "X1043/uL",
+            "confidence": 58.07,
+            "bbox": [
+              1197,
+              1312,
+              1298,
+              1336
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0127",
+        "type": "paragraph",
+        "text": "Neutrofile (procentul)",
+        "bbox": [
+          53,
+          1352,
+          278,
+          1377
+        ],
+        "confidence": 94.46,
+        "words": [
+          {
+            "text": "Neutrofile",
+            "confidence": 92.37,
+            "bbox": [
+              53,
+              1352,
+              157,
+              1371
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 96.55,
+            "bbox": [
+              165,
+              1352,
+              278,
+              1377
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0128",
+        "type": "paragraph",
+        "text": "NEUT (%)",
+        "bbox": [
+          655,
+          1353,
+          752,
+          1375
+        ],
+        "confidence": 89.69,
+        "words": [
+          {
+            "text": "NEUT",
+            "confidence": 89.69,
+            "bbox": [
+              655,
+              1353,
+              712,
+              1371
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 89.69,
+            "bbox": [
+              720,
+              1353,
+              752,
+              1375
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0129",
+        "type": "marker",
+        "text": "47",
+        "bbox": [
+          856,
+          1353,
+          882,
+          1371
+        ],
+        "confidence": 95.4,
+        "words": [
+          {
+            "text": "47",
+            "confidence": 95.4,
+            "bbox": [
+              856,
+              1353,
+              882,
+              1371
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0130",
+        "type": "paragraph",
+        "text": "45 —80",
+        "bbox": [
+          1030,
+          1353,
+          1118,
+          1371
+        ],
+        "confidence": 88.99,
+        "words": [
+          {
+            "text": "45",
+            "confidence": 88.99,
+            "bbox": [
+              1030,
+              1353,
+              1054,
+              1371
+            ]
+          },
+          {
+            "text": "—80",
+            "confidence": 88.99,
+            "bbox": [
+              1062,
+              1353,
+              1118,
+              1371
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0131",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          1353,
+          1258,
+          1371
+        ],
+        "confidence": 92.99,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.99,
+            "bbox": [
+              1239,
+              1353,
+              1258,
+              1371
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0132",
+        "type": "paragraph",
+        "text": "Limfocite (numărul absolut)",
+        "bbox": [
+          53,
+          1393,
+          338,
+          1416
+        ],
+        "confidence": 95.22,
+        "words": [
+          {
+            "text": "Limfocite",
+            "confidence": 92.38,
+            "bbox": [
+              53,
+              1393,
+              147,
+              1412
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.29,
+            "bbox": [
+              155,
+              1393,
+              247,
+              1416
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.98,
+            "bbox": [
+              255,
+              1393,
+              338,
+              1416
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0133",
+        "type": "marker",
+        "text": "1—4",
+        "bbox": [
+          1045,
+          1393,
+          1105,
+          1412
+        ],
+        "confidence": 91.1,
+        "words": [
+          {
+            "text": "1—4",
+            "confidence": 91.1,
+            "bbox": [
+              1045,
+              1393,
+              1105,
+              1412
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0134",
+        "type": "paragraph",
+        "text": "x1043/uL",
+        "bbox": [
+          1198,
+          1393,
+          1298,
+          1417
+        ],
+        "confidence": 59.43,
+        "words": [
+          {
+            "text": "x1043/uL",
+            "confidence": 59.43,
+            "bbox": [
+              1198,
+              1393,
+              1298,
+              1417
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0135",
+        "type": "heading",
+        "text": "LYMPH (#)",
+        "bbox": [
+          655,
+          1394,
+          762,
+          1416
+        ],
+        "confidence": 88.57,
+        "words": [
+          {
+            "text": "LYMPH",
+            "confidence": 89.2,
+            "bbox": [
+              655,
+              1394,
+              728,
+              1412
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 87.95,
+            "bbox": [
+              737,
+              1394,
+              762,
+              1416
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0136",
+        "type": "marker",
+        "text": "3,6",
+        "bbox": [
+          854,
+          1394,
+          884,
+          1415
+        ],
+        "confidence": 96.0,
+        "words": [
+          {
+            "text": "3,6",
+            "confidence": 96.0,
+            "bbox": [
+              854,
+              1394,
+              884,
+              1415
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0137",
+        "type": "paragraph",
+        "text": "Limfocite (procentul)",
+        "bbox": [
+          53,
+          1433,
+          268,
+          1458
+        ],
+        "confidence": 92.18,
+        "words": [
+          {
+            "text": "Limfocite",
+            "confidence": 92.93,
+            "bbox": [
+              53,
+              1433,
+              147,
+              1453
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 91.43,
+            "bbox": [
+              155,
+              1433,
+              268,
+              1458
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0138",
+        "type": "heading",
+        "text": "LYMPH (%)",
+        "bbox": [
+          655,
+          1434,
+          768,
+          1457
+        ],
+        "confidence": 91.54,
+        "words": [
+          {
+            "text": "LYMPH",
+            "confidence": 93.27,
+            "bbox": [
+              655,
+              1435,
+              728,
+              1453
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 89.81,
+            "bbox": [
+              737,
+              1434,
+              768,
+              1457
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0139",
+        "type": "paragraph",
+        "text": "20—55",
+        "bbox": [
+          1031,
+          1434,
+          1117,
+          1453
+        ],
+        "confidence": 94.29,
+        "words": [
+          {
+            "text": "20—55",
+            "confidence": 94.29,
+            "bbox": [
+              1031,
+              1434,
+              1117,
+              1453
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0140",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          1434,
+          1258,
+          1453
+        ],
+        "confidence": 92.82,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.82,
+            "bbox": [
+              1239,
+              1434,
+              1258,
+              1453
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0141",
+        "type": "paragraph",
+        "text": "44,5",
+        "bbox": [
+          846,
+          1435,
+          890,
+          1456
+        ],
+        "confidence": 94.1,
+        "words": [
+          {
+            "text": "44,5",
+            "confidence": 94.1,
+            "bbox": [
+              846,
+              1435,
+              890,
+              1456
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0142",
+        "type": "paragraph",
+        "text": "Monocite (numărul absolut)",
+        "bbox": [
+          53,
+          1473,
+          342,
+          1496
+        ],
+        "confidence": 95.2,
+        "words": [
+          {
+            "text": "Monocite",
+            "confidence": 92.26,
+            "bbox": [
+              53,
+              1473,
+              151,
+              1492
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.71,
+            "bbox": [
+              160,
+              1473,
+              252,
+              1496
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.62,
+            "bbox": [
+              260,
+              1473,
+              342,
+              1496
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0143",
+        "type": "paragraph",
+        "text": "x1043/uL",
+        "bbox": [
+          1198,
+          1473,
+          1298,
+          1497
+        ],
+        "confidence": 63.95,
+        "words": [
+          {
+            "text": "x1043/uL",
+            "confidence": 63.95,
+            "bbox": [
+              1198,
+              1473,
+              1298,
+              1497
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0144",
+        "type": "paragraph",
+        "text": "MONO (#)",
+        "bbox": [
+          655,
+          1474,
+          762,
+          1496
+        ],
+        "confidence": 90.92,
+        "words": [
+          {
+            "text": "MONO",
+            "confidence": 93.23,
+            "bbox": [
+              655,
+              1474,
+              728,
+              1492
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 88.61,
+            "bbox": [
+              737,
+              1474,
+              762,
+              1496
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0145",
+        "type": "paragraph",
+        "text": "0,52",
+        "bbox": [
+          847,
+          1474,
+          890,
+          1495
+        ],
+        "confidence": 95.72,
+        "words": [
+          {
+            "text": "0,52",
+            "confidence": 95.72,
+            "bbox": [
+              847,
+              1474,
+              890,
+              1495
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0146",
+        "type": "paragraph",
+        "text": "0,3—1",
+        "bbox": [
+          1034,
+          1474,
+          1111,
+          1495
+        ],
+        "confidence": 81.72,
+        "words": [
+          {
+            "text": "0,3—1",
+            "confidence": 81.72,
+            "bbox": [
+              1034,
+              1474,
+              1111,
+              1495
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0147",
+        "type": "paragraph",
+        "text": "Monocite (procentul)",
+        "bbox": [
+          53,
+          1513,
+          273,
+          1538
+        ],
+        "confidence": 90.4,
+        "words": [
+          {
+            "text": "Monocite",
+            "confidence": 84.37,
+            "bbox": [
+              53,
+              1514,
+              151,
+              1533
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 96.43,
+            "bbox": [
+              160,
+              1513,
+              273,
+              1538
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0148",
+        "type": "paragraph",
+        "text": "MONO (%)",
+        "bbox": [
+          655,
+          1514,
+          768,
+          1537
+        ],
+        "confidence": 92.61,
+        "words": [
+          {
+            "text": "MONO",
+            "confidence": 93.21,
+            "bbox": [
+              655,
+              1514,
+              728,
+              1533
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 92.01,
+            "bbox": [
+              737,
+              1514,
+              768,
+              1537
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0149",
+        "type": "marker",
+        "text": "6,4",
+        "bbox": [
+          854,
+          1514,
+          885,
+          1536
+        ],
+        "confidence": 89.12,
+        "words": [
+          {
+            "text": "6,4",
+            "confidence": 89.12,
+            "bbox": [
+              854,
+              1514,
+              885,
+              1536
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0150",
+        "type": "paragraph",
+        "text": "0— 15",
+        "bbox": [
+          1037,
+          1514,
+          1111,
+          1533
+        ],
+        "confidence": 92.77,
+        "words": [
+          {
+            "text": "0—",
+            "confidence": 89.87,
+            "bbox": [
+              1037,
+              1514,
+              1073,
+              1533
+            ]
+          },
+          {
+            "text": "15",
+            "confidence": 95.67,
+            "bbox": [
+              1088,
+              1514,
+              1111,
+              1533
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0151",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          1514,
+          1258,
+          1533
+        ],
+        "confidence": 92.92,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.92,
+            "bbox": [
+              1239,
+              1514,
+              1258,
+              1533
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0152",
+        "type": "paragraph",
+        "text": "Eozinofile (numărul absolut)",
+        "bbox": [
+          53,
+          1554,
+          344,
+          1577
+        ],
+        "confidence": 95.14,
+        "words": [
+          {
+            "text": "Eozinofile",
+            "confidence": 92.26,
+            "bbox": [
+              53,
+              1554,
+              152,
+              1573
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.23,
+            "bbox": [
+              160,
+              1554,
+              253,
+              1577
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.94,
+            "bbox": [
+              261,
+              1554,
+              344,
+              1577
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0153",
+        "type": "paragraph",
+        "text": "EO (#)",
+        "bbox": [
+          655,
+          1555,
+          718,
+          1577
+        ],
+        "confidence": 88.29,
+        "words": [
+          {
+            "text": "EO",
+            "confidence": 93.12,
+            "bbox": [
+              655,
+              1555,
+              683,
+              1573
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 83.47,
+            "bbox": [
+              691,
+              1555,
+              718,
+              1577
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0154",
+        "type": "paragraph",
+        "text": "0,15",
+        "bbox": [
+          847,
+          1555,
+          890,
+          1577
+        ],
+        "confidence": 96.76,
+        "words": [
+          {
+            "text": "0,15",
+            "confidence": 96.76,
+            "bbox": [
+              847,
+              1555,
+              890,
+              1577
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0155",
+        "type": "paragraph",
+        "text": "0,05 — 0,7",
+        "bbox": [
+          1018,
+          1555,
+          1130,
+          1577
+        ],
+        "confidence": 94.15,
+        "words": [
+          {
+            "text": "0,05",
+            "confidence": 93.07,
+            "bbox": [
+              1018,
+              1555,
+              1061,
+              1577
+            ]
+          },
+          {
+            "text": "—",
+            "confidence": 93.07,
+            "bbox": [
+              1068,
+              1565,
+              1094,
+              1567
+            ]
+          },
+          {
+            "text": "0,7",
+            "confidence": 96.33,
+            "bbox": [
+              1100,
+              1555,
+              1130,
+              1576
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0156",
+        "type": "paragraph",
+        "text": "x1043/uL",
+        "bbox": [
+          1197,
+          1555,
+          1298,
+          1578
+        ],
+        "confidence": 57.89,
+        "words": [
+          {
+            "text": "x1043/uL",
+            "confidence": 57.89,
+            "bbox": [
+              1197,
+              1555,
+              1298,
+              1578
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0157",
+        "type": "paragraph",
+        "text": "Eozinofile (procentul)",
+        "bbox": [
+          53,
+          1595,
+          273,
+          1620
+        ],
+        "confidence": 92.39,
+        "words": [
+          {
+            "text": "Eozinofile",
+            "confidence": 92.57,
+            "bbox": [
+              53,
+              1595,
+              152,
+              1614
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 92.21,
+            "bbox": [
+              160,
+              1595,
+              273,
+              1620
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0158",
+        "type": "paragraph",
+        "text": "EO (%)",
+        "bbox": [
+          655,
+          1596,
+          723,
+          1618
+        ],
+        "confidence": 92.96,
+        "words": [
+          {
+            "text": "EO",
+            "confidence": 93.22,
+            "bbox": [
+              655,
+              1596,
+              683,
+              1614
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 92.69,
+            "bbox": [
+              691,
+              1596,
+              723,
+              1618
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0159",
+        "type": "marker",
+        "text": "1,9",
+        "bbox": [
+          855,
+          1596,
+          884,
+          1617
+        ],
+        "confidence": 96.42,
+        "words": [
+          {
+            "text": "1,9",
+            "confidence": 96.42,
+            "bbox": [
+              855,
+              1596,
+              884,
+              1617
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0160",
+        "type": "marker",
+        "text": "0—7",
+        "bbox": [
+          1043,
+          1596,
+          1105,
+          1614
+        ],
+        "confidence": 95.19,
+        "words": [
+          {
+            "text": "0—7",
+            "confidence": 95.19,
+            "bbox": [
+              1043,
+              1596,
+              1105,
+              1614
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0161",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1239,
+          1596,
+          1258,
+          1614
+        ],
+        "confidence": 92.89,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.89,
+            "bbox": [
+              1239,
+              1596,
+              1258,
+              1614
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0162",
+        "type": "date_line",
+        "text": "Kuzmitkaia Maia, 14.05.2004 | Comanda nr. 2056398 | Recoltat: 02.04.2026 10:37 | Data raportului: 02.04.2026",
+        "bbox": [
+          48,
+          1650,
+          971,
+          1670
+        ],
+        "confidence": 94.84,
+        "words": [
+          {
+            "text": "Kuzmitkaia",
+            "confidence": 92.73,
+            "bbox": [
+              48,
+              1651,
+              138,
+              1666
+            ]
+          },
+          {
+            "text": "Maia,",
+            "confidence": 96.87,
+            "bbox": [
+              146,
+              1651,
+              190,
+              1668
+            ]
+          },
+          {
+            "text": "14.05.2004",
+            "confidence": 96.73,
+            "bbox": [
+              198,
+              1651,
+              287,
+              1666
+            ]
+          },
+          {
+            "text": "|",
+            "confidence": 93.31,
+            "bbox": [
+              294,
+              1650,
+              296,
+              1670
+            ]
+          },
+          {
+            "text": "Comanda",
+            "confidence": 91.93,
+            "bbox": [
+              304,
+              1651,
+              384,
+              1666
+            ]
+          },
+          {
+            "text": "nr.",
+            "confidence": 96.89,
+            "bbox": [
+              392,
+              1655,
+              411,
+              1665
+            ]
+          },
+          {
+            "text": "2056398",
+            "confidence": 96.91,
+            "bbox": [
+              418,
+              1651,
+              489,
+              1666
+            ]
+          },
+          {
+            "text": "|",
+            "confidence": 93.24,
+            "bbox": [
+              497,
+              1650,
+              499,
+              1670
+            ]
+          },
+          {
+            "text": "Recoltat:",
+            "confidence": 93.02,
+            "bbox": [
+              507,
+              1651,
+              578,
+              1666
+            ]
+          },
+          {
+            "text": "02.04.2026",
+            "confidence": 96.34,
+            "bbox": [
+              585,
+              1651,
+              675,
+              1666
+            ]
+          },
+          {
+            "text": "10:37",
+            "confidence": 96.72,
+            "bbox": [
+              683,
+              1652,
+              726,
+              1666
+            ]
+          },
+          {
+            "text": "|",
+            "confidence": 96.72,
+            "bbox": [
+              734,
+              1650,
+              736,
+              1670
+            ]
+          },
+          {
+            "text": "Data",
+            "confidence": 93.28,
+            "bbox": [
+              744,
+              1652,
+              781,
+              1666
+            ]
+          },
+          {
+            "text": "raportului:",
+            "confidence": 92.56,
+            "bbox": [
+              789,
+              1651,
+              874,
+              1670
+            ]
+          },
+          {
+            "text": "02.04.2026",
+            "confidence": 95.42,
+            "bbox": [
+              881,
+              1651,
+              971,
+              1666
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0163",
+        "type": "paragraph",
+        "text": "Pagina 3 din 4",
+        "bbox": [
+          1238,
+          1652,
+          1356,
+          1671
+        ],
+        "confidence": 88.86,
+        "words": [
+          {
+            "text": "Pagina",
+            "confidence": 96.14,
+            "bbox": [
+              1238,
+              1652,
+              1293,
+              1671
+            ]
+          },
+          {
+            "text": "3",
+            "confidence": 94.74,
+            "bbox": [
+              1300,
+              1653,
+              1308,
+              1667
+            ]
+          },
+          {
+            "text": "din",
+            "confidence": 82.28,
+            "bbox": [
+              1315,
+              1652,
+              1340,
+              1667
+            ]
+          },
+          {
+            "text": "4",
+            "confidence": 82.28,
+            "bbox": [
+              1347,
+              1653,
+              1356,
+              1667
+            ]
+          }
+        ]
+      }
+    ],
+    "full_text": "Nr. 11686332.2026\nKuzmitkaia\nData nasterii\n14.05.2004 (21 ani)\nNume\nDomiciliu, adresa\nMaia\nPrenume\nÎnregistrarea, adresa\nSex\nFeminin\nRecoltarea probei\nProba nr. 11686332\nCNP\n02.04.2026 10:37\nI\nPolita\nReceptionarea probei\n02.04.2026 11:39\nTrimis de:\nData efectuării examinărilor\n02.04.2026\nStarea eşantionului primar — conformă\nHemograma cu formula leucocitară\nSânge integral. Metoda: Citometria în flux cu fluorescentă / Focalizarea hidrodinamică / SLS hemoglobină\nRezultat\nValori\nParametru\nUnităţi\nde referință\nde măsură\nEritrocite (numărul absolut)\nRBC\n5,00\n3,8 —5,1\nx1046/uL\n11,7 — 15,5\nHemoglobina\ng/dL\nHGB\n13,60\nHematocrit\n41,40\nHCT\n35 —45\n%\nEritrocite microcitare (procentul) *\nMicroR (%)\n4,70\n0,5 — 5,8\n%\nEritrocite macrocitare (procentul) *\nMacroR (%)\n4,00\n3,3—5,1\n%\nEritrocite nucleate (numărul absolut) *\nx1043/uL\nNRBC (#)\n0,00\n0,00\nEritrocite nucleate (procentul) *\nNRBC (%)\n0,00\n0,0\n%\nVolum eritrocitar mediu\nfl\nMCV\n82,80\n81,0 — 100,0\nHemoglobină eritrocitară medie\nMCH\n27,20\n27,0 — 34,0\npg\nConcentratia medie de hemoglobină eritrocitară\ng/dL\nMCHC\n32,90\n32,0 — 36,0\nLargimea distributiei eritrocitare (SD)\nfl\nRDW-SD\n43,50\n37—54\n11,6 — 14,8\nLargimea distributiei eritrocitare (CV)\nRDW-CV\n14,30\n%\nTrombocite (numărul absolut)\nPLT\n196,00\n150 — 400\nx1043/uL\n0,1 — 1,0\nTrombocrit\nPCT\n0,25\n%\nLargimea distributiei trombocitare\nfl\nPDW\n20,70\n10—20\n13 — 43\nMacrotrombocite (procentul)\n49,10\nP-LSR\n%\nVolum trombocitar mediu\nfl\n13,00\n9,4 — 12,3\nMPV\nLeucocite (numărul absolut)\nWBC\n8,09\n4,5 — 110\nx1043/uL\nNeutrofile (numărul absolut)\nNEUT (#)\n3,8\n2—8\nX1043/uL\nNeutrofile (procentul)\nNEUT (%)\n47\n45 —80\n%\nLimfocite (numărul absolut)\n1—4\nx1043/uL\nLYMPH (#)\n3,6\nLimfocite (procentul)\nLYMPH (%)\n20—55\n%\n44,5\nMonocite (numărul absolut)\nx1043/uL\nMONO (#)\n0,52\n0,3—1\nMonocite (procentul)\nMONO (%)\n6,4\n0— 15\n%\nEozinofile (numărul absolut)\nEO (#)\n0,15\n0,05 — 0,7\nx1043/uL\nEozinofile (procentul)\nEO (%)\n1,9\n0—7\n%\nKuzmitkaia Maia, 14.05.2004 | Comanda nr. 2056398 | Recoltat: 02.04.2026 10:37 | Data raportului: 02.04.2026\nPagina 3 din 4"
+  },
+  "quality": {
+    "ocr_engine": "tesseract",
+    "ocr_languages": "eng+ron+rus",
+    "ocr_psm": 11,
+    "ocr_candidate": "degraded",
+    "preprocessing": "upscale_then_autocontrast",
+    "mean_confidence": 91.14,
+    "word_count": 307,
+    "candidate_scores": [
+      {
+        "name": "standard",
+        "preprocessing": "standard_autocontrast",
+        "score": 118.36,
+        "mean_confidence": 90.86,
+        "word_count": 307,
+        "subtype": "generic_medical_document"
+      },
+      {
+        "name": "degraded",
+        "preprocessing": "upscale_then_autocontrast",
+        "score": 118.64,
+        "mean_confidence": 91.14,
+        "word_count": 307,
+        "subtype": "generic_medical_document"
+      }
+    ],
+    "low_confidence_blocks": [
+      "line_0016",
+      "line_0036",
+      "line_0096"
+    ]
+  },
+  "outputs": {
+    "json": "output/json/Screenshot 2026-05-10 at 13.23.50.json",
+    "html": "output/html/Screenshot 2026-05-10 at 13.23.50.html",
+    "pdf": "output/pdf/Screenshot 2026-05-10 at 13.23.50.pdf",
+    "pdf_status": "rendered"
+  }
+}

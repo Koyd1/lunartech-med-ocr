@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Viteza de sedimentare a hematiilor</title>
+  <style>
+    @page { size: A4; margin: 12mm; }
+    body {
+      margin: 0;
+      background: #f4f5f7;
+      color: #111827;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sheet {
+      position: relative;
+      width: 630.0px;
+      height: 268.2px;
+      margin: 24px auto;
+      background: #fff;
+      box-shadow: 0 1px 8px rgba(15, 23, 42, 0.16);
+      overflow: hidden;
+    }
+    .page-underlay {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      opacity: 0.95;
+      filter: grayscale(1) contrast(1.05);
+    }
+    .block {
+      position: absolute;
+      white-space: nowrap;
+      line-height: 1.15;
+      color: rgba(17, 24, 39, 0.28);
+    }
+    .heading { font-weight: 700; }
+    .field_line { font-weight: 600; }
+    .date_line { font-weight: 600; }
+    .low-confidence { color: #9f1239; }
+    .field-box {
+      position: absolute;
+      border: 1px solid rgba(37, 99, 235, 0.28);
+      background: rgba(219, 234, 254, 0.12);
+      box-sizing: border-box;
+      pointer-events: none;
+    }
+    .detected-line {
+      position: absolute;
+      background: rgba(15, 23, 42, 0.42);
+      pointer-events: none;
+    }
+    .meta {
+      max-width: 630.0px;
+      margin: 18px auto 0;
+      font-size: 12px;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <section class="meta">
+    OCR: tesseract |
+    Mean confidence: 93.64 |
+    Source: Screenshot 2026-05-10 at 13.24.01.png
+  </section>
+  <main class="sheet">
+    <img class="page-underlay" src="assets/Screenshot 2026-05-10 at 13.24.01.png" alt="">
+    <div class="field-box" title="Sânge integral. Metoda" style="left:20.2px; top:104.0px; width:140.8px; height:9.9px;"></div>
+    <div class="field-box" title="Validat" style="left:256.1px; top:208.3px; width:130.1px; height:11.2px;"></div>
+
+
+    <div class="block paragraph" style="left:20.2px; top:13.5px; font-size:8.5px;">Bazofile (numărul absolut)</div>
+    <div class="block paragraph" style="left:293.4px; top:14.0px; font-size:7.4px;">BASO (#)</div>
+    <div class="block paragraph" style="left:380.7px; top:14.0px; font-size:8.1px;">0,02</div>
+    <div class="block paragraph" style="left:465.3px; top:14.0px; font-size:8.1px;">0—0,2</div>
+    <div class="block paragraph" style="left:20.2px; top:31.9px; font-size:8.1px;">Bazofile (procentul)</div>
+    <div class="block paragraph" style="left:293.4px; top:32.4px; font-size:7.4px;">BASO (%)</div>
+    <div class="block marker" style="left:383.4px; top:32.4px; font-size:8.1px;">0,2</div>
+    <div class="block marker" style="left:469.4px; top:32.4px; font-size:7.0px;">0—2</div>
+    <div class="block paragraph" style="left:19.8px; top:50.4px; font-size:7.0px;">Granulocite imature (numărul)</div>
+    <div class="block paragraph" style="left:293.4px; top:50.9px; font-size:7.4px;">IG (#)</div>
+    <div class="block paragraph" style="left:380.7px; top:50.9px; font-size:8.1px;">0,01</div>
+    <div class="block paragraph" style="left:462.2px; top:50.9px; font-size:7.4px;">0— 0,06</div>
+    <div class="block paragraph" style="left:539.6px; top:50.9px; font-size:8.9px;">x1013/uL</div>
+    <div class="block paragraph" style="left:19.8px; top:68.9px; font-size:7.0px;">Granulocite imature (procentul)</div>
+    <div class="block paragraph" style="left:293.4px; top:69.3px; font-size:7.6px;">IG (%)</div>
+    <div class="block paragraph" style="left:380.7px; top:69.3px; font-size:8.1px;">0,10</div>
+    <div class="block paragraph" style="left:464.9px; top:69.3px; font-size:8.1px;">0—0,6</div>
+    <div class="block paragraph" style="left:20.2px; top:89.5px; font-size:7.4px;">Viteza de sedimentare a hematiilor</div>
+    <div class="block paragraph" style="left:544.5px; top:90.0px; font-size:8.1px;">mm/oră</div>
+    <div class="block marker" style="left:292.9px; top:90.5px; font-size:7.0px;">VSH</div>
+    <div class="block paragraph" style="left:467.1px; top:90.5px; font-size:7.0px;">0— 20</div>
+    <div class="block field_line" style="left:20.2px; top:104.0px; font-size:7.9px;">Sânge integral. Metoda: Westergren.</div>
+    <div class="block paragraph" style="left:14.4px; top:122.4px; font-size:7.0px;">Analizele marcate cu * nu sunt acreditate de MOLDAC.</div>
+    <div class="block paragraph" style="left:14.8px; top:138.6px; font-size:7.0px;">Rezultatele analizelor marcate cu simbolul (!) sunt valori critice si necesita atentie imediata a pacientului si a medicului acestuia.</div>
+    <div class="block paragraph" style="left:15.3px; top:158.0px; font-size:7.0px;">Valorile de referință corespund sexului si vârstei. Rezultatele investigațiilor de laborator nu reprezintă diagnosticul clinic.</div>
+    <div class="block paragraph" style="left:14.8px; top:171.0px; font-size:7.0px;">Pentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultaţi medicul Dvs. curant.</div>
+    <div class="block paragraph" style="left:14.8px; top:208.3px; font-size:7.4px;">Executat și verificat</div>
+    <div class="block field_line" style="left:256.1px; top:208.3px; font-size:7.4px;">Validat: Sefa de Laborator</div>
+    <div class="block paragraph" style="left:524.2px; top:209.2px; font-size:7.0px;">Data</div>
+    <div class="block paragraph" style="left:14.8px; top:225.9px; font-size:7.9px;">Viorica Binzaru</div>
+    <div class="block paragraph" style="left:257.4px; top:225.9px; font-size:7.9px;">Mariana Brailean</div>
+    <div class="block date_line" style="left:524.2px; top:226.3px; font-size:7.0px;">02.04.2026</div>
+  </main>
+</body>
+</html>

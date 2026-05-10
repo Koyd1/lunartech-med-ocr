@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Recoltarea probei</title>
+  <style>
+    @page { size: A4; margin: 12mm; }
+    body {
+      margin: 0;
+      background: #f4f5f7;
+      color: #111827;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sheet {
+      position: relative;
+      width: 630.0px;
+      height: 667.4px;
+      margin: 24px auto;
+      background: #fff;
+      box-shadow: 0 1px 8px rgba(15, 23, 42, 0.16);
+      overflow: hidden;
+    }
+    .page-underlay {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      opacity: 0.95;
+      filter: grayscale(1) contrast(1.05);
+    }
+    .block {
+      position: absolute;
+      white-space: nowrap;
+      line-height: 1.15;
+      color: rgba(17, 24, 39, 0.28);
+    }
+    .heading { font-weight: 700; }
+    .field_line { font-weight: 600; }
+    .date_line { font-weight: 600; }
+    .low-confidence { color: #9f1239; }
+    .field-box {
+      position: absolute;
+      border: 1px solid rgba(37, 99, 235, 0.28);
+      background: rgba(219, 234, 254, 0.12);
+      box-sizing: border-box;
+      pointer-events: none;
+    }
+    .detected-line {
+      position: absolute;
+      background: rgba(15, 23, 42, 0.42);
+      pointer-events: none;
+    }
+    .meta {
+      max-width: 630.0px;
+      margin: 18px auto 0;
+      font-size: 12px;
+      color: #475569;
+    }
+  </style>
+</head>
+<body>
+  <section class="meta">
+    OCR: tesseract |
+    Mean confidence: 91.92 |
+    Source: bad_level1.png
+  </section>
+  <main class="sheet">
+    <img class="page-underlay" src="assets/bad_level1.png" alt="">
+    <div class="field-box" title="Sensibilitatea clinică" style="left:43.6px; top:504.9px; width:242.1px; height:9.5px;"></div>
+    <div class="field-box" title="Sensibilitatea analitică" style="left:43.6px; top:516.1px; width:141.3px; height:9.0px;"></div>
+    <div class="field-box" title="patient_name" style="left:99.5px; top:49.5px; width:50.9px; height:8.6px;"></div>
+    <div class="field-box" title="idnp" style="left:39.6px; top:82.8px; width:126.5px; height:7.7px;"></div>
+    <div class="field-box" title="sample_collected_at" style="left:215.6px; top:82.8px; width:228.2px; height:10.3px;"></div>
+    <div class="field-box" title="sample_received_at" style="left:215.6px; top:99.5px; width:229.5px; height:10.3px;"></div>
+    <div class="field-box" title="performed_at" style="left:215.1px; top:115.7px; width:202.5px; height:9.0px;"></div>
+
+
+    <div class="block paragraph" style="left:93.2px; top:32.4px; font-size:7.0px;">Alexandr</div>
+    <div class="block paragraph" style="left:40.1px; top:32.9px; font-size:7.0px;">Мите</div>
+    <div class="block paragraph" style="left:216.0px; top:33.3px; font-size:7.0px;">Data naşterii</div>
+    <div class="block date_line" style="left:372.6px; top:33.8px; font-size:7.4px;">17.01.2004 (20 ani)</div>
+    <div class="block paragraph" style="left:99.5px; top:49.5px; font-size:7.0px;">Alexandr2</div>
+    <div class="block paragraph" style="left:40.1px; top:50.0px; font-size:7.0px;">Prenume</div>
+    <div class="block paragraph" style="left:215.6px; top:50.4px; font-size:7.0px;">Domiciliu, adresa</div>
+    <div class="block paragraph" style="left:371.2px; top:50.4px; font-size:8.5px;">Chişinău</div>
+    <div class="block paragraph" style="left:215.1px; top:64.4px; font-size:8.3px;">Înregistrarea, adresa</div>
+    <div class="block marker" style="left:40.1px; top:66.2px; font-size:7.0px;">Sex</div>
+    <div class="block paragraph" style="left:95.9px; top:66.2px; font-size:7.0px;">Masculin</div>
+    <div class="block paragraph" style="left:371.7px; top:67.0px; font-size:7.2px;">mun.Chişinău, str. Testemițanu 21</div>
+    <div class="block marker" style="left:39.6px; top:82.8px; font-size:7.0px;">CNP</div>
+    <div class="block paragraph" style="left:95.4px; top:82.8px; font-size:7.0px;">2003500227856</div>
+    <div class="block paragraph" style="left:215.6px; top:82.8px; font-size:7.6px;">Recoltarea probei</div>
+    <div class="block date_line" style="left:371.7px; top:83.2px; font-size:7.0px;">16.03.2024 10:31</div>
+    <div class="block paragraph" style="left:494.6px; top:83.7px; font-size:7.0px;">Proba nr. 10885254</div>
+    <div class="block paragraph" style="left:40.1px; top:99.0px; font-size:7.7px;">Polita</div>
+    <div class="block paragraph" style="left:215.6px; top:99.5px; font-size:8.5px;">Receptionarea probei</div>
+    <div class="block date_line" style="left:371.7px; top:99.9px; font-size:7.0px;">16.03.2024 10:44</div>
+    <div class="block paragraph" style="left:39.6px; top:115.2px; font-size:7.0px;">Trimis de:</div>
+    <div class="block paragraph" style="left:215.1px; top:115.7px; font-size:7.0px;">Data efectuării examinărilor</div>
+    <div class="block date_line" style="left:371.2px; top:116.5px; font-size:7.0px;">16.03.2024</div>
+    <div class="block paragraph" style="left:39.6px; top:138.6px; font-size:7.0px;">Starea esantionului primar - conformă.</div>
+    <div class="block paragraph" style="left:39.6px; top:151.2px; font-size:7.0px;">Eşantionul conţine un număr suficient de celule epiteliale umane pentru efectuarea investigaţiei</div>
+    <div class="block paragraph" style="left:40.1px; top:174.6px; font-size:10.0px;">Panel Infectii sexual transmisibile</div>
+    <div class="block paragraph" style="left:39.6px; top:193.5px; font-size:7.2px;">Celule epiteliale (raclaj urogenital). Metoda: Reacţia de polimerizare in lant cu detecție în timp real, calitativ.</div>
+    <div class="block paragraph" style="left:207.5px; top:212.0px; font-size:7.0px;">Denumire</div>
+    <div class="block paragraph" style="left:437.9px; top:212.0px; font-size:7.0px;">Rezultat</div>
+    <div class="block paragraph" style="left:531.5px; top:212.0px; font-size:7.0px;">Valori</div>
+    <div class="block paragraph" style="left:520.2px; top:222.3px; font-size:7.0px;">de referință</div>
+    <div class="block paragraph" style="left:44.6px; top:236.7px; font-size:7.0px;">Chlamydia trachomatis, ADN</div>
+    <div class="block paragraph" style="left:523.4px; top:237.6px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:432.9px; top:238.1px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:44.6px; top:256.1px; font-size:7.0px;">Ureaplasma species, ADN</div>
+    <div class="block paragraph" style="left:523.4px; top:256.5px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:432.4px; top:256.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:44.6px; top:274.9px; font-size:7.7px;">Mycoplasma hominis, ADN</div>
+    <div class="block paragraph" style="left:432.4px; top:275.4px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:522.9px; top:275.4px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:44.6px; top:293.9px; font-size:8.5px;">Mycoplasma genitalium, ADN</div>
+    <div class="block paragraph" style="left:522.9px; top:294.3px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:432.4px; top:294.8px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:43.6px; top:313.2px; font-size:7.0px;">Trichomonas vaginalis, ADN</div>
+    <div class="block paragraph" style="left:432.4px; top:313.7px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:522.9px; top:313.7px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:44.6px; top:332.6px; font-size:7.0px;">Neisseria gonorrhoeae, ADN</div>
+    <div class="block paragraph" style="left:522.9px; top:332.6px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:432.4px; top:333.0px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:44.1px; top:351.9px; font-size:7.0px;">Candida albicans, ADN</div>
+    <div class="block paragraph" style="left:432.4px; top:351.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:522.9px; top:351.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:44.1px; top:369.0px; font-size:8.5px;">Gardnerella vaginalis, ADN</div>
+    <div class="block paragraph" style="left:522.9px; top:370.4px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:432.0px; top:370.8px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:44.1px; top:382.1px; font-size:14.0px;">Cytomegalovirus, ADN</div>
+    <div class="block paragraph" style="left:432.0px; top:389.7px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:522.9px; top:389.7px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:44.6px; top:403.2px; font-size:11.1px;">Herpes simplex virus 142, ADN</div>
+    <div class="block paragraph" style="left:432.0px; top:408.6px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:522.9px; top:408.6px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:432.0px; top:427.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:522.9px; top:427.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block heading" style="left:43.6px; top:428.9px; font-size:7.0px;">Tip 16 HPV, ADN</div>
+    <div class="block paragraph" style="left:522.9px; top:446.9px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:432.0px; top:447.3px; font-size:7.0px;">NEGATIV</div>
+    <div class="block heading" style="left:43.2px; top:448.2px; font-size:7.0px;">Tip 18 HPV, ADN</div>
+    <div class="block paragraph" style="left:89.5px; top:465.8px; font-size:7.0px;">în eşantion nu au fost detectate secvenţe de ADN specifice.</div>
+    <div class="block paragraph" style="left:44.1px; top:466.7px; font-size:7.0px;">NEGATIV</div>
+    <div class="block paragraph" style="left:86.0px; top:477.0px; font-size:7.0px;">în eşantion au fost detectate secvenţe de ADN specifice,</div>
+    <div class="block paragraph" style="left:44.1px; top:477.9px; font-size:7.0px;">POZITIV</div>
+    <div class="block paragraph" style="left:43.6px; top:494.1px; font-size:7.0px;">Caracteristici de diagnostic</div>
+    <div class="block field_line" style="left:43.6px; top:504.9px; font-size:7.0px;">Sensibilitatea clinică: 100,0 % | Specificitatea clinică: 100,0 %</div>
+    <div class="block field_line" style="left:43.6px; top:516.1px; font-size:7.0px;">Sensibilitatea analitică: 100 copii/ml</div>
+    <div class="block paragraph" style="left:38.2px; top:536.9px; font-size:7.0px;">Analizele marcate cu * nu sunt acreditate de MOLDAC.</div>
+    <div class="block paragraph" style="left:38.2px; top:554.9px; font-size:7.0px;">Rezultatele investigaţiilor de laborator nu reprezintă diagnosticul clinic.</div>
+    <div class="block paragraph" style="left:38.2px; top:564.8px; font-size:7.0px;">Pentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultați medicul Dvs. curant.</div>
+    <div class="block paragraph" style="left:516.1px; top:597.6px; font-size:7.0px;">Data</div>
+    <div class="block paragraph" style="left:265.9px; top:598.1px; font-size:7.0px;">Validat, Şefă Laborator</div>
+    <div class="block paragraph" style="left:38.7px; top:599.0px; font-size:7.0px;">Executat si verificat</div>
+    <div class="block date_line" style="left:516.6px; top:613.8px; font-size:7.0px;">16.03.2024</div>
+    <div class="block paragraph" style="left:266.9px; top:615.1px; font-size:8.3px;">Maria Casapu</div>
+    <div class="block paragraph" style="left:38.7px; top:616.1px; font-size:8.3px;">Denis Negruta</div>
+  </main>
+</body>
+</html>

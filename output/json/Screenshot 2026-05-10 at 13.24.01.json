@@ -1,0 +1,1826 @@
+{
+  "schema_version": "0.1",
+  "source": {
+    "filename": "Screenshot 2026-05-10 at 13.24.01.png",
+    "path": "test-img/Screenshot 2026-05-10 at 13.24.01.png",
+    "type": "image",
+    "working_image": "output/tmp/ocr/Screenshot 2026-05-10 at 13.24.01_ocr.png",
+    "original_image": "test-img/Screenshot 2026-05-10 at 13.24.01.png"
+  },
+  "document": {
+    "title": "Viteza de sedimentare a hematiilor",
+    "document_type": "medical_document",
+    "subtype": "molecular_lab_report",
+    "processed_at": "2026-05-10T10:32:56.968843+00:00"
+  },
+  "layout": {
+    "page": {
+      "width": 1400,
+      "height": 596,
+      "unit": "px"
+    },
+    "visual_elements": {
+      "lines": []
+    }
+  },
+  "content": {
+    "fields": [
+      {
+        "name": "Sânge integral. Metoda",
+        "value": "Westergren.",
+        "source_block_id": "line_0025",
+        "value_block_id": null,
+        "confidence": 94.35,
+        "bbox": [
+          45,
+          231,
+          358,
+          253
+        ],
+        "extraction_method": "inline_text"
+      },
+      {
+        "name": "Validat",
+        "value": "Sefa de Laborator",
+        "source_block_id": "line_0031",
+        "value_block_id": null,
+        "confidence": 94.38,
+        "bbox": [
+          569,
+          463,
+          858,
+          488
+        ],
+        "extraction_method": "inline_text"
+      }
+    ],
+    "schema_fields": {},
+    "sections": [
+      {
+        "id": "section_0001",
+        "title": "Executat și verificat",
+        "level": 2,
+        "source_block_id": "line_0030",
+        "block_ids": [],
+        "bbox": [
+          33,
+          463,
+          243,
+          488
+        ],
+        "confidence": 95.17,
+        "extraction_method": "semantic_heading"
+      },
+      {
+        "id": "section_0002",
+        "title": "Validat: Sefa de Laborator",
+        "level": 2,
+        "source_block_id": "line_0031",
+        "block_ids": [
+          "line_0032",
+          "line_0033",
+          "line_0034",
+          "line_0035"
+        ],
+        "bbox": [
+          33,
+          463,
+          1279,
+          524
+        ],
+        "confidence": 94.38,
+        "extraction_method": "semantic_heading"
+      }
+    ],
+    "tables": [],
+    "notes": [
+      {
+        "id": "note_0001",
+        "category": "accreditation",
+        "text": "Analizele marcate cu * nu sunt acreditate de MOLDAC.",
+        "source_block_id": "line_0026",
+        "bbox": [
+          32,
+          272,
+          517,
+          289
+        ],
+        "confidence": 94.44
+      },
+      {
+        "id": "note_0002",
+        "category": "clinical_limitation",
+        "text": "Valorile de referință corespund sexului si vârstei. Rezultatele investigațiilor de laborator nu reprezintă diagnosticul clinic.",
+        "source_block_id": "line_0028",
+        "bbox": [
+          34,
+          351,
+          1099,
+          373
+        ],
+        "confidence": 93.21
+      }
+    ],
+    "text_blocks": [
+      {
+        "id": "line_0001",
+        "type": "paragraph",
+        "text": "Bazofile (numărul absolut)",
+        "bbox": [
+          45,
+          30,
+          319,
+          53
+        ],
+        "confidence": 95.01,
+        "words": [
+          {
+            "text": "Bazofile",
+            "confidence": 92.45,
+            "bbox": [
+              45,
+              30,
+              125,
+              49
+            ]
+          },
+          {
+            "text": "(numărul",
+            "confidence": 96.35,
+            "bbox": [
+              134,
+              30,
+              227,
+              53
+            ]
+          },
+          {
+            "text": "absolut)",
+            "confidence": 96.23,
+            "bbox": [
+              235,
+              30,
+              319,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0002",
+        "type": "paragraph",
+        "text": "BASO (#)",
+        "bbox": [
+          652,
+          31,
+          745,
+          53
+        ],
+        "confidence": 90.73,
+        "words": [
+          {
+            "text": "BASO",
+            "confidence": 91.66,
+            "bbox": [
+              652,
+              31,
+              711,
+              49
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 89.81,
+            "bbox": [
+              719,
+              31,
+              745,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0003",
+        "type": "paragraph",
+        "text": "0,02",
+        "bbox": [
+          846,
+          31,
+          889,
+          53
+        ],
+        "confidence": 96.44,
+        "words": [
+          {
+            "text": "0,02",
+            "confidence": 96.44,
+            "bbox": [
+              846,
+              31,
+              889,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0004",
+        "type": "paragraph",
+        "text": "0—0,2",
+        "bbox": [
+          1034,
+          31,
+          1114,
+          53
+        ],
+        "confidence": 86.15,
+        "words": [
+          {
+            "text": "0—0,2",
+            "confidence": 86.15,
+            "bbox": [
+              1034,
+              31,
+              1114,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0005",
+        "type": "paragraph",
+        "text": "x1043/uL",
+        "bbox": [
+          1199,
+          31,
+          1300,
+          55
+        ],
+        "confidence": 49.53,
+        "words": [
+          {
+            "text": "x1043/uL",
+            "confidence": 49.53,
+            "bbox": [
+              1199,
+              31,
+              1300,
+              55
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0006",
+        "type": "paragraph",
+        "text": "Bazofile (procentul)",
+        "bbox": [
+          45,
+          71,
+          248,
+          96
+        ],
+        "confidence": 91.39,
+        "words": [
+          {
+            "text": "Bazofile",
+            "confidence": 86.9,
+            "bbox": [
+              45,
+              71,
+              125,
+              90
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 95.88,
+            "bbox": [
+              134,
+              71,
+              248,
+              96
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0007",
+        "type": "paragraph",
+        "text": "BASO (%)",
+        "bbox": [
+          652,
+          72,
+          751,
+          94
+        ],
+        "confidence": 91.75,
+        "words": [
+          {
+            "text": "BASO",
+            "confidence": 91.94,
+            "bbox": [
+              652,
+              72,
+              711,
+              90
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 91.57,
+            "bbox": [
+              719,
+              72,
+              751,
+              94
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0008",
+        "type": "marker",
+        "text": "0,2",
+        "bbox": [
+          852,
+          72,
+          883,
+          94
+        ],
+        "confidence": 95.49,
+        "words": [
+          {
+            "text": "0,2",
+            "confidence": 95.49,
+            "bbox": [
+              852,
+              72,
+              883,
+              94
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0009",
+        "type": "marker",
+        "text": "0—2",
+        "bbox": [
+          1043,
+          72,
+          1105,
+          90
+        ],
+        "confidence": 96.09,
+        "words": [
+          {
+            "text": "0—2",
+            "confidence": 96.09,
+            "bbox": [
+              1043,
+              72,
+              1105,
+              90
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0010",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1240,
+          72,
+          1259,
+          90
+        ],
+        "confidence": 92.8,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.8,
+            "bbox": [
+              1240,
+              72,
+              1259,
+              90
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0011",
+        "type": "paragraph",
+        "text": "Granulocite imature (numărul)",
+        "bbox": [
+          44,
+          112,
+          362,
+          135
+        ],
+        "confidence": 94.69,
+        "words": [
+          {
+            "text": "Granulocite",
+            "confidence": 92.67,
+            "bbox": [
+              44,
+              112,
+              166,
+              131
+            ]
+          },
+          {
+            "text": "imature",
+            "confidence": 96.91,
+            "bbox": [
+              174,
+              112,
+              254,
+              131
+            ]
+          },
+          {
+            "text": "(numărul)",
+            "confidence": 94.48,
+            "bbox": [
+              262,
+              112,
+              362,
+              135
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0012",
+        "type": "paragraph",
+        "text": "IG (#)",
+        "bbox": [
+          652,
+          113,
+          707,
+          135
+        ],
+        "confidence": 85.64,
+        "words": [
+          {
+            "text": "IG",
+            "confidence": 88.04,
+            "bbox": [
+              652,
+              113,
+              673,
+              131
+            ]
+          },
+          {
+            "text": "(#)",
+            "confidence": 83.25,
+            "bbox": [
+              681,
+              113,
+              707,
+              135
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0013",
+        "type": "paragraph",
+        "text": "0,01",
+        "bbox": [
+          846,
+          113,
+          886,
+          135
+        ],
+        "confidence": 92.85,
+        "words": [
+          {
+            "text": "0,01",
+            "confidence": 92.85,
+            "bbox": [
+              846,
+              113,
+              886,
+              135
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0014",
+        "type": "paragraph",
+        "text": "0— 0,06",
+        "bbox": [
+          1027,
+          113,
+          1120,
+          135
+        ],
+        "confidence": 93.45,
+        "words": [
+          {
+            "text": "0—",
+            "confidence": 90.16,
+            "bbox": [
+              1027,
+              113,
+              1071,
+              131
+            ]
+          },
+          {
+            "text": "0,06",
+            "confidence": 96.74,
+            "bbox": [
+              1077,
+              113,
+              1120,
+              135
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0015",
+        "type": "paragraph",
+        "text": "x1013/uL",
+        "bbox": [
+          1199,
+          113,
+          1300,
+          137
+        ],
+        "confidence": 78.76,
+        "words": [
+          {
+            "text": "x1013/uL",
+            "confidence": 78.76,
+            "bbox": [
+              1199,
+              113,
+              1300,
+              137
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0016",
+        "type": "paragraph",
+        "text": "Granulocite imature (procentul)",
+        "bbox": [
+          44,
+          153,
+          376,
+          178
+        ],
+        "confidence": 94.63,
+        "words": [
+          {
+            "text": "Granulocite",
+            "confidence": 91.79,
+            "bbox": [
+              44,
+              153,
+              166,
+              172
+            ]
+          },
+          {
+            "text": "imature",
+            "confidence": 95.9,
+            "bbox": [
+              174,
+              153,
+              254,
+              172
+            ]
+          },
+          {
+            "text": "(procentul)",
+            "confidence": 96.2,
+            "bbox": [
+              262,
+              153,
+              376,
+              178
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0017",
+        "type": "paragraph",
+        "text": "IG (%)",
+        "bbox": [
+          652,
+          154,
+          713,
+          177
+        ],
+        "confidence": 91.69,
+        "words": [
+          {
+            "text": "IG",
+            "confidence": 91.69,
+            "bbox": [
+              652,
+              154,
+              673,
+              172
+            ]
+          },
+          {
+            "text": "(%)",
+            "confidence": 91.69,
+            "bbox": [
+              681,
+              154,
+              713,
+              177
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0018",
+        "type": "paragraph",
+        "text": "0,10",
+        "bbox": [
+          846,
+          154,
+          889,
+          176
+        ],
+        "confidence": 95.88,
+        "words": [
+          {
+            "text": "0,10",
+            "confidence": 95.88,
+            "bbox": [
+              846,
+              154,
+              889,
+              176
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0019",
+        "type": "paragraph",
+        "text": "0—0,6",
+        "bbox": [
+          1033,
+          154,
+          1114,
+          176
+        ],
+        "confidence": 89.76,
+        "words": [
+          {
+            "text": "0—0,6",
+            "confidence": 89.76,
+            "bbox": [
+              1033,
+              154,
+              1114,
+              176
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0020",
+        "type": "marker",
+        "text": "%",
+        "bbox": [
+          1240,
+          154,
+          1259,
+          172
+        ],
+        "confidence": 92.59,
+        "words": [
+          {
+            "text": "%",
+            "confidence": 92.59,
+            "bbox": [
+              1240,
+              154,
+              1259,
+              172
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0021",
+        "type": "paragraph",
+        "text": "Viteza de sedimentare a hematiilor",
+        "bbox": [
+          45,
+          199,
+          413,
+          219
+        ],
+        "confidence": 96.54,
+        "words": [
+          {
+            "text": "Viteza",
+            "confidence": 96.54,
+            "bbox": [
+              45,
+              199,
+              108,
+              219
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.85,
+            "bbox": [
+              116,
+              199,
+              142,
+              219
+            ]
+          },
+          {
+            "text": "sedimentare",
+            "confidence": 96.49,
+            "bbox": [
+              150,
+              200,
+              280,
+              219
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 96.21,
+            "bbox": [
+              288,
+              205,
+              298,
+              219
+            ]
+          },
+          {
+            "text": "hematiilor",
+            "confidence": 96.61,
+            "bbox": [
+              308,
+              199,
+              413,
+              219
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0022",
+        "type": "paragraph",
+        "text": "mm/oră",
+        "bbox": [
+          1210,
+          200,
+          1291,
+          222
+        ],
+        "confidence": 91.43,
+        "words": [
+          {
+            "text": "mm/oră",
+            "confidence": 91.43,
+            "bbox": [
+              1210,
+              200,
+              1291,
+              222
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0023",
+        "type": "marker",
+        "text": "VSH",
+        "bbox": [
+          651,
+          201,
+          695,
+          219
+        ],
+        "confidence": 91.75,
+        "words": [
+          {
+            "text": "VSH",
+            "confidence": 91.75,
+            "bbox": [
+              651,
+              201,
+              695,
+              219
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0024",
+        "type": "paragraph",
+        "text": "0— 20",
+        "bbox": [
+          1038,
+          201,
+          1113,
+          219
+        ],
+        "confidence": 94.26,
+        "words": [
+          {
+            "text": "0—",
+            "confidence": 91.89,
+            "bbox": [
+              1038,
+              201,
+              1076,
+              219
+            ]
+          },
+          {
+            "text": "20",
+            "confidence": 96.63,
+            "bbox": [
+              1088,
+              201,
+              1113,
+              219
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0025",
+        "type": "field_line",
+        "text": "Sânge integral. Metoda: Westergren.",
+        "bbox": [
+          45,
+          231,
+          358,
+          253
+        ],
+        "confidence": 94.35,
+        "words": [
+          {
+            "text": "Sânge",
+            "confidence": 95.88,
+            "bbox": [
+              45,
+              231,
+              97,
+              253
+            ]
+          },
+          {
+            "text": "integral.",
+            "confidence": 95.98,
+            "bbox": [
+              104,
+              231,
+              171,
+              253
+            ]
+          },
+          {
+            "text": "Metoda:",
+            "confidence": 93.28,
+            "bbox": [
+              179,
+              231,
+              249,
+              248
+            ]
+          },
+          {
+            "text": "Westergren.",
+            "confidence": 92.27,
+            "bbox": [
+              255,
+              232,
+              358,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0026",
+        "type": "paragraph",
+        "text": "Analizele marcate cu * nu sunt acreditate de MOLDAC.",
+        "bbox": [
+          32,
+          272,
+          517,
+          289
+        ],
+        "confidence": 94.44,
+        "words": [
+          {
+            "text": "Analizele",
+            "confidence": 96.32,
+            "bbox": [
+              32,
+              272,
+              112,
+              289
+            ]
+          },
+          {
+            "text": "marcate",
+            "confidence": 96.92,
+            "bbox": [
+              119,
+              275,
+              190,
+              289
+            ]
+          },
+          {
+            "text": "cu",
+            "confidence": 93.26,
+            "bbox": [
+              196,
+              277,
+              216,
+              289
+            ]
+          },
+          {
+            "text": "*",
+            "confidence": 93.01,
+            "bbox": [
+              222,
+              273,
+              230,
+              281
+            ]
+          },
+          {
+            "text": "nu",
+            "confidence": 96.39,
+            "bbox": [
+              236,
+              277,
+              257,
+              289
+            ]
+          },
+          {
+            "text": "sunt",
+            "confidence": 94.23,
+            "bbox": [
+              264,
+              275,
+              301,
+              289
+            ]
+          },
+          {
+            "text": "acreditate",
+            "confidence": 94.23,
+            "bbox": [
+              307,
+              272,
+              395,
+              289
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 93.28,
+            "bbox": [
+              401,
+              272,
+              424,
+              289
+            ]
+          },
+          {
+            "text": "MOLDAC.",
+            "confidence": 92.31,
+            "bbox": [
+              431,
+              273,
+              517,
+              289
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0027",
+        "type": "paragraph",
+        "text": "Rezultatele analizelor marcate cu simbolul (!) sunt valori critice si necesita atentie imediata a pacientului si a medicului acestuia.",
+        "bbox": [
+          33,
+          308,
+          1173,
+          329
+        ],
+        "confidence": 95.6,
+        "words": [
+          {
+            "text": "Rezultatele",
+            "confidence": 96.65,
+            "bbox": [
+              33,
+              308,
+              130,
+              324
+            ]
+          },
+          {
+            "text": "analizelor",
+            "confidence": 95.22,
+            "bbox": [
+              137,
+              308,
+              225,
+              324
+            ]
+          },
+          {
+            "text": "marcate",
+            "confidence": 95.65,
+            "bbox": [
+              230,
+              310,
+              304,
+              324
+            ]
+          },
+          {
+            "text": "cu",
+            "confidence": 96.64,
+            "bbox": [
+              309,
+              313,
+              329,
+              324
+            ]
+          },
+          {
+            "text": "simbolul",
+            "confidence": 91.32,
+            "bbox": [
+              335,
+              308,
+              411,
+              324
+            ]
+          },
+          {
+            "text": "(!)",
+            "confidence": 89.68,
+            "bbox": [
+              417,
+              309,
+              435,
+              327
+            ]
+          },
+          {
+            "text": "sunt",
+            "confidence": 95.3,
+            "bbox": [
+              441,
+              310,
+              480,
+              324
+            ]
+          },
+          {
+            "text": "valori",
+            "confidence": 96.14,
+            "bbox": [
+              485,
+              308,
+              535,
+              324
+            ]
+          },
+          {
+            "text": "critice",
+            "confidence": 96.82,
+            "bbox": [
+              541,
+              308,
+              593,
+              324
+            ]
+          },
+          {
+            "text": "si",
+            "confidence": 96.82,
+            "bbox": [
+              599,
+              308,
+              614,
+              324
+            ]
+          },
+          {
+            "text": "necesita",
+            "confidence": 95.26,
+            "bbox": [
+              619,
+              308,
+              691,
+              324
+            ]
+          },
+          {
+            "text": "atentie",
+            "confidence": 95.8,
+            "bbox": [
+              697,
+              308,
+              758,
+              324
+            ]
+          },
+          {
+            "text": "imediata",
+            "confidence": 96.8,
+            "bbox": [
+              764,
+              308,
+              842,
+              324
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 96.61,
+            "bbox": [
+              848,
+              313,
+              859,
+              324
+            ]
+          },
+          {
+            "text": "pacientului",
+            "confidence": 96.3,
+            "bbox": [
+              863,
+              308,
+              963,
+              329
+            ]
+          },
+          {
+            "text": "si",
+            "confidence": 96.3,
+            "bbox": [
+              968,
+              308,
+              983,
+              324
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 96.41,
+            "bbox": [
+              988,
+              313,
+              999,
+              324
+            ]
+          },
+          {
+            "text": "medicului",
+            "confidence": 96.86,
+            "bbox": [
+              1005,
+              308,
+              1092,
+              324
+            ]
+          },
+          {
+            "text": "acestuia.",
+            "confidence": 95.84,
+            "bbox": [
+              1098,
+              308,
+              1173,
+              324
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0028",
+        "type": "paragraph",
+        "text": "Valorile de referință corespund sexului si vârstei. Rezultatele investigațiilor de laborator nu reprezintă diagnosticul clinic.",
+        "bbox": [
+          34,
+          351,
+          1099,
+          373
+        ],
+        "confidence": 93.21,
+        "words": [
+          {
+            "text": "Valorile",
+            "confidence": 96.74,
+            "bbox": [
+              34,
+              351,
+              101,
+              368
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 95.34,
+            "bbox": [
+              108,
+              351,
+              129,
+              368
+            ]
+          },
+          {
+            "text": "referință",
+            "confidence": 79.12,
+            "bbox": [
+              134,
+              351,
+              209,
+              372
+            ]
+          },
+          {
+            "text": "corespund",
+            "confidence": 96.65,
+            "bbox": [
+              216,
+              351,
+              306,
+              373
+            ]
+          },
+          {
+            "text": "sexului",
+            "confidence": 96.92,
+            "bbox": [
+              312,
+              351,
+              373,
+              368
+            ]
+          },
+          {
+            "text": "si",
+            "confidence": 93.28,
+            "bbox": [
+              378,
+              352,
+              392,
+              372
+            ]
+          },
+          {
+            "text": "vârstei.",
+            "confidence": 96.87,
+            "bbox": [
+              399,
+              351,
+              459,
+              368
+            ]
+          },
+          {
+            "text": "Rezultatele",
+            "confidence": 96.01,
+            "bbox": [
+              469,
+              351,
+              566,
+              368
+            ]
+          },
+          {
+            "text": "investigațiilor",
+            "confidence": 71.33,
+            "bbox": [
+              573,
+              351,
+              694,
+              373
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 97.0,
+            "bbox": [
+              699,
+              351,
+              719,
+              368
+            ]
+          },
+          {
+            "text": "laborator",
+            "confidence": 93.48,
+            "bbox": [
+              726,
+              351,
+              809,
+              368
+            ]
+          },
+          {
+            "text": "nu",
+            "confidence": 96.42,
+            "bbox": [
+              814,
+              357,
+              836,
+              368
+            ]
+          },
+          {
+            "text": "reprezintă",
+            "confidence": 96.35,
+            "bbox": [
+              842,
+              352,
+              931,
+              373
+            ]
+          },
+          {
+            "text": "diagnosticul",
+            "confidence": 95.86,
+            "bbox": [
+              937,
+              351,
+              1045,
+              373
+            ]
+          },
+          {
+            "text": "clinic.",
+            "confidence": 96.8,
+            "bbox": [
+              1050,
+              351,
+              1099,
+              368
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0029",
+        "type": "paragraph",
+        "text": "Pentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultaţi medicul Dvs. curant.",
+        "bbox": [
+          33,
+          380,
+          1067,
+          402
+        ],
+        "confidence": 95.05,
+        "words": [
+          {
+            "text": "Pentru",
+            "confidence": 94.35,
+            "bbox": [
+              33,
+              381,
+              91,
+              397
+            ]
+          },
+          {
+            "text": "a",
+            "confidence": 94.35,
+            "bbox": [
+              97,
+              385,
+              107,
+              397
+            ]
+          },
+          {
+            "text": "interpreta",
+            "confidence": 95.88,
+            "bbox": [
+              113,
+              381,
+              200,
+              402
+            ]
+          },
+          {
+            "text": "datele",
+            "confidence": 96.95,
+            "bbox": [
+              206,
+              380,
+              260,
+              397
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.8,
+            "bbox": [
+              266,
+              380,
+              287,
+              397
+            ]
+          },
+          {
+            "text": "laborator",
+            "confidence": 95.77,
+            "bbox": [
+              294,
+              380,
+              376,
+              397
+            ]
+          },
+          {
+            "text": "raportate",
+            "confidence": 96.2,
+            "bbox": [
+              381,
+              383,
+              464,
+              402
+            ]
+          },
+          {
+            "text": "în",
+            "confidence": 96.96,
+            "bbox": [
+              470,
+              380,
+              486,
+              397
+            ]
+          },
+          {
+            "text": "documentul",
+            "confidence": 95.61,
+            "bbox": [
+              492,
+              380,
+              596,
+              397
+            ]
+          },
+          {
+            "text": "prezent,",
+            "confidence": 96.42,
+            "bbox": [
+              601,
+              383,
+              671,
+              402
+            ]
+          },
+          {
+            "text": "Vă",
+            "confidence": 96.79,
+            "bbox": [
+              680,
+              381,
+              702,
+              397
+            ]
+          },
+          {
+            "text": "rugăm",
+            "confidence": 96.42,
+            "bbox": [
+              708,
+              381,
+              766,
+              402
+            ]
+          },
+          {
+            "text": "să",
+            "confidence": 96.42,
+            "bbox": [
+              771,
+              381,
+              791,
+              397
+            ]
+          },
+          {
+            "text": "consultaţi",
+            "confidence": 77.31,
+            "bbox": [
+              797,
+              380,
+              883,
+              401
+            ]
+          },
+          {
+            "text": "medicul",
+            "confidence": 96.66,
+            "bbox": [
+              889,
+              380,
+              959,
+              397
+            ]
+          },
+          {
+            "text": "Dvs.",
+            "confidence": 96.63,
+            "bbox": [
+              965,
+              381,
+              1000,
+              397
+            ]
+          },
+          {
+            "text": "curant.",
+            "confidence": 96.38,
+            "bbox": [
+              1007,
+              383,
+              1067,
+              397
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0030",
+        "type": "paragraph",
+        "text": "Executat și verificat",
+        "bbox": [
+          33,
+          463,
+          243,
+          488
+        ],
+        "confidence": 95.17,
+        "words": [
+          {
+            "text": "Executat",
+            "confidence": 93.94,
+            "bbox": [
+              33,
+              465,
+              125,
+              483
+            ]
+          },
+          {
+            "text": "și",
+            "confidence": 94.81,
+            "bbox": [
+              131,
+              463,
+              146,
+              488
+            ]
+          },
+          {
+            "text": "verificat",
+            "confidence": 96.77,
+            "bbox": [
+              153,
+              463,
+              243,
+              483
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0031",
+        "type": "field_line",
+        "text": "Validat: Sefa de Laborator",
+        "bbox": [
+          569,
+          463,
+          858,
+          488
+        ],
+        "confidence": 94.38,
+        "words": [
+          {
+            "text": "Validat:",
+            "confidence": 93.26,
+            "bbox": [
+              569,
+              463,
+              653,
+              483
+            ]
+          },
+          {
+            "text": "Sefa",
+            "confidence": 91.48,
+            "bbox": [
+              660,
+              463,
+              707,
+              488
+            ]
+          },
+          {
+            "text": "de",
+            "confidence": 96.86,
+            "bbox": [
+              714,
+              463,
+              741,
+              483
+            ]
+          },
+          {
+            "text": "Laborator",
+            "confidence": 95.9,
+            "bbox": [
+              749,
+              463,
+              858,
+              483
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0032",
+        "type": "paragraph",
+        "text": "Data",
+        "bbox": [
+          1165,
+          465,
+          1215,
+          483
+        ],
+        "confidence": 96.5,
+        "words": [
+          {
+            "text": "Data",
+            "confidence": 96.5,
+            "bbox": [
+              1165,
+              465,
+              1215,
+              483
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0033",
+        "type": "paragraph",
+        "text": "Viorica Binzaru",
+        "bbox": [
+          33,
+          502,
+          207,
+          524
+        ],
+        "confidence": 93.11,
+        "words": [
+          {
+            "text": "Viorica",
+            "confidence": 93.27,
+            "bbox": [
+              33,
+              503,
+              112,
+              524
+            ]
+          },
+          {
+            "text": "Binzaru",
+            "confidence": 92.95,
+            "bbox": [
+              123,
+              502,
+              207,
+              524
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0034",
+        "type": "paragraph",
+        "text": "Mariana Brailean",
+        "bbox": [
+          572,
+          502,
+          768,
+          524
+        ],
+        "confidence": 92.98,
+        "words": [
+          {
+            "text": "Mariana",
+            "confidence": 93.25,
+            "bbox": [
+              572,
+              503,
+              666,
+              524
+            ]
+          },
+          {
+            "text": "Brailean",
+            "confidence": 92.71,
+            "bbox": [
+              676,
+              502,
+              768,
+              524
+            ]
+          }
+        ]
+      },
+      {
+        "id": "line_0035",
+        "type": "date_line",
+        "text": "02.04.2026",
+        "bbox": [
+          1165,
+          503,
+          1279,
+          521
+        ],
+        "confidence": 96.56,
+        "words": [
+          {
+            "text": "02.04.2026",
+            "confidence": 96.56,
+            "bbox": [
+              1165,
+              503,
+              1279,
+              521
+            ]
+          }
+        ]
+      }
+    ],
+    "full_text": "Bazofile (numărul absolut)\nBASO (#)\n0,02\n0—0,2\nx1043/uL\nBazofile (procentul)\nBASO (%)\n0,2\n0—2\n%\nGranulocite imature (numărul)\nIG (#)\n0,01\n0— 0,06\nx1013/uL\nGranulocite imature (procentul)\nIG (%)\n0,10\n0—0,6\n%\nViteza de sedimentare a hematiilor\nmm/oră\nVSH\n0— 20\nSânge integral. Metoda: Westergren.\nAnalizele marcate cu * nu sunt acreditate de MOLDAC.\nRezultatele analizelor marcate cu simbolul (!) sunt valori critice si necesita atentie imediata a pacientului si a medicului acestuia.\nValorile de referință corespund sexului si vârstei. Rezultatele investigațiilor de laborator nu reprezintă diagnosticul clinic.\nPentru a interpreta datele de laborator raportate în documentul prezent, Vă rugăm să consultaţi medicul Dvs. curant.\nExecutat și verificat\nValidat: Sefa de Laborator\nData\nViorica Binzaru\nMariana Brailean\n02.04.2026"
+  },
+  "quality": {
+    "ocr_engine": "tesseract",
+    "ocr_languages": "eng+ron+rus",
+    "ocr_psm": 11,
+    "ocr_candidate": "standard",
+    "preprocessing": "standard_autocontrast",
+    "mean_confidence": 93.64,
+    "word_count": 118,
+    "candidate_scores": [
+      {
+        "name": "standard",
+        "preprocessing": "standard_autocontrast",
+        "score": 133.39,
+        "mean_confidence": 93.64,
+        "word_count": 118,
+        "subtype": "molecular_lab_report"
+      }
+    ],
+    "low_confidence_blocks": [
+      "line_0005"
+    ]
+  },
+  "outputs": {
+    "json": "output/json/Screenshot 2026-05-10 at 13.24.01.json",
+    "html": "output/html/Screenshot 2026-05-10 at 13.24.01.html",
+    "pdf": "output/pdf/Screenshot 2026-05-10 at 13.24.01.pdf",
+    "pdf_status": "rendered"
+  }
+}
