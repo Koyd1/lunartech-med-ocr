@@ -1,0 +1,10 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+output/
+tmp/
+test-img/
+data/raw/
+synthetic_prescription_dataset/
+*.pyc
